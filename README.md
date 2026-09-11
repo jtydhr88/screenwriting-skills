@@ -2,9 +2,9 @@
 
 [中文版](README_ZH.md)
 
-This plugin packages 13 unique screenwriting and dramaturgy skills. The source catalog has 19 entries in total: 17 craft books plus two collections (Chekhov plays and Ozu Yasujiro screenplays).
+13 unique Claude Code skills for screenwriting and dramaturgy, shipped in two plugins, `screenwriting` with Chinese skill bodies and `screenwriting-en` with English skill bodies. The 19 source entries comprise 17 craft books plus Chekhov's collected plays and Ozu Yasujiro's collected screenplays.
 
-Skill bodies are written in Chinese (the sources and quotations are Chinese translations); frontmatter descriptions are in English with Chinese keywords so both languages trigger them.
+In `screenwriting` the skill bodies are Chinese (the sources and quotations are Chinese translations). In `screenwriting-en` the bodies are English translations of the Chinese files, which stay the source of truth. Frontmatter descriptions are English with Chinese keywords in both plugins, so both languages trigger them.
 
 ## Install
 
@@ -19,7 +19,23 @@ Skill bodies are written in Chinese (the sources and quotations are Chinese tran
 /plugin install screenwriting-en@screenwriting-skills
 ```
 
-The `screenwriting-en` plugin carries the same 13 skills with English skill bodies. The English skills are translations of the Chinese skills, and the Chinese files are the source of truth until the translation PR lands. Until then the plugin installs with zero skills.
+The `screenwriting-en` plugin carries the same 13 skills with English skill bodies, invoked as `/screenwriting-en:<skill>`. Each file is a translation of its Chinese source with the same headings, tables, and links.
+
+| Skill | English edition | Chinese edition | Files |
+|---|---|---|---|
+| `sw-workflow` | Workflow & Story Bible | 剧本项目主线调度 | `SKILL.md`, `reference.md` |
+| `sw-story-structure` | Story Structure | 故事结构 | `SKILL.md`, `reference.md` |
+| `sw-premise-theme` | Premise & Theme | 前提·主题·立意·戏核 | `SKILL.md`, `reference.md` |
+| `sw-character-conflict` | Character & Conflict | 人物与冲突 | `SKILL.md`, `reference.md` |
+| `sw-dialogue` | Dialogue | 对白 | `SKILL.md`, `reference.md` |
+| `sw-scene-craft` | Scene Craft | 场景与段落 | `SKILL.md`, `reference.md` |
+| `sw-format-adaptation` | Format, Process & Adaptation | 格式·流程·改编 | `SKILL.md`, `reference.md` |
+| `sw-american-case-studies` | American Case Studies | 美国电影剧作案例 | `SKILL.md`, `reference.md` |
+| `sw-japanese-screenwriting` | Japanese Screenwriting Methods | 日本编剧方法 | `SKILL.md`, `reference.md` |
+| `sw-korean-french-screenwriting` | Korean & French Screenwriting Practice | 韩国与法国编剧方法 | `SKILL.md` |
+| `sw-industry-business` | Industry & Business | 行业与生意经 | `SKILL.md`, `reference.md` |
+| `chekhov-dramaturgy` | Chekhov Dramaturgy | 契诃夫戏剧法 | `SKILL.md`, `reference.md` |
+| `ozu-screenplay-style` | Ozu Screenplay Style | 小津安二郎剧本写法 | `SKILL.md`, `reference.md` |
 
 ## Skills
 

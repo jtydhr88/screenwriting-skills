@@ -2,9 +2,9 @@
 
 [English](README.md)
 
-本插件收录 13 项独立的编剧与戏剧技巧。来源目录共 19 条：17 部技法书，外加两个合集（契诃夫剧作、小津安二郎剧本）。
+13 项独立的编剧与戏剧技巧，分两个插件发布：`screenwriting`（正文中文）与 `screenwriting-en`（正文英文）。来源目录共 19 条，包括 17 部技法书与两个合集（契诃夫剧作、小津安二郎剧本）；译文不另计为独立技巧。
 
-skill 正文用中文（引文来自中文译本），frontmatter 的 description 用英文并附中文关键词，中英文提问都能触发。
+`screenwriting` 的 skill 正文用中文（引文来自中文译本）；`screenwriting-en` 的正文由中文文件翻译而来，中文文件始终是真源。两个插件的 frontmatter description 都用英文并附中文关键词，中英文提问都能触发。
 
 ## 安装
 
@@ -19,7 +19,23 @@ skill 正文用中文（引文来自中文译本），frontmatter 的 descriptio
 /plugin install screenwriting-en@screenwriting-skills
 ```
 
-`screenwriting-en` 插件收录同样的 13 个 skill，正文为英文。英文 skill 由中文 skill 翻译而来；翻译 PR 合入之前，中文文件是唯一的真源，该插件安装后暂时没有 skill。
+`screenwriting-en` 插件收录同样的 13 个 skill，正文为英文，调用方式为 `/screenwriting-en:<skill>`。每个文件都是对应中文文件的译本，标题、表格、链接一一对应。
+
+| 技能 | 英文版标题 | 中文版标题 | 文件 |
+|---|---|---|---|
+| `sw-workflow` | Workflow & Story Bible | 剧本项目主线调度 | `SKILL.md`、`reference.md` |
+| `sw-story-structure` | Story Structure | 故事结构 | `SKILL.md`、`reference.md` |
+| `sw-premise-theme` | Premise & Theme | 前提·主题·立意·戏核 | `SKILL.md`、`reference.md` |
+| `sw-character-conflict` | Character & Conflict | 人物与冲突 | `SKILL.md`、`reference.md` |
+| `sw-dialogue` | Dialogue | 对白 | `SKILL.md`、`reference.md` |
+| `sw-scene-craft` | Scene Craft | 场景与段落 | `SKILL.md`、`reference.md` |
+| `sw-format-adaptation` | Format, Process & Adaptation | 格式·流程·改编 | `SKILL.md`、`reference.md` |
+| `sw-american-case-studies` | American Case Studies | 美国电影剧作案例 | `SKILL.md`、`reference.md` |
+| `sw-japanese-screenwriting` | Japanese Screenwriting Methods | 日本编剧方法 | `SKILL.md`、`reference.md` |
+| `sw-korean-french-screenwriting` | Korean & French Screenwriting Practice | 韩国与法国编剧方法 | `SKILL.md` |
+| `sw-industry-business` | Industry & Business | 行业与生意经 | `SKILL.md`、`reference.md` |
+| `chekhov-dramaturgy` | Chekhov Dramaturgy | 契诃夫戏剧法 | `SKILL.md`、`reference.md` |
+| `ozu-screenplay-style` | Ozu Screenplay Style | 小津安二郎剧本写法 | `SKILL.md`、`reference.md` |
 
 ## 技能一览
 
