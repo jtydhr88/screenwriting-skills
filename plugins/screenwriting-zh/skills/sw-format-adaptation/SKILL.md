@@ -40,7 +40,7 @@ description: Screenplay format, page craft, the writing process and adaptation (
 
 ## 二之二、版面规格、元素级约定与输出格式
 
-> 本节数字来自对多部专业排版剧本（US Letter、Courier 12）的实测与 Final Draft 默认模板，元素级约定与中日行业格式为行业通行做法，**不出自本 skill 的 19 本来源书**（由 issue #2 提议补入）。范例见 [reference.md](reference.md) 第十节。
+> 本节数字来自对多部专业排版剧本（US Letter、Courier 12）的实测与 Final Draft 默认模板，元素级约定与中日行业格式为行业通行做法，**不出自本 skill 的来源书**（由 issue #2 提议补入）。范例见 [reference.md](reference.md) 第十节。
 
 ### 版面规格表（US Letter，Courier 12：每英寸 10 字符、每英寸 6 行）
 
@@ -142,6 +142,12 @@ description: Screenplay format, page craft, the writing process and adaptation (
 - 霍克斯特：技术检查（错别字格式前后一致）→创作检查（精简描述、统一声音）→按目标逐项检修（第二幕通常是问题）；保存每个版本；打印出来改；弧线标记对照大纲。
 - 汉森：人物小传用清单；六人读五人喜欢则安全，五人说无力就重来。
 - 菲尔德："最佳场面"卷宗；"如果你对场面是否有效没有把握，那它大概是不会起作用的"；给两个会说真话的朋友看，不要四个。
+
+### Grace：电视剧集开发文书
+
+- Yvonne Grace 在 *Writing for Television* 中记述，提案至多一页，若用于口头故事会则压缩为一段话。明确列出世界观、年代背景、核心危机与关键角色。她给出的故事大纲（treatment）参考范围是四到十页，并非通用的页数规则。
+- Grace 利用故事大纲来深入拓展构思，并借助剧集大纲（series outline）粗线条勾勒后续单集。连续剧的设计请参考 `sw-series-showrunning`。
+- Grace 将说明每个场景内容与意图的分场大纲（scene-by-scene outline），与归纳单集 A、B、C 故事节拍及交接点的故事线文档（storyline document）明确区分开来。请使用 [reference.md](reference.md) 中调整后的模板。
 
 ---
 

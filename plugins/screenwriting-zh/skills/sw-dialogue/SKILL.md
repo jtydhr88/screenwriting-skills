@@ -1,6 +1,6 @@
 ---
 name: sw-dialogue
-description: Dialogue writing and revision for screen and stage (对白/台词/潜台词/唱词) — merged from Robert McKee's Dialogue (dialogue as action, said/unsaid/unsayable, exposition as ammunition, beat = action/reaction gerunds, flaws of credibility/language/content/design, character-specific vocabulary and grammar, seven scene analyses), Richard Walter (economy, subtext, argument, no small talk, no parentheticals, silence), Neill Hicks (listening, on-the-nose exceptions, energy, five-step exercise), Lu Jun (语言要美: 典雅美/通俗美, 对话三要求 动作性/性格化/潜台词, 戏曲唱词三好 选韵/结构/布局), Lajos Egri (dialogue born of three-dimensional character, escalation), Blake Snyder (cover-the-names test), and screwball-comedy dialogue conventions. Use when writing or polishing dialogue, fixing on-the-nose or expository lines, giving each character a distinct voice, converting a two-hander into a trialogue, writing comedy exchanges, cutting speeches, or composing Chinese opera lyrics.
+description: "Dialogue writing and revision for screen and stage (对白/台词/潜台词/唱词) — merged from Robert McKee's Dialogue (dialogue as action, said/unsaid/unsayable, exposition as ammunition, beat = action/reaction gerunds, flaws of credibility/language/content/design, character-specific vocabulary and grammar, seven scene analyses), Richard Walter (economy, subtext, argument, no small talk, no parentheticals, silence), Neill Hicks (listening, on-the-nose exceptions, energy, five-step exercise), Lu Jun (语言要美: 典雅美/通俗美, 对话三要求 动作性/性格化/潜台词, 戏曲唱词三好 选韵/结构/布局), Lajos Egri (dialogue born of three-dimensional character, escalation), Blake Snyder (cover-the-names test), and screwball-comedy dialogue conventions. Use when writing or polishing dialogue, fixing on-the-nose or expository lines, giving each character a distinct voice, converting a two-hander into a trialogue, writing comedy exchanges, cutting speeches, or composing Chinese opera lyrics."
 ---
 
 # 对白（Dialogue）
@@ -76,6 +76,12 @@ description: Dialogue writing and revision for screen and stage (对白/台词/�
 
 ### 沃尔特禁忌清单
 "我认为""这个这个""你知道""听着"不可原谅；不写方言音译（约翰·韦恩拒读 drivin'）；不追求"真实"的哼哈（"自然有什么好？砒霜肉毒杆菌流感无聊都是自然的"）；**闲聊只在超越自身与主题连接时可用**（《12 怒汉》台阶上"我还不知道你的名字"）；大段演讲例外须每句给信息（巴顿开场、乔德结尾、伯恩斯坦携阳伞的女孩）；"嗨黛比""嗨汤姆"→"裙子很性感哦！"—"喜欢吗？"—"太喜欢了！"
+
+### Davies：跨台词与跨场景的节奏修订
+
+- Russell T Davies 与 Benjamin Cook 在 *The Writer's Tale* 中指出，需将连缀的长句修剪为口语化的语段，让逗号和句号来确立某句台词是紧凑、舒缓、机智还是冷峻。将这些标点作为口语音步节奏划分来使用。实操示例见 [reference.md](reference.md)。
+- Davies 在修订时耗费大量精力删减无意间的词语重复，尤其是间隔之后跨场景分界处的重复。若前一场景的收尾台词与后一场景的开场台词都出现 hope（“希望”），这种重复就可能让衔接显得刺耳。
+- 这是 Davies 针对 Walter 全盘禁用填充词所给出的替代方案：仅在要表现犹豫或恐惧时才安插 um/er。保持 Right 果断，Well 更沉稳，So 深思熟虑。检查演员可能会忽略的全剧本词语重复。
 
 ---
 

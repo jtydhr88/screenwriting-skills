@@ -48,6 +48,12 @@ Supplements:
 - Mei Feng: Between two major dramatic scenes, insert a short scene featuring Peabody—lacking conflict, slowing tempo, separating heavyweight set-pieces, resolving time gaps—allowing the entire film to breathe and alternate between tension and ease.
 - Henson: Action paragraphs resemble punchy lists rather than descriptive essays; incorporate the "given circumstances" (time, season, weather, environmental conditions shaping action, physical details offering clues)—"early morning, pale blue sky, sweltering heat waves rising, Stars and Stripes fluttering over the bleachers" = Fourth of July; alter it to "slate-gray sky, fresh snowfall" = Veterans Day; "changing a single image can alter the entire story."
 
+### Curry: scene hooks versus act and episode hooks
+
+- Chris Curry, *Writing for Soaps*, distinguishes scene hooks from suspense at an act or episode ending. A scene may end with an "Ahh" of reconciliation or satisfaction. Prefer to leave a thread unresolved.
+- Curry warns against starting at maximum emotion, which gives actors nowhere to go. Reject false hooks that vanish or are forgotten in the next episode.
+- Curry's Dolores scene and Russell T Davies's Donna and Geoff revision, from Davies and Benjamin Cook's *The Writer's Tale*, are worked examples in [reference.md](reference.md).
+
 ---
 
 ## 4. Action Over Dialogue (Walter / Henson / Hicks)

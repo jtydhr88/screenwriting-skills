@@ -153,3 +153,12 @@ Separation from the feminine (babysitter departs) -> Identification with the mas
 - Cast by Actor Types, Not Movie Stars: The Young Man on the Make, The Good Girl Next Door, The Plucky Kid, The Sex Goddess, The Hunk, The Wounded Soldier, The Damsel in Distress, The Lovable Rogue, The Jester, The Wise Old Grandfather.
 - Save the Cat: Al Pacino in *Sea of Love* letting the father with the kid go free; Aladdin stealing a loaf of bread only to give it to starving street children; making anti-heroes likable through humor (the Royale with cheese banter in *Pulp Fiction*); if the protagonist has glaring flaws, have an abhorrent boss throw someone out the window first.
 - The Bad Guy Must Be Badder; Protagonist and Antagonist are two sides of the same coin (Batman and the Joker); everyone in the story should have an arc except the antagonist; supporting characters require "a limp and an eyepatch" (a memorable, distinct visual quirk or hook).
+
+---
+
+## VIII. Different defenses, integrated traits, and relationship pressure
+
+John Yorke, *Into the Woods*: *Witness*, *The Searchers*, and *Notting Hill* share fear of intimacy, yet John Book, Ethan Edwards, and William Thacker differ by chosen defenses.
+
+- Yorke: Elle in *Legally Blonde* keeps a splash of pink on the collar once she is a qualified lawyer: old color and new competence together.
+- Rabkin, *Writing the Pilot: Creating the Series*: Buffy is torn between ordinary life and saving-the-world duty. Her mother wants her normal and happy; her watcher needs her to fight vampires; her friends belong to the everyday world; the man she loves is a vampire.

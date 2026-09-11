@@ -19,6 +19,12 @@
 | Climax | Resolution 90–120 | 85–110 Finale (Bad guys low to high) | Confrontation; Resolution | Climax = Meaning births emotion + governing image | Satisfaction; Protagonist wins personally | Turn = Thunderous momentum |
 | Wrap-up | Ending connects with beginning | 110 Final Image (Opposite of opening) | Resonance ("Give us a moment to feel") | Resolution: Subplot / fallout / breathing room | Problem Solved | Resolution: Eight ending methods |
 
+### Five-act and nested examples (Yorke)
+
+John Yorke, *Into the Woods*, maps *Macbeth* onto five stages: witches' prophecy and the decision to murder Duncan; Macbeth becomes king; Macduff defects; Lady Macbeth goes mad and Macbeth is abandoned (worst point); final battle and Macbeth killed.
+
+- Yorke's nested *Raiders* opening: Indiana Jones seeks a golden idol; desire is retrieval; midpoint is taking the idol from the inner temple; crisis is Belloq's surprise; climax is Belloq stealing the idol; resolution is Indy's escape with his life.
+
 ---
 
 ## II. Field Plot Point Quick Reference

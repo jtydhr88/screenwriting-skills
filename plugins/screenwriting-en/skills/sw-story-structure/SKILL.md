@@ -1,6 +1,6 @@
 ---
 name: sw-story-structure
-description: English edition. Story structure for screenplays and stage plays (故事结构) — merged from Syd Field's paradigm and plot points, Blake Snyder's Save the Cat beat sheet and board, Robert McKee's Story (event/scene/sequence/act, inciting incident, progressive complications, crisis-climax-resolution, subplots, story triangle), Julian Hoxter's nine-beat model, Neill Hicks' three acts as attraction/anticipation/satisfaction, and Lu Jun's Chinese short-play structure (凤头猪肚豹尾, 起承转合, eight openings, eight endings, 入戏要快/脉络要清/高潮要高/转变要顺/变化要多). Use when outlining a script, placing plot points and midpoint, fixing a saggy second act, designing an opening or ending, diagnosing "nothing happens", choosing between linear and non-linear designs, or converting a premise into beats and cards.
+description: English edition. Story structure for screenplays and stage plays (故事结构) — merged from Syd Field's paradigm and plot points, Blake Snyder's Save the Cat beat sheet and board, Robert McKee's Story (event/scene/sequence/act, inciting incident, progressive complications, crisis-climax-resolution, subplots, story triangle), Julian Hoxter's nine-beat model, Neill Hicks' three acts as attraction/anticipation/satisfaction, and Lu Jun's Chinese short-play structure (凤头猪肚豹尾, 起承转合, eight openings, eight endings, 入戏要快/脉络要清/高潮要高/转变要顺/变化要多); John Yorke's five-act refinement, midpoint learning, and nested structure. Use when outlining a script, placing plot points and midpoint, fixing a saggy second act, designing an opening or ending, diagnosing "nothing happens", choosing between linear and non-linear designs, or converting a premise into beats and cards.
 ---
 
 # Story Structure (故事结构)
@@ -43,6 +43,16 @@ Pages 1–30             Pages 30–90                     Pages 90–120
 - **Sequence** = "a series of scenes tied together by a single idea," serving as the backbone of the screenplay (a wedding, a chase, a homecoming, a bank robbery). Determine the sequence idea first (the cup) before pouring in the content (the coffee). Frank Pierson wrote *Dog Day Afternoon* using only twelve sequences, writing four first (beginning, two plot points, ending) before adding the remaining eight.
 - Theme = action + character: "A screenplay is like a noun: a specific person in a specific place doing their thing." Action divides into physical and emotional.
 - Variations: *Close Encounters of the Third Kind* runs 40/40/40; in *Nashville*, the city itself is the protagonist—"follow the protagonist and you will find the plot points."
+
+### Five-act refinement and nested structure (Yorke)
+
+John Yorke, *Into the Woods*, treats five-act form as a refinement of three-act form, not a different system. Yorke keeps the first and last acts identical and generates five acts by inserting two further breaks inside the Hollywood second act.
+
+- Yorke maps five stages onto acts: set up and call to action; things go well and the initial objective is achieved; things start to go wrong as antagonism gathers; things go really badly wrong and crisis arrives; crisis, climax, final battle, and resolution for good or ill.
+- Yorke's midpoint is a critical truth, quality, or gain before the protagonist can master it. Yorke says a new truth dawns and the elixir is captured, yet they cannot handle it correctly; the second half is learning to master it while jeopardy rises. Yorke's risk/reward midpoint raises danger and marks no return.
+- Yorke's nested unit is fractal. Yorke says acts and scenes repeat set-up, desire, crisis, climax, and sometimes resolution. An act is one desire completed, successfully or not.
+
+Examples in [reference.md](reference.md).
 
 ---
 

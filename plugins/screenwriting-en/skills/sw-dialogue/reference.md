@@ -64,3 +64,11 @@ Walter wants Ruth to ask Lena for the entire ten thousand dollars to open a liqu
 - **Monorhyme** (*Beneath the Pomegranate Skirt*): Dr. Hong: "Forgive this old man for deceiving you; deceiving you was truly protecting you; had I indulged you back then, Wenhui's death would have ruined you... The lash of conscience tortures you, the whip of morality flogs you, the shadow on your soul envelops you, leaving you without peace for a lifetime; tell me, should I have stopped you?" Housemaid Wu: "The wedding banquet was eaten, the wedding candies were handed out, the gratuities were pocketed, the wedding rites were completed, the guests have all left, the hour is late, the Second Young Master should return, and the bride wants to sleep."
 - **Sentence Structure Variations** (*Peach Garden Melodies*, Carrying the Sedan): Taohua: "Is that peach tree diseased, broken, wounded, or dead?" Liu: "Every branch of this treasure is green, every leaf tender, every root thick, every trunk robust." "Could it be a hen with sores --" "What do you mean?" "Rot beneath the feathers --" "Heaven forbid"... Chorus: "Lifting that sedan chair with eyes brimming with tears, one foot already stepping beside the coffin."
 - **Palindrome** (*The Nüzhen Convent*): "Hating passionate longing as spring goes by, spring once gone leaves longing turned to hate. Gloomy without purpose, I wrong another; wronged by another, my heart bears no gloom. Truth turns false and false turns true; grace breeds grievance, and grievance breeds grace."
+
+---
+
+## Davies's TARDIS trim and three-emotion polish
+
+Russell T Davies, with Benjamin Cook in *The Writer's Tale*. Early habit: "I'm gonna go back to the TARDIS, and find the Daleks, and then I'll stop them, and then have a cup of tea." He now prefers: "I'm gonna go back to the TARDIS. Find the Daleks. Stop them. And then, tea." Commas and full stops impose his rhythm: fast, slow, stop, hard, witty, throwaway, stark.
+
+His listed-adjective hate is dialogue that goes "I felt hurt, angry, betrayed". Exact recast: "I felt angry. God, I was so hurt. You betrayed me!" Even then, he bets the scene may be stronger without the speech, because those emotions can already be assumed. He mutters lines while writing rather than staging a formal read after each scene.

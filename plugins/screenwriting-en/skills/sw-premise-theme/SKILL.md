@@ -1,6 +1,6 @@
 ---
 name: sw-premise-theme
-description: English edition. Premise, theme, controlling idea, subject selection and logline for scripts (前提/主题/立意/选材/戏核) — merged from Lajos Egri's premise-as-tyrant and dialectic, Robert McKee's controlling idea (value + cause) and idea/counter-idea, Neill Hicks' five premise questions, Lisa Cron's "third rail" (desire vs misbelief, origin scene, what-if), Julian Hoxter's logline and theme-attitude rule, Blake Snyder's logline/genre/title tests, and Lu Jun's Chinese craft chapters on 选材要严/开掘要深/视角要新/戏核要好/情节要奇. Use when turning a vague idea into a premise, finding what a story is really about, choosing a subject and angle, testing a logline, deciding the ending from the theme, or diagnosing a script that "has events but no story".
+description: English edition. Premise, theme, controlling idea, subject selection and logline for scripts (前提/主题/立意/选材/戏核) — merged from Lajos Egri's premise-as-tyrant and dialectic, Robert McKee's controlling idea (value + cause) and idea/counter-idea, Neill Hicks' five premise questions, Lisa Cron's "third rail" (desire vs misbelief, origin scene, what-if), Julian Hoxter's logline and theme-attitude rule, Blake Snyder's logline/genre/title tests, and Lu Jun's Chinese craft chapters on 选材要严/开掘要深/视角要新/戏核要好/情节要奇; William Rabkin's thematic question, opposition, and interpersonal conflict in Writing the Pilot Creating the Series. Use when turning a vague idea into a premise, finding what a story is really about, choosing a subject and angle, testing a logline, deciding the ending from the theme, or diagnosing a script that "has events but no story".
 ---
 
 # Premise & Theme (前提·主题·立意·戏核)
@@ -33,6 +33,16 @@ For example libraries and worksheets, see [reference.md](reference.md).
 - Three types of Controlling Ideas: **Idealistic** (upward turn); **Pessimistic** (downward turn; *Chinatown*: "evil prevails because it is part of human nature"); **Ironic**—positive irony = redemption plot ("relentless pursuit of success, wealth, and acclaim will destroy you, but if you recognize this in time and renounce obsession, you find salvation"—*Kramer vs. Kramer*, *Out of Africa*, *North Dallas Forty* opening his arms to let the ball drop); negative irony = punitive plot ("obsessively and ruthlessly pursuing desire will destroy you"—*Wall Street*, *Nixon*). Irony is the hardest to write: a single action must be both positive and negative simultaneously; it must be clear, un-ambiguous, and motivated; positive and negative must not cancel each other out.
 - The more tightly you construct around a single clear idea, the more meaning audiences will discover; the more you cram in, the faster the structure collapses. Persevere: great writers have a single passion-igniting theme (Hemingway with death, Dickens with the search for the father, Moliere with human folly and vice).
 - Ask yourself: "Do I truly believe the meaning of this story?" The artist's sole responsibility = tell the truth.
+
+### From thematic argument to concrete conflict (Rabkin)
+
+William Rabkin, *Writing the Pilot: Creating the Series*, treats theme as a specific argument: a thematic question or a contradictory statement, not a one-word topic. Opposition of thesis and counter-thesis organizes the work.
+
+- Rabkin turns a keyword into a specific opposition, then into interpersonal conflict that can carry the argument in story. Abstract opposition is not enough until people enact it.
+- Rabkin says discovery may begin with concept or character. Theme, conflict, and concept must connect before writing.
+- For Rabkin's evil-in-pursuit-of-good example, include unsuccessful conventional allies so the protagonist's harmful methods in pursuit of good remain intelligible.
+
+Examples in [reference.md](reference.md).
 
 ## III. The Third Rail: Desire vs. Misbelief (Cron)
 

@@ -40,7 +40,7 @@ Three matters: **how to write on the page** (formatting and action paragraphs), 
 
 ## II-2. Layout Specifications, Element Conventions, and Output Formats
 
-> The numerical values in this section derive from empirical measurements of professionally typeset screenplays (US Letter, Courier 12) and Final Draft default templates. Element-level conventions and Chinese and Japanese industry formats reflect accepted industry practice and **do not originate from the 19 source books of this skill** (added pursuant to issue #2). For examples, see Section X of [reference.md](reference.md).
+> The numerical values in this section derive from empirical measurements of professionally typeset screenplays (US Letter, Courier 12) and Final Draft default templates. Element-level conventions and Chinese and Japanese industry formats reflect accepted industry practice and **do not originate from this skill's source books** (added pursuant to issue #2). For examples, see Section X of [reference.md](reference.md).
 
 ### Layout Specifications Table (US Letter, Courier 12: 10 cpi, 6 lpi)
 
@@ -142,6 +142,12 @@ Standard structure across the modern Chinese film and television industry (minor
 - Hoxter: Technical pass (typos, formatting, internal consistency) → creative pass (tightening descriptions, unifying voice) → targeted mechanical overhaul against specific objectives (Act II is usually the problem); preserve every version; print out hard copies to mark up; track character arcs against the outline.
 - Henson: Use checklists for character biographies; if six people read it and five like it, you are safe; if five say it feels limp, start over.
 - Field: Maintain a "Best Scenes" file; "If you are unsure whether a scene works, it probably doesn't"; show your script to two friends who will tell the unvarnished truth, not four.
+
+### Grace: television development documents
+
+- Yvonne Grace, *Writing for Television*, describes a pitch of at most one page, or one paragraph for a verbal story meeting. Name the world, period, jeopardy, and key characters. Her reported treatment range is four to ten pages, not a universal page rule.
+- Grace uses the treatment to develop the idea and a series outline to show later episodes in broad strokes. Use `sw-series-showrunning` for continuing-series design.
+- Grace distinguishes a scene-by-scene outline, which states each scene's content and intention, from a storyline document that groups an episode's A, B, and C story beats and handover points. Use the adapted templates in [reference.md](reference.md).
 
 ---
 

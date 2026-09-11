@@ -98,3 +98,11 @@ Protagonist flaw checklist: Luke lacks faith in himself and the Force; Josh cann
 - 1991: *The Silence of the Lambs* won Best Picture from seven nominations (an unprecedented feat for a horror-thriller); *Beauty and the Beast* became the first animated feature nominated for Best Picture; 23-year-old John Singleton became the youngest and first Black nominee for Best Director; *Thelma & Louise* received roughly $2M in marketing from MGM, landing on the cover of *Time* magazine upon release.
 - *Eternal Sunshine of the Spotless Mind* was budgeted at $2M; Charlie Kaufman had already garnered three Oscar nominations (losing to *American Beauty* in 1999 and *The Pianist* in 2002); "Hollywood has yet to formulate a systematic methodology for packaging and marketing films of this nature."
 - Hitchcock's rights economics: Bought *The Man Who Knew Too Much* for 250 pounds, selling it for double; bought *To Catch a Thief* for $15,000, selling it twenty years later to Paramount for $105,000; used intermediaries to suppress acquisition costs: $7,500 for *Strangers on a Train*, $11,000 for *The Trouble with Harry*, $9,000 for *Psycho*.
+
+---
+
+## Landau's Kings arena and Davies's dropped-scene repair
+
+Neil Landau interviewing Michelle King and Robert King on *The Good Wife* in *The TV Showrunner's Roadmap*: early seasons sent the studio a one- or two-page story arena, case plus personal story, so other shows in the wheelhouse or legal trouble, such as an FCC story, could be flagged before a twelve-to-eighteen-page outline and a draft. Later the studio got a short arena then the script. Internally the Kings still drew an extensive beat sheet so scenes would dovetail. Robert King: writers' room, production, and post run at once on different episodes.
+
+Russell T Davies, *The Writer's Tale* with Benjamin Cook: when a scene drops at day's end and cannot be rescheduled, he rewrites yet-to-be-filmed scenes so the missing piece never existed. *Planet of the Ood* gained a cinema because Mr Halpen mentioned one; the shoot moved to a less costly Sales Reception Room. Julie tells writers the takeover may happen; Davies then phones to explain how and why.

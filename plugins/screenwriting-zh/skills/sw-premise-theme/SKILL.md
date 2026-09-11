@@ -1,6 +1,6 @@
 ---
 name: sw-premise-theme
-description: Premise, theme, controlling idea, subject selection and logline for scripts (前提/主题/立意/选材/戏核) — merged from Lajos Egri's premise-as-tyrant and dialectic, Robert McKee's controlling idea (value + cause) and idea/counter-idea, Neill Hicks' five premise questions, Lisa Cron's "third rail" (desire vs misbelief, origin scene, what-if), Julian Hoxter's logline and theme-attitude rule, Blake Snyder's logline/genre/title tests, and Lu Jun's Chinese craft chapters on 选材要严/开掘要深/视角要新/戏核要好/情节要奇. Use when turning a vague idea into a premise, finding what a story is really about, choosing a subject and angle, testing a logline, deciding the ending from the theme, or diagnosing a script that "has events but no story".
+description: Premise, theme, controlling idea, subject selection and logline for scripts (前提/主题/立意/选材/戏核) — merged from Lajos Egri's premise-as-tyrant and dialectic, Robert McKee's controlling idea (value + cause) and idea/counter-idea, Neill Hicks' five premise questions, Lisa Cron's "third rail" (desire vs misbelief, origin scene, what-if), Julian Hoxter's logline and theme-attitude rule, Blake Snyder's logline/genre/title tests, and Lu Jun's Chinese craft chapters on 选材要严/开掘要深/视角要新/戏核要好/情节要奇; William Rabkin's thematic question, opposition, and interpersonal conflict in Writing the Pilot Creating the Series. Use when turning a vague idea into a premise, finding what a story is really about, choosing a subject and angle, testing a logline, deciding the ending from the theme, or diagnosing a script that "has events but no story".
 ---
 
 # 前提·主题·立意·戏核（Premise & Theme）
@@ -33,6 +33,16 @@ description: Premise, theme, controlling idea, subject selection and logline for
 - 三种主控思想：**理想主义**上扬；**悲观主义**低落（唐人街"邪恶横行因为这是人性的一部分"）；**反讽主义**——正面反讽＝救赎情节"对成功财富名誉的过分追求将摧毁你，但若及时看清并抛弃执着便得救赎"（克莱默、走出非洲、达拉斯猛龙张开双臂任球落地）；负面反讽＝惩罚情节"痴迷于执着无情追求满足欲望然后毁灭你自己"（华尔街、尼克松传）。反讽最难写：单一动作同时正负；必须明确不是模棱两可且有动机；正负不能互相抵消。
 - 越围绕一个明确思想构建，观众发现的意义越多；强塞越多越崩溃。持之以恒：伟大作家有一个能点燃激情的单一主题（海明威死亡、狄更斯寻父、莫里哀人性之恶）。
 - 问自己"我是否相信故事的意义"；艺术家唯一责任＝讲真话。
+
+### 从主题论点到具体冲突（拉布金）
+
+威廉·拉布金在 *Writing the Pilot: Creating the Series* 中将主题视为一个具体的论点：一个主题性问题或一个充满矛盾的陈述，而非单一词汇的话题。正题与反题的对立组织整部作品。
+
+- 拉布金将关键词转化为具体的对立面，再将其转化为能够在故事中承载该论点的人际冲突。在人们将其付诸行动之前，抽象的对立是远远不够的。
+- 拉布金指出，发现过程可以始于概念或人物。在动笔写作之前，主题、冲突与概念必须建立连接。
+- 针对拉布金“为追求善而作恶”的范例，应引入那些采用传统手段对抗邪恶却未成功的同盟者，以使主角在追求善的过程中采用有害手段的决定依然能被读者理解。
+
+范例见 [reference.md](reference.md)。
 
 ## 三、第三条轨道：渴望 vs 错误信念（克龙）
 

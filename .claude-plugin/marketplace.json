@@ -4,18 +4,18 @@
     "name": "terry"
   },
   "metadata": {
-    "description": "Skills drawn from 19 source entries: 17 screenwriting and dramaturgy books plus Chekhov's collected plays and Ozu Yasujiro's collected screenplays"
+    "description": "Skills drawn from 26 source entries: 24 screenwriting, television-writing, and dramaturgy books plus Chekhov's collected plays and Ozu Yasujiro's collected screenplays"
   },
   "plugins": [
     {
       "name": "screenwriting",
       "source": "./plugins/screenwriting-zh",
-      "description": "13 skills: project workflow & story bible, story structure, premise & theme, character & conflict psychology, dialogue, scene craft, format & adaptation, American case studies, Japanese screenwriting method, Korean & French screenwriting, industry & business, Chekhov dramaturgy, Ozu screenplay style"
+      "description": "14 skills: project workflow & story bible, story structure, premise & theme, character & conflict psychology, dialogue, scene craft, format & adaptation, American case studies, Japanese screenwriting method, Korean & French screenwriting, industry & business, series showrunning, Chekhov dramaturgy, Ozu screenplay style"
     },
     {
       "name": "screenwriting-en",
       "source": "./plugins/screenwriting-en",
-      "description": "English edition: the same 13 skills as screenwriting, with English skill bodies translated from the Chinese files (project workflow & story bible, story structure, premise & theme, character & conflict psychology, dialogue, scene craft, format & adaptation, American case studies, Japanese screenwriting method, Korean & French screenwriting, industry & business, Chekhov dramaturgy, Ozu screenplay style)"
+      "description": "English edition: the same 14 skills as screenwriting, with English skill bodies translated from the Chinese files (project workflow & story bible, story structure, premise & theme, character & conflict psychology, dialogue, scene craft, format & adaptation, American case studies, Japanese screenwriting method, Korean & French screenwriting, industry & business, series showrunning, Chekhov dramaturgy, Ozu screenplay style)"
     }
   ]
 }

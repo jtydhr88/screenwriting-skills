@@ -1,6 +1,6 @@
 ---
 name: sw-dialogue
-description: English edition. Dialogue writing and revision for screen and stage (对白/台词/潜台词/唱词) — merged from Robert McKee's Dialogue (dialogue as action, said/unsaid/unsayable, exposition as ammunition, beat = action/reaction gerunds, flaws of credibility/language/content/design, character-specific vocabulary and grammar, seven scene analyses), Richard Walter (economy, subtext, argument, no small talk, no parentheticals, silence), Neill Hicks (listening, on-the-nose exceptions, energy, five-step exercise), Lu Jun (语言要美: 典雅美/通俗美, 对话三要求 动作性/性格化/潜台词, 戏曲唱词三好 选韵/结构/布局), Lajos Egri (dialogue born of three-dimensional character, escalation), Blake Snyder (cover-the-names test), and screwball-comedy dialogue conventions. Use when writing or polishing dialogue, fixing on-the-nose or expository lines, giving each character a distinct voice, converting a two-hander into a trialogue, writing comedy exchanges, cutting speeches, or composing Chinese opera lyrics.
+description: "English edition. Dialogue writing and revision for screen and stage (对白/台词/潜台词/唱词) — merged from Robert McKee's Dialogue (dialogue as action, said/unsaid/unsayable, exposition as ammunition, beat = action/reaction gerunds, flaws of credibility/language/content/design, character-specific vocabulary and grammar, seven scene analyses), Richard Walter (economy, subtext, argument, no small talk, no parentheticals, silence), Neill Hicks (listening, on-the-nose exceptions, energy, five-step exercise), Lu Jun (语言要美: 典雅美/通俗美, 对话三要求 动作性/性格化/潜台词, 戏曲唱词三好 选韵/结构/布局), Lajos Egri (dialogue born of three-dimensional character, escalation), Blake Snyder (cover-the-names test), and screwball-comedy dialogue conventions. Use when writing or polishing dialogue, fixing on-the-nose or expository lines, giving each character a distinct voice, converting a two-hander into a trialogue, writing comedy exchanges, cutting speeches, or composing Chinese opera lyrics."
 ---
 
 # Dialogue (对白)
@@ -76,6 +76,12 @@ There is only one core proposition: **dialogue is action** (McKee: dia + legein 
 
 ### Walter's Taboo Checklist
 "I think," "well, um," "you know," "listen" are unforgivable; do not transcribe phonetic dialect (John Wayne refused to read *drivin'*); do not pursue "realistic" hemming and hawing ("What is so great about nature? Arsenic, botulism, the flu, and boredom are all natural"); **small talk is permissible only when it transcends itself to connect with theme** (*12 Angry Men*: on the steps, "I don't even know your name"); grand speeches are an exception, but every sentence must deliver information (Patton's opening, Joad's ending, Bernstein's girl with the parasol); "Hi Debbie" "Hi Tom" -> "That dress is very sexy!" — "You like it?" — "Love it!"
+
+### Davies: rhythm revision across speeches and scenes
+
+- Russell T Davies, with Benjamin Cook in *The Writer's Tale*, trims chained clauses into spoken blocks so commas and full stops set when a line is fast, slow, witty, or stark. Use that punctuation as blocking. Worked examples: [reference.md](reference.md).
+- Davies spends much of revision cutting accidental word repeats, especially across a scene divide after a break. If a scene's closing speech and the next scene's opening speech both contain "hope", the repetition can make the join jar.
+- This is Davies's alternative to Walter's blanket ban on fillers: plant um/er only when hesitancy or fear is the point. Keep Right decisive, Well calmer, So deliberate. Check whole-script repetitions actors may miss.
 
 ---
 

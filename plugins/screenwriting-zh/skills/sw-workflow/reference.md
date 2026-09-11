@@ -84,6 +84,27 @@
 
 ---
 
+## 一之二、series-bible 变体（剧集）
+
+内部规划表格，非出版图书模板。插入于项目信息之后。保留其他 bible 章节；填写适用的剧集字段，而非仅限电影的计数指标。
+
+```markdown
+## 剧集设定（series-bible）
+
+- 阶段/状态：`sw-workflow`
+- 引擎（`sw-series-showrunning` / `sw-premise-theme`）：催生分集的概念、冲突与主题；Rabkin 单句重复模式
+- 舞台（Landau / `sw-series-showrunning`）：剧集所在的世界
+- 特许模式（Landau / `sw-series-showrunning`）：剧集每周可复用的核心动词
+- 形态（Grace / Landau / `sw-series-showrunning`）：系列剧、连续剧或肥皂剧；单元、连续或混合作为明确选项
+- 六个未来构思（Landau / `sw-series-showrunning`）：检验引擎的跳板
+- 试播集（Landau / Rabkin / `sw-series-showrunning`）：首集设计
+- 季弧（`sw-series-showrunning`；Yorke 体系经由 `sw-story-structure` 与 `sw-character-conflict`）：整季故事走向
+- 分集网格（`sw-series-showrunning`）：指向外部单集文件的索引；实际幕数；A/B/C 戏剧节拍到戏剧场景的映射；仅在格式采用时包含可选的序幕/尾声；Douglas 四幕范例并非固定网格
+- 连贯性（Curry / Rabkin / Grace / `sw-series-showrunning`；文档排版 `sw-format-adaptation`）：接续与留置悬念；情绪状态与已知事实；未爆地雷；自然时长
+```
+
+---
+
 ## 二、阶段 2 工作单：BS2 页码换算
 
 以 110 页为基准的比例，乘以目标页数取整：

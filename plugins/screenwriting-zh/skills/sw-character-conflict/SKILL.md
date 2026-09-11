@@ -1,6 +1,6 @@
 ---
 name: sw-character-conflict
-description: Character creation, protagonist/antagonist design and dramatic conflict for scripts (人物/对手/冲突) — merged from Lajos Egri (three-dimensional character, orchestration, unity of opposites, pivotal character, rising vs static vs jumping conflict, transition), William Indick's Psychology for Screenwriters (Freud id/ego/superego and defense mechanisms, Erikson identity crises, Jung archetypes and quaternity, Campbell/Murdock hero journeys, Adler inferiority and lifestyles, Rollo May existential stages), Robert McKee (characterization vs true character, dimensions, gap, antagonism principle), Neill Hicks (character invocation, self-concept, cognitive dissonance, five conflict focuses, Maslow), Lisa Cron (desire vs misbelief), and Lu Jun (人物要活八要, 对手要强, 给对手一把刀, 最强的对手是自己, 不许请祥云). Use when building a protagonist, an antagonist or a cast, when a character feels flat or acts out of character, when conflict stalls or jumps, when a villain is too weak, when designing an arc or motive, or when diagnosing melodrama.
+description: Character creation, protagonist/antagonist design and dramatic conflict for scripts (人物/对手/冲突) — merged from Lajos Egri (three-dimensional character, orchestration, unity of opposites, pivotal character, rising vs static vs jumping conflict, transition), William Indick's Psychology for Screenwriters (Freud id/ego/superego and defense mechanisms, Erikson identity crises, Jung archetypes and quaternity, Campbell/Murdock hero journeys, Adler inferiority and lifestyles, Rollo May existential stages), Robert McKee (characterization vs true character, dimensions, gap, antagonism principle), Neill Hicks (character invocation, self-concept, cognitive dissonance, five conflict focuses, Maslow), Lisa Cron (desire vs misbelief), and Lu Jun (人物要活八要, 对手要强, 给对手一把刀, 最强的对手是自己, 不许请祥云); John Yorke's defensive façades and post-midpoint integration with William Rabkin's externalized relationship pressure. Use when building a protagonist, an antagonist or a cast, when a character feels flat or acts out of character, when conflict stalls or jumps, when a villain is too weak, when designing an arc or motive, or when diagnosing melodrama.
 ---
 
 # 人物与冲突（Character & Conflict）
@@ -24,6 +24,15 @@ description: Character creation, protagonist/antagonist design and dramatic conf
 - **人物设计＝太阳系**：主人公是太阳，配角行星、小角色卫星；配角存在完全为刻画主人公的维；小角色一个令人耳目一新的特征仅此而已，加了维就必须再出现。
 - 三诀窍：为演员留有余地；热爱你的所有人物尤其坏人（终结者挑眼球后整理头发）；人物就是自知（"如果我是这个人物"的诚实回答总是正确的）。
 - 动机：越把动机固着于具体原因人物越小（虐待儿童片断是陈词滥调）；自我解释放口袋里（里克"我再也不为任何人出头"——"哦，还没到时候"）。
+
+### 防御性选择与外部压力（约克与拉布金）
+
+约翰·约克在 *Into the Woods* 中将面具视为主动选择的保护性行为。威廉·拉布金在 *Writing the Pilot: Creating the Series* 中指出，当其他人施加压力时，内在矛盾便具备了戏剧性。
+
+- 约克：同样的恐惧可以产生不同的保护性行为。识别出所选的面具如何在承诺带来安全感的同时阻碍目标的实现。约克列举了对亲密关系恐惧的可能反应，例如开玩笑、指责伴侣或自我孤立。
+- 拉布金：当人际关系施加外部压力时，内心矛盾就会转化为戏剧性。仅有互不相容的信念本身并不足够。
+
+范例见 [reference.md](reference.md)。
 
 ### 角色召唤与自我观念（希克斯）
 - 反对填充题库式人物表；写作是**角色召唤**：你是发现者而非创造者——主动去倾听，打字速度来不及记录才好；所有角色都是你自己（自传体放大镜），但角色变呆滞可能是太像你，去搜寻比你更多的特质。
@@ -127,6 +136,10 @@ description: Character creation, protagonist/antagonist design and dramatic conf
 - 霍克斯特：主题不变态度变；起点＝开场状况，最高点＝故事目标；独立电影放大微小变化（害羞男孩正儿八经聊了一次天＝英雄）。
 - 尹迪克：主角片尾必须更好更强；转变可向上或向下；若无人改变故事就未完成。
 - 陆军：性格起点到终点距离大或向相反方向转化的转变人物易写鲜明；秘密在写出发展过程（韩琪、巡长、许仙）。
+
+### 整合改变后的自我（约克）
+
+约翰·约克，*Into the Woods*：中点过后，主角开始整合有价值的旧特质与新特质。约克否定了对立人格全盘接管的模式。约克指出：将新特质中的长处与旧特质中的长处融合，直到两端达成平衡。约克的警告：在救赎故事中，曾经未被意识到的对立面拯救了他们；在悲剧故事中，构建起幻象的冲动则摧毁了目标。
 
 ---
 

@@ -117,3 +117,11 @@ Lectures wife grandly on revolution -> Imminent storm of physical actions and so
 ## 9. Mei Feng: Value Shifts in the Restaurant Scene of *The Man Who Shot Liberty Valance*
 
 Ransom recites the legal code -> Link refuses (Western frontier code gains upper hand) -> Hallie wants to learn to read, immigrant parents laugh with joy (civilization gains positive charge) -> Tom changes into black suit: "Hang a sign and you'd better protect it with a gun" -> Liberty trips Ransom: "The new waitress" (Western frontier code negative charge: violence committing evil) -> Tom's steady voice + Black partner raising shotgun from the kitchen (only violence can subdue violence) -> Ransom scoops up the steak and slams it onto Peabody's table, breaking the standoff -> Liberty shatters bottles and fires wildly (stopping at dropping money and leaving loses no factual information, but this extra stroke highlights that violence harms far more than it protects) -> "A respectable scene triggered over gravy and potatoes" -> "You could have killed him or he could have killed you over an ordinary piece of meat!" -> Enter the kitchen (restaurant = treacherous West, kitchen = solidarity and warmth). Multiple value pairs shift within a single scene; every appearance of the cactus rose marks a key value locus.
+
+---
+
+## Curry's Dolores scene and Davies's Scene 47 dad prompt
+
+Chris Curry, *Writing for Soaps*. Dolores says father Desmond returns from hospital tomorrow; Wayne argues the hospital should keep him; Dolores realizes he is embarrassed for himself rather than worried for father; defensive Wayne leaves this scene, with the father's homecoming already causing a rift. This is one early step toward the planned episode hook of Wayne leaving home, not that final hook yet.
+
+Russell T Davies, with Benjamin Cook in *The Writer's Tale*. Donna originally comes already resolved to find the Doctor; he changes it so she is discouraged, and Geoff saying "Well then. Go and find him." prompts her decision.

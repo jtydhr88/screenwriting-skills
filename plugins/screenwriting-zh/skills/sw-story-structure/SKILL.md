@@ -1,6 +1,6 @@
 ---
 name: sw-story-structure
-description: Story structure for screenplays and stage plays (故事结构) — merged from Syd Field's paradigm and plot points, Blake Snyder's Save the Cat beat sheet and board, Robert McKee's Story (event/scene/sequence/act, inciting incident, progressive complications, crisis-climax-resolution, subplots, story triangle), Julian Hoxter's nine-beat model, Neill Hicks' three acts as attraction/anticipation/satisfaction, and Lu Jun's Chinese short-play structure (凤头猪肚豹尾, 起承转合, eight openings, eight endings, 入戏要快/脉络要清/高潮要高/转变要顺/变化要多). Use when outlining a script, placing plot points and midpoint, fixing a saggy second act, designing an opening or ending, diagnosing "nothing happens", choosing between linear and non-linear designs, or converting a premise into beats and cards.
+description: Story structure for screenplays and stage plays (故事结构) — merged from Syd Field's paradigm and plot points, Blake Snyder's Save the Cat beat sheet and board, Robert McKee's Story (event/scene/sequence/act, inciting incident, progressive complications, crisis-climax-resolution, subplots, story triangle), Julian Hoxter's nine-beat model, Neill Hicks' three acts as attraction/anticipation/satisfaction, and Lu Jun's Chinese short-play structure (凤头猪肚豹尾, 起承转合, eight openings, eight endings, 入戏要快/脉络要清/高潮要高/转变要顺/变化要多); John Yorke's five-act refinement, midpoint learning, and nested structure. Use when outlining a script, placing plot points and midpoint, fixing a saggy second act, designing an opening or ending, diagnosing "nothing happens", choosing between linear and non-linear designs, or converting a premise into beats and cards.
 ---
 
 # 故事结构（Story Structure）
@@ -43,6 +43,16 @@ description: Story structure for screenplays and stage plays (故事结构) — 
 - **段落**（sequence）＝"用单一的思想把一系列场面联结在一起"，是剧本的脊梁骨（婚礼、追逐、归家、抢银行）。先定段落思想（杯子）再填内容（咖啡）。皮尔逊写《三伏天下午》只用十二个段落，先写四个（开端、两情节点、结尾）再加八个。
 - 主题＝动作＋人物："电影剧本像名词：某一个人在某一个地方去干他的事情。"动作分有形的与情绪的。
 - 变体：《第三类接触》40/40/40；《纳施维尔》主人公是城市——"只要追随主人公就能找到情节点"。
+
+### 五幕细化与嵌套结构（约克）
+
+约翰·约克在 *Into the Woods* 中将五幕形式视为三幕形式的细化，而非不同的体系。约克保持第一幕和最后一幕不变，通过在好莱坞第二幕内部插入另外两个中断点来生成五幕。
+
+- 约克将五个阶段对应到各幕：建置与行动呼唤；进展顺利并达成初始目标；随着对抗力量积聚，事情开始出错；局势极度恶化，危机来临；危机、高潮、终局之战，以及或好或坏的结局。
+- 约克的中点是主角能够掌握之前所获得的一项关键真相、特质或收益。约克指出，新的真相显现，灵药已被取得，但他们尚无法正确运用它；后半部分便是在危险不断上升的过程中学会掌握它。约克的风险/回报中点提升了危险程度，并标志着无法回头。
+- 约克的嵌套单元具有分形特征。约克指出，各幕与各个场景都在重复建置、欲望、危机、高潮，有时还包含结局。一幕即为一个欲望的达成过程，不论成功与否。
+
+范例见 [reference.md](reference.md)。
 
 ---
 

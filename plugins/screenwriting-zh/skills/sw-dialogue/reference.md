@@ -64,3 +64,11 @@
 - **同字韵**（《石榴裙下》）：洪医生"原谅老夫骗了你，骗你其实是爱护你，倘若当初依了你，死了雯慧害了你……良心的谴责折磨你，道德的鞭子抽打你，心灵的阴影笼罩你，一辈子没有一个安宁的你，你说要不要阻止你？"；吴妈"喜酒吃好了喜糖发过了喜钿到手了喜事办好了，客人走光了辰光勿早了，二少爷好回来了新娘子要困觉了"。
 - **句式变化**（《桃园曲》抬轿）：桃花"那桃树可有病可有残可有伤来可有亡？"柳"这宝贝枝枝绿叶叶嫩根根粗来棵棵壮""想不会母鸡生疮——""此话怎讲？""毛里有病——""不敢当"……合"抬起那个轿子泪汪汪一只脚跨在棺材旁"。
 - **回文**（《女贞观》）："恨多情过一春，春一过情多恨。闷无心我负人，人负我心无闷。真成假假成真，恩生怨怨生恩。"
+
+---
+
+## Davies 的 TARDIS 修剪与三重情绪润色
+
+Russell T Davies 与 Benjamin Cook 见于 *The Writer's Tale*。他早期的习惯是："I'm gonna go back to the TARDIS, and find the Daleks, and then I'll stop them, and then have a cup of tea." 他现在更倾向于："I'm gonna go back to the TARDIS. Find the Daleks. Stop them. And then, tea." 逗号与句号强加了他的节奏：快速、舒缓、停顿、有力、机智、随意、冷峻。
+
+他极其厌恶并列形容词式的台词，比如 "I felt hurt, angry, betrayed"。准确的重写方式是："I felt angry. God, I was so hurt. You betrayed me!" 即便如此，他也认为如果没有这段台词场景也许更有力，因为这些情绪本就可以被推定。他在写作时会低声念出台词，而不是在每个场景后组织正式的朗读。

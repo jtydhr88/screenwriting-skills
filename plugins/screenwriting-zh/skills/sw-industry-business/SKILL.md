@@ -109,6 +109,15 @@ description: The screenwriting business and career (编剧行业与生意经) �
 - 博克：一小时电视剧无生死无程序性案件时尤需"富有、性感、迷人"；职业剧三黄金职业。
 - 戴蒙德：原创剧本市场萎缩（1995 卖 173 个，2010 卖 55 个）但仍是新人进入的最佳方式；IP 双重标准（渴求 IP 却从无名编剧找新声音然后雇你写续集）。
 
+### 电视编剧聘用、意见反馈与制作期重写
+
+- Pamela Douglas 在 *Writing the TV Drama Series* 中阐述了在剧集获订前准备样本与接洽经纪人的方法。请借鉴此种准备路径，切勿将她所处广播网时代的日程表当作现行的招聘准则。
+- Douglas 记述了在个人截稿期内穿插的编剧室工作：在撰写个人剧本的同时，还要理清故事、研讨大纲并审阅其他编剧的草稿。Neil Landau 在 *The TV Showrunner's Roadmap* 中指出，文书流程与编剧室运作方式因主创而异。
+- Yvonne Grace 在 *Writing for Television* 中将剧本编辑视为编剧与制片人之间的创作兼统筹纽带。双方需就时长、广告停顿点、故事交接、布景、演员阵容及交稿日期展开协作。
+- Douglas 将播出平台高管、法务以及内容审查的修改意见统一汇总至主创。Landau 描述了首席编剧在将修改意见下发给编剧团队成员前如何进行解读与筛选。应着力澄清底层顾虑，切勿将每条修改建议奉为死命令。
+- Chris Curry 在 *Writing for Soaps* 中强调：起草剧本前务必明确剧集的场景、实景地点与演员配额以及演员档期。切勿把多个需要单独拍摄准备的不同空间伪装成一个连贯的单场戏。
+- Russell T Davies 与 Benjamin Cook 在 *The Writer's Tale* 中描述了 showrunner rewrite：首席编剧针对语调基调、连续性及制作限制对编剧团队成员的剧本进行修改，保留可用素材，并向原编剧说明修改原因。制作案例见 [reference.md](reference.md)。
+
 ---
 
 ## 九、奥斯卡与市场逻辑（梅峰）

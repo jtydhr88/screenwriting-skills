@@ -109,6 +109,15 @@ The operational logic and survival strategies of the American screenwriting indu
 - Bork: One-hour TV dramas without life-or-death stakes or procedural machinery must be relentlessly "wealthy, sexy, and glamorous"; the three golden professions of drama series (cops, doctors, lawyers).
 - Diamond: The spec script market has contracted dramatically (173 specs sold in 1995 vs. 55 in 2010), yet it remains the ultimate calling card for emerging talent; the intellectual property (IP) paradox (studios crave pre-existing IP, yet scour unknown screenwriters for fresh original voices to hire for franchise sequels).
 
+### Television staffing, notes, and production rewrites
+
+- Pamela Douglas, *Writing the TV Drama Series*, describes preparing samples and agent approaches before a series order. Use this preparation method, not her broadcast-era calendar as a current hiring rule.
+- Douglas describes room work alongside individual deadlines: break stories, discuss outlines, and review other writers' drafts while writing your own. Neil Landau, *The TV Showrunner's Roadmap*, shows that document steps and room methods vary by showrunner.
+- Yvonne Grace, *Writing for Television*, treats the script editor as a creative and logistical link between writer and producer. Work together on runtime, ad breaks, story handover, sets, cast, and delivery date.
+- Douglas routes network executive, Legal, and Standards notes through the showrunner. Landau describes the lead writer interpreting and filtering notes before passing them to staff. Clarify the underlying concern rather than treating every suggested fix as a command.
+- Chris Curry, *Writing for Soaps*: establish the show's scene, location, and cast allowances and actor availability before drafting. Do not disguise several shooting setups as one continuous scene.
+- Russell T Davies, with Benjamin Cook in *The Writer's Tale*, describes the showrunner rewrite: the lead writer revises staff scripts for voice, continuity, and production limits, retains useful material, and explains changes to the original writer. Production examples are in [reference.md](reference.md).
+
 ---
 
 ## 9. Oscar and Market Realities (Mei Feng)

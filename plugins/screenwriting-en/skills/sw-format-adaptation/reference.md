@@ -252,3 +252,15 @@ Variant note: Scene lines may also appear as `第1场 内 夜 沈越家客厅` o
 ```
 
 Key points: `○` before the Scene Heading, with the time in parentheses after the location; Stage Direction indented three full-width spaces at paragraph start, with character age given on first appearance; Lines formatted as `人名「…」` with parentheticals directly after the name; `×　×　×` marks the passage of time; off-screen dialogue is marked `（声）`, narration `（Ｎ）`, and monologue `（Ｍ）`; consecutive scenes in the same location are noted as `○同・居間`. The cover page carries the draft stage (`準備稿 (junbikō) / 改訂稿 (kaiteikō) / 決定稿 (ketteikō)`).
+
+---
+
+## Grace's development-document templates
+
+The following working templates adapt Yvonne Grace's *Writing for Television*. Use the document the production requests, not a fixed sequence for every show.
+
+1. Pitch: world / period / essential turning point and jeopardy / protagonist or ensemble. Reduce a page to a paragraph for a verbal story meeting.
+2. Treatment: plot / jeopardy / theme or message / tone and style / influences / channel and slot / target audience. Grace reports four to ten pages. Develop the idea rather than applying feature-treatment page rules.
+3. Series outline: later episodes in broad strokes, not every beat. Grace notes that a treatment which already shows longevity may make a separate series outline unnecessary.
+4. Scene-by-scene outline: scene / where / who / what happens / scene intention / plot and character beats. Use this to see weak mechanics, misplaced scenes, or missing turns.
+5. Storyline document: Grace's illustrative *Harkness Hall* template has episode number and TX, cast and interior/exterior set checklists, block identification, and contacts for executive producer, producer, story executive, script editors, and storyliners. For each A, B, or C story, record title, characters or group, location/set, pick-up point, episode arc and beats, and cliffhanger moment. State where the strand starts and ends so the next writer can continue it. Grace's example uses about five to six paragraphs for A and three to four for a smaller B, roughly one paragraph per scene. These are example proportions, not universal quotas. Describe speech and action in prose without dialogue. The writer chooses scene order after the document. A C story may begin within this episode and provide lighter material.

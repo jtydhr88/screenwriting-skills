@@ -33,6 +33,12 @@
 
 The Idea vs. Counter-Idea cycle (crime pays / crime does not pay): *Vertigo* -> *The Big Sleep* -> *Farewell, My Lovely* -> *The Fugitive* -> *RoboCop* -> *Sudden Impact*.
 
+### One argument, different concepts (Rabkin)
+
+William Rabkin, *Writing the Pilot: Creating the Series*, states the thematic question: how much evil can a good man do in the pursuit of doing good before he becomes the evil he is fighting. Rabkin's contradictory statement: a man whose job is to sell America on consumerism as happiness while fighting the knowledge that it is not true in his own life.
+
+- Rabkin shows the same question becoming different concepts by selecting agent and opposition: vampire hunter, or ruthless political aide. Rabkin also lists a CIA agent against terrorists as another location of the same opposition.
+
 ## III. Cron: The Construction Process of the Ruby Case
 
 - **Spark**: Jenny's "woman who hates dogs." **Why care**: Love and death are separated by a razor's edge. **Theme**: "Love is worth everything; better to have loved and lost than never to have loved at all" (cliches are fine).

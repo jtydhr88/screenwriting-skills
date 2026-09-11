@@ -1,6 +1,6 @@
 ---
 name: sw-character-conflict
-description: English edition. Character creation, protagonist/antagonist design and dramatic conflict for scripts (人物/对手/冲突) — merged from Lajos Egri (three-dimensional character, orchestration, unity of opposites, pivotal character, rising vs static vs jumping conflict, transition), William Indick's Psychology for Screenwriters (Freud id/ego/superego and defense mechanisms, Erikson identity crises, Jung archetypes and quaternity, Campbell/Murdock hero journeys, Adler inferiority and lifestyles, Rollo May existential stages), Robert McKee (characterization vs true character, dimensions, gap, antagonism principle), Neill Hicks (character invocation, self-concept, cognitive dissonance, five conflict focuses, Maslow), Lisa Cron (desire vs misbelief), and Lu Jun (人物要活八要, 对手要强, 给对手一把刀, 最强的对手是自己, 不许请祥云). Use when building a protagonist, an antagonist or a cast, when a character feels flat or acts out of character, when conflict stalls or jumps, when a villain is too weak, when designing an arc or motive, or when diagnosing melodrama.
+description: English edition. Character creation, protagonist/antagonist design and dramatic conflict for scripts (人物/对手/冲突) — merged from Lajos Egri (three-dimensional character, orchestration, unity of opposites, pivotal character, rising vs static vs jumping conflict, transition), William Indick's Psychology for Screenwriters (Freud id/ego/superego and defense mechanisms, Erikson identity crises, Jung archetypes and quaternity, Campbell/Murdock hero journeys, Adler inferiority and lifestyles, Rollo May existential stages), Robert McKee (characterization vs true character, dimensions, gap, antagonism principle), Neill Hicks (character invocation, self-concept, cognitive dissonance, five conflict focuses, Maslow), Lisa Cron (desire vs misbelief), and Lu Jun (人物要活八要, 对手要强, 给对手一把刀, 最强的对手是自己, 不许请祥云); John Yorke's defensive façades and post-midpoint integration with William Rabkin's externalized relationship pressure. Use when building a protagonist, an antagonist or a cast, when a character feels flat or acts out of character, when conflict stalls or jumps, when a villain is too weak, when designing an arc or motive, or when diagnosing melodrama.
 ---
 
 # Character & Conflict (人物与冲突)
@@ -24,6 +24,15 @@ Four source traditions cross-check one another: **Lajos Egri** gives structural 
 - **Character Design = Solar System**: The protagonist is the sun, secondary characters orbiting planets, bit players moons; supporting characters exist to bring out dimensions in the protagonist; bit players need only one striking, fresh trait, and adding a dimension obliges giving them recurring narrative weight.
 - Three keys: Leave room for the actor; love all your characters, especially the villains (the Terminator fixing his hair after gouging out his eye); character is self-knowledge (an honest answer to "what would I do if I were this character" is always right).
 - Motivation: The more tightly motivation is pinned to one childhood cause, the smaller the character (child abuse flashbacks are clichés); keep self-justifications close to the chest (Rick saying "I stick my neck out for nobody" earns the reply "Oh, your time just hasn't come yet").
+
+### Defensive choices and external pressure (Yorke and Rabkin)
+
+John Yorke, *Into the Woods*, treats façade as chosen protective behavior. William Rabkin, *Writing the Pilot: Creating the Series*, treats inner contradiction as dramatic when other people apply pressure.
+
+- Yorke: the same fear can produce different protective behavior. Identify how the chosen façade promises safety yet obstructs the goal. Yorke lists possible responses to intimacy fear such as joking, blaming a partner, or isolation.
+- Rabkin: internal contradiction becomes dramatic when relationships apply external pressure. Incompatible beliefs alone are not enough.
+
+Examples in [reference.md](reference.md).
 
 ### Character Invocation and Self-Concept (Hicks)
 - Reject mechanical character dossier worksheets; writing is **character invocation**: you discover rather than invent—listen actively, so fast your fingers can barely keep up; all characters are facets of yourself (an autobiographical magnifying glass), but a wooden character may be too much like you, a signal to search for traits beyond yourself.
@@ -127,6 +136,10 @@ Four source traditions cross-check one another: **Lajos Egri** gives structural 
 - Hoxter: The theme holds steady while attitude shifts; starting point = opening condition, peak = story goal; independent films magnify tiny shifts (a painfully shy boy having one genuine conversation = a hero's triumph).
 - Indick: The protagonist must end better and stronger; transformation can spiral upward or downward; if no one changes, the story is incomplete.
 - Lu Jun: Characters who travel far from beginning to end or reverse their initial trajectory are easier to etch vividly; the craft secret is revealing the gradual unfolding (Han Qi, the police chief, Xu Xian).
+
+### Integrating the changed self (Yorke)
+
+John Yorke, *Into the Woods*: after midpoint the protagonist integrates useful old and new traits. Yorke rejects opposite-identity takeover. Yorke: merge the good from the new with the good from the old until the sides balance. Yorke caveat: in redemption the once-unconscious opposite saves them; in tragedy the impulses that built the fantasy destroy the goal.
 
 ---
 

@@ -1,7 +1,7 @@
 {
   "name": "screenwriting",
-  "description": "13 skills covering project workflow & story bible, story structure, premise & theme, character & conflict psychology, dialogue, scene craft, format & adaptation, American case studies, Japanese screenwriting method, Korean & French screenwriting, industry & business, plus Chekhov dramaturgy and Ozu screenplay style, distilled from 19 books",
-  "version": "1.3.0",
+  "description": "14 skills covering project workflow & story bible, story structure, premise & theme, character & conflict psychology, dialogue, scene craft, format & adaptation, American case studies, Japanese screenwriting method, Korean & French screenwriting, industry & business, television series design, plus Chekhov dramaturgy and Ozu screenplay style, drawn from 26 source entries",
+  "version": "1.4.0",
   "author": {
     "name": "terry"
   },

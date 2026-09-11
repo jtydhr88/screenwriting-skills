@@ -84,6 +84,27 @@
 
 ---
 
+## I-2. series-bible variant (television)
+
+Internal planning form, not a published book template. Insert after project info. Keep the other bible sections; fill applicable series fields, not feature-only counters.
+
+```markdown
+## Series bible
+
+- Stage/state: `sw-workflow`
+- Engine (`sw-series-showrunning` / `sw-premise-theme`): concept, conflict, and theme that generate episodes; Rabkin one-sentence repeated pattern
+- Arena (Landau / `sw-series-showrunning`): the world the show lives in
+- Franchise (Landau / `sw-series-showrunning`): weekly verbs the show can replay
+- Form (Grace / Landau / `sw-series-showrunning`): series, serial, or soap; closed, serialized, or hybrid as distinct choices
+- Six future ideas (Landau / `sw-series-showrunning`): springboards that test the engine
+- Pilot (Landau / Rabkin / `sw-series-showrunning`): first-episode design
+- Season arc (`sw-series-showrunning`; Yorke via `sw-story-structure` and `sw-character-conflict`): season-long story shape
+- Episode grid (`sw-series-showrunning`): pointer to the external per-episode file; actual act count; A/B/C beat-to-scene mappings; optional teaser/tag only if the format uses them; Douglas four-act example is not a fixed grid
+- Continuity (Curry / Rabkin / Grace / `sw-series-showrunning`; document layout `sw-format-adaptation`): incoming and outgoing cliff; emotional state and known facts; open landmines; natural lengths
+```
+
+---
+
 ## II. Phase 2 Worksheet: BS2 Page Count Conversion
 
 Based on 110 pages as a baseline, multiply by the target page count and round to the nearest whole number:
