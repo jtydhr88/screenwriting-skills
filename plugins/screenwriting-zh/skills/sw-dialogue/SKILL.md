@@ -1,11 +1,11 @@
 ---
 name: sw-dialogue
-description: "Dialogue writing and revision for screen and stage (对白/台词/潜台词/唱词) — merged from Robert McKee's Dialogue (dialogue as action, said/unsaid/unsayable, exposition as ammunition, beat = action/reaction gerunds, flaws of credibility/language/content/design, character-specific vocabulary and grammar, seven scene analyses), Richard Walter (economy, subtext, argument, no small talk, no parentheticals, silence), Neill Hicks (listening, on-the-nose exceptions, energy, five-step exercise), Lu Jun (语言要美: 典雅美/通俗美, 对话三要求 动作性/性格化/潜台词, 戏曲唱词三好 选韵/结构/布局), Lajos Egri (dialogue born of three-dimensional character, escalation), Blake Snyder (cover-the-names test), and screwball-comedy dialogue conventions. Use when writing or polishing dialogue, fixing on-the-nose or expository lines, giving each character a distinct voice, converting a two-hander into a trialogue, writing comedy exchanges, cutting speeches, or composing Chinese opera lyrics."
+description: "Dialogue writing and revision for screen and stage (对白/台词/潜台词/唱词) — merged from Robert McKee's Dialogue (dialogue as action, said/unsaid/unsayable, exposition as ammunition, beat = action/reaction gerunds, flaws of credibility/language/content/design, character-specific vocabulary and grammar, seven scene analyses), Richard Walter (economy, subtext, argument, no small talk, no parentheticals, silence), Neill Hicks (listening, on-the-nose exceptions, energy, five-step exercise), Lu Jun (语言要美: 典雅美/通俗美, 对话三要求 动作性/性格化/潜台词, 戏曲唱词三好 选韵/结构/布局), Lajos Egri (dialogue born of three-dimensional character, escalation), Blake Snyder (cover-the-names test), and screwball-comedy dialogue conventions. Additional television craft from Russell T Davies and Benjamin Cook's The Writer's Tale. Use when writing or polishing dialogue, fixing on-the-nose or expository lines, giving each character a distinct voice, converting a two-hander into a trialogue, writing comedy exchanges, cutting speeches, or composing Chinese opera lyrics."
 ---
 
 # 对白（Dialogue）
 
-核心命题只有一条：**对白是一种行动**（麦基：dia＋legein＝经过言辞的行动）。每句话之下有欲望、意图与策略；"对白的毛病是故事的毛病"，改不好的对白先回头查事件与人物设计。本 skill 合并麦基《对白》的完整体系、沃尔特/希克斯的美式实操禁忌、陆军的中国戏剧语言论（含戏曲唱词）、埃格里的人物—对话关系、神经喜剧的台词模式。七个场景逐节拍分析范例与唱词范例见 [reference.md](reference.md)。
+核心命题只有一条：**对白是一种行动**（麦基：dia＋legein＝经过言辞的行动）。每句话之下有欲望、意图与策略；"对白的毛病是故事的毛病"，改不好的对白先回头查事件与人物设计。本 skill 合并麦基《对白》的完整体系、沃尔特/希克斯的美式实操禁忌、陆军的中国戏剧语言论（含戏曲唱词）、埃格里的人物—对话关系、神经喜剧的台词模式。七个场景逐节拍分析范例与唱词范例见 [reference.md](reference.md)。 Russell T Davies 与 Benjamin Cook 的 The Writer's Tale 补充对白节奏与修改方法。
 
 ---
 

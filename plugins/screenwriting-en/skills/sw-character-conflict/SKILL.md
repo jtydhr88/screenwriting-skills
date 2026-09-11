@@ -5,7 +5,7 @@ description: English edition. Character creation, protagonist/antagonist design 
 
 # Character & Conflict (人物与冲突)
 
-Four source traditions cross-check one another: **Lajos Egri** gives structural character theory (three dimensions, orchestration, unity of opposites, four conflict types, transition); **William Indick** gives the psychology of motivation (Freud to Erikson to Jung to Campbell/Murdock to Adler to Rollo May); **Robert McKee, Neill Hicks, Lisa Cron, and Blake Snyder** give American practical craft checks (choice under pressure, self-concept, misbelief, Save the Cat); **Lu Jun** gives the eight essentials for bringing dramatic characters to life and the methods for building antagonists. For archetype tables, psychological checklists, and Egri's analytical templates, see [reference.md](reference.md).
+The source traditions cross-check one another: **Lajos Egri** gives structural character theory (three dimensions, orchestration, unity of opposites, four conflict types, transition); **William Indick** gives the psychology of motivation (Freud to Erikson to Jung to Campbell/Murdock to Adler to Rollo May); **Robert McKee, Neill Hicks, Lisa Cron, and Blake Snyder** give American practical craft checks (choice under pressure, self-concept, misbelief, Save the Cat); **Lu Jun** gives the eight essentials for bringing dramatic characters to life and the methods for building antagonists. For archetype tables, psychological checklists, and Egri's analytical templates, see [reference.md](reference.md). Yorke adds defensive choices and integration; William Rabkin's Writing the Pilot: Creating the Series adds interpersonal pressure on internal contradiction.
 
 ---
 

@@ -8,14 +8,14 @@
   },
   "plugins": [
     {
-      "name": "screenwriting",
+      "name": "screenwriting-zh",
       "source": "./plugins/screenwriting-zh",
-      "description": "14 skills: project workflow & story bible, story structure, premise & theme, character & conflict psychology, dialogue, scene craft, format & adaptation, American case studies, Japanese screenwriting method, Korean & French screenwriting, industry & business, series showrunning, Chekhov dramaturgy, Ozu screenplay style"
+      "description": "14 skills: project workflow & story bible, story structure, premise & theme, character & conflict psychology, dialogue, scene craft, format & adaptation, American case studies, Japanese screenwriting method, Korean & French screenwriting, industry & business, television series design, Chekhov dramaturgy, Ozu screenplay style"
     },
     {
       "name": "screenwriting-en",
       "source": "./plugins/screenwriting-en",
-      "description": "English edition: the same 14 skills as screenwriting, with English skill bodies translated from the Chinese files (project workflow & story bible, story structure, premise & theme, character & conflict psychology, dialogue, scene craft, format & adaptation, American case studies, Japanese screenwriting method, Korean & French screenwriting, industry & business, series showrunning, Chekhov dramaturgy, Ozu screenplay style)"
+      "description": "English edition: the same 14 skills as screenwriting-zh, with English skill bodies translated from the Chinese files (project workflow & story bible, story structure, premise & theme, character & conflict psychology, dialogue, scene craft, format & adaptation, American case studies, Japanese screenwriting method, Korean & French screenwriting, industry & business, television series design, Chekhov dramaturgy, Ozu screenplay style)"
     }
   ]
 }

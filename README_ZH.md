@@ -2,15 +2,15 @@
 
 [English](README.md)
 
-14 项独立的编剧与戏剧技巧，分两个插件发布：`screenwriting`（正文中文）与 `screenwriting-en`（正文英文）。来源目录共 26 条，包括 24 部技法书与两个合集（契诃夫剧作、小津安二郎剧本）；译文不另计为独立技巧。
+14 项独立的编剧与戏剧技巧，分两个插件发布：`screenwriting-zh`（正文中文）与 `screenwriting-en`（正文英文）。来源目录共 26 条，包括 24 部技法书与两个合集（契诃夫剧作、小津安二郎剧本）；译文不另计为独立技巧。
 
-`screenwriting` 的 skill 正文用中文（引文来自中文译本）；`screenwriting-en` 的正文由中文文件翻译而来，中文文件始终是真源。两个插件的 frontmatter description 都用英文并附中文关键词，中英文提问都能触发。
+`screenwriting-zh` 的 skill 正文用中文（引文来自中文译本）；`screenwriting-en` 的正文由中文文件翻译而来，中文文件始终是真源。两个插件的 frontmatter description 都用英文并附中文关键词，中英文提问都能触发。
 
 ## 安装
 
 ```
 /plugin marketplace add jtydhr88/screenwriting-skills
-/plugin install screenwriting@screenwriting-skills
+/plugin install screenwriting-zh@screenwriting-skills
 ```
 
 ## 英文版

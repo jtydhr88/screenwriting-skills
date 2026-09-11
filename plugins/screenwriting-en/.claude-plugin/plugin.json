@@ -1,6 +1,6 @@
 {
   "name": "screenwriting-en",
-  "description": "English edition of the screenwriting plugin: 14 skills covering project workflow & story bible, story structure, premise & theme, character & conflict psychology, dialogue, scene craft, format & adaptation, American case studies, Japanese screenwriting method, Korean & French screenwriting, industry & business, television series design, Chekhov dramaturgy, and Ozu screenplay style, drawn from 26 source entries",
+  "description": "English edition of the screenwriting-zh plugin: 14 skills covering project workflow & story bible, story structure, premise & theme, character & conflict psychology, dialogue, scene craft, format & adaptation, American case studies, Japanese screenwriting method, Korean & French screenwriting, industry & business, television series design, Chekhov dramaturgy, and Ozu screenplay style, drawn from 26 source entries",
   "version": "1.4.0",
   "author": {
     "name": "terry"

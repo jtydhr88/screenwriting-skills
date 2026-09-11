@@ -1,11 +1,11 @@
 ---
 name: sw-scene-craft
-description: Scene and sequence craft (场景/段落/细节/道具/悬念/情趣) — merged from Robert McKee's scene design and five-step scene analysis (value turn, beats, text/subtext, turning points, pacing, image systems), McKee's Dialogue scene types (balanced, comic, asymmetric, indirect, reflexive, minimal), Syd Field's sequence and scene elements, Neill Hicks (less is more, enter late leave early, energy), Richard Walter (action over talk, small gestures, avoid phones/cars/restaurants, list twelve alternative locations), Wendy Henson (action paragraphs, transitions, story-doing), Julian Hoxter (scene beats, objectives and tactics), Mei Feng's value test, and Lu Jun's chapters 意趣要足 (suspense, delay, wit), 细节要妙, 道具要精, 场景要当. Use when writing or fixing a single scene, choosing a location, building a sequence, planting a prop or detail, designing suspense and delay, cutting a scene that "nothing happens" in, or turning talk into action.
+description: "Scene and sequence craft (场景/段落/细节/道具/悬念/情趣) — merged from Robert McKee's scene design and five-step scene analysis (value turn, beats, text/subtext, turning points, pacing, image systems), McKee's Dialogue scene types (balanced, comic, asymmetric, indirect, reflexive, minimal), Syd Field's sequence and scene elements, Neill Hicks (less is more, enter late leave early, energy), Richard Walter (action over talk, small gestures, avoid phones/cars/restaurants, list twelve alternative locations), Wendy Henson (action paragraphs, transitions, story-doing), Julian Hoxter (scene beats, objectives and tactics), Mei Feng's value test, and Lu Jun's chapters 意趣要足 (suspense, delay, wit), 细节要妙, 道具要精, 场景要当. Additional television scene craft from Chris Curry's Writing for Soaps and Russell T Davies and Benjamin Cook's The Writer's Tale. Use when writing or fixing a single scene, choosing a location, building a sequence, planting a prop or detail, designing suspense and delay, cutting a scene that \"nothing happens\" in, or turning talk into action."
 ---
 
 # 场景与段落（Scene Craft）
 
-场景是"戏剧最小表意单位"（陆军），也是"缩微故事"（麦基）。本 skill 处理一场戏从选址到落笔的全部决定：**为什么在此时此地、押上什么价值、谁要什么用什么策略、节拍如何叠加到转折、道具和细节如何做功、悬念如何设置与延宕、如何进出场景**。分析范例与工具表见 [reference.md](reference.md)；对白层面见 `sw-dialogue`；全片结构见 `sw-story-structure`。
+场景是"戏剧最小表意单位"（陆军），也是"缩微故事"（麦基）。本 skill 处理一场戏从选址到落笔的全部决定：**为什么在此时此地、押上什么价值、谁要什么用什么策略、节拍如何叠加到转折、道具和细节如何做功、悬念如何设置与延宕、如何进出场景**。分析范例与工具表见 [reference.md](reference.md)；对白层面见 `sw-dialogue`；全片结构见 `sw-story-structure`。 新增来源：Chris Curry 的 Writing for Soaps；Russell T Davies 与 Benjamin Cook 的 The Writer's Tale。
 
 ---
 

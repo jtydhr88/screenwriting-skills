@@ -147,7 +147,7 @@
 2. `sw-character-conflict` 第八节 人物诊断 14 问
 3. `sw-scene-craft` 第九节 场景诊断 13 问
 4. `sw-dialogue` 第九节 对白诊断 14 问
-5. `sw-format-adaptation` 第六节 格式诊断 11 问
+5. `sw-format-adaptation` 第六节 格式诊断 12 问
 6. 斯奈德修改九问（在 `sw-story-structure` 第十一节末）
 
 并行审读时，每个 agent 只跑一份清单，输出格式统一为：`清单编号-问题号 | 位置（场次/页） | 问题一句话 | 建议一句话`。

@@ -4,7 +4,7 @@
 
 ---
 
-## I. Comparison Across Six Structural Systems
+## I. Structural comparisons and examples
 
 | Phase | Field (120 pp.) | Snyder BS2 (110 pp.) | Hoxter Nine Beats | McKee | Hicks | Lu Jun |
 |---|---|---|---|---|---|---|

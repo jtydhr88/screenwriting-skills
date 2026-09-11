@@ -2,15 +2,15 @@
 
 [中文版](README_ZH.md)
 
-14 unique Claude Code skills for screenwriting and dramaturgy, shipped in two plugins, `screenwriting` with Chinese skill bodies and `screenwriting-en` with English skill bodies. The 26 source entries comprise 24 craft books plus Chekhov's collected plays and Ozu Yasujiro's collected screenplays.
+14 unique Claude Code skills for screenwriting and dramaturgy, shipped in two plugins, `screenwriting-zh` with Chinese skill bodies and `screenwriting-en` with English skill bodies. The 26 source entries comprise 24 craft books plus Chekhov's collected plays and Ozu Yasujiro's collected screenplays.
 
-In `screenwriting` the skill bodies are Chinese (the sources and quotations are Chinese translations). In `screenwriting-en` the bodies are English translations of the Chinese files, which stay the source of truth. Frontmatter descriptions are English with Chinese keywords in both plugins, so both languages trigger them.
+In `screenwriting-zh` the skill bodies are Chinese (the sources and quotations are Chinese translations). In `screenwriting-en` the bodies are English translations of the Chinese files, which stay the source of truth. Frontmatter descriptions are English with Chinese keywords in both plugins, so both languages trigger them.
 
 ## Install
 
 ```
 /plugin marketplace add jtydhr88/screenwriting-skills
-/plugin install screenwriting@screenwriting-skills
+/plugin install screenwriting-zh@screenwriting-skills
 ```
 
 ## English edition

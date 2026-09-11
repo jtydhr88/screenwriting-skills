@@ -147,7 +147,7 @@ Run through in order, copying failed items into a one-line revision target:
 2. `sw-character-conflict` Section 8: 14 Character Diagnostic Questions
 3. `sw-scene-craft` Section 9: 13 Scene Diagnostic Questions
 4. `sw-dialogue` Section 9: 14 Dialogue Diagnostic Questions
-5. `sw-format-adaptation` Section 6: 11 Format Diagnostic Questions
+5. `sw-format-adaptation` Section 6: 12 Format Diagnostic Questions
 6. Snyder's Nine Diagnostic Questions (at the end of `sw-story-structure` Section 11)
 
 When reviewing in parallel, each agent runs only one checklist, with the standardized output format: `Checklist ID-Question # | Location (Scene/Page) | Issue in one sentence | Recommendation in one sentence`.
