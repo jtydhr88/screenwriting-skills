@@ -1,0 +1,11 @@
+{
+  "name": "screenwriting-en",
+  "description": "English edition of the screenwriting plugin: the same 13 skills (project workflow & story bible, story structure, premise & theme, character & conflict psychology, dialogue, scene craft, format & adaptation, American case studies, Japanese screenwriting method, Korean & French screenwriting, industry & business, Chekhov dramaturgy, Ozu screenplay style) with English skill bodies translated from the Chinese files",
+  "version": "0.1.0",
+  "author": {
+    "name": "terry"
+  },
+  "license": "For personal study use",
+  "keywords": [ "screenwriting", "dramaturgy", "story-structure", "character", "dialogue", "adaptation", "chekhov", "ozu", "english" ],
+  "skills": "./skills"
+}

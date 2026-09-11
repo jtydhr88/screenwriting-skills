@@ -2,7 +2,7 @@
 
 [English](README.md)
 
-把 19 本编剧/戏剧理论书籍（中、美、日）加上两套大师作品全集（契诃夫戏剧全集、小津安二郎剧本集）提炼成的 13 个 Claude Code skill。
+本插件收录 13 项独立的编剧与戏剧技巧。来源目录共 19 条：17 部技法书，外加两个合集（契诃夫剧作、小津安二郎剧本）。
 
 skill 正文用中文（引文来自中文译本），frontmatter 的 description 用英文并附中文关键词，中英文提问都能触发。
 
@@ -12,6 +12,14 @@ skill 正文用中文（引文来自中文译本），frontmatter 的 descriptio
 /plugin marketplace add jtydhr88/screenwriting-skills
 /plugin install screenwriting@screenwriting-skills
 ```
+
+## 英文版
+
+```
+/plugin install screenwriting-en@screenwriting-skills
+```
+
+`screenwriting-en` 插件收录同样的 13 个 skill，正文为英文。英文 skill 由中文 skill 翻译而来；翻译 PR 合入之前，中文文件是唯一的真源，该插件安装后暂时没有 skill。
 
 ## 技能一览
 
@@ -33,7 +41,7 @@ skill 正文用中文（引文来自中文译本），frontmatter 的 descriptio
 
 每个 skill 有 `SKILL.md`（原理、清单、工作流程），多数另有 `reference.md`（表格、逐节拍分析、原文引文）。
 
-## 来源书目
+## 来源书籍与合集（19）
 
 悉德·菲尔德《电影剧本写作基础》；布莱克·斯奈德《救猫咪》；罗伯特·麦基《故事》《对白》；朱利安·霍克斯特《编剧的十二条法则》；尼尔·D·希克斯《编剧的核心技巧》；拉约什·埃格里《编剧的艺术》；莉萨·克龙《怎样写故事》；威廉·尹迪克《编剧心理学》；理查德·沃尔特《剧本》；温迪·简·汉森《编剧：步步为营》；戴蒙德&韦斯曼《好莱坞编剧的生意经》；埃里克·博克《如何写出好故事：HBO 大师写作课》；梅峰《编剧的自修课》；刘大鹏编《故事创作大师班（国际卷）》；陆军《编剧理论与技法》；泊贵洋编《从零开始做编剧》；《契诃夫戏剧全集》；《小津安二郎剧本集》。
 
