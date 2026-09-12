@@ -1,14 +1,12 @@
 # screenwriting-skills
 
-[中文版](README_ZH.md)
+[中文版](README_ZH.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Français](README_FR.md)
 
 20 agent skills (for [Claude Code](https://docs.anthropic.com/en/docs/claude-code/skills) and [OpenAI Codex](https://developers.openai.com/codex/build-skills)) for screenwriting, television writing and dramaturgy, distilled from 32 craft books and 12 volumes of published scripts and plays (Chinese, American, British, Japanese and Korean).
 
 The `SKILL.md` files follow the open [agentskills.io](https://agentskills.io) standard and are shared by both agents — install once, works everywhere.
 
-The pack ships in two editions of the same 20 skills: `screenwriting`, whose skill bodies are Chinese (most sources are Chinese originals or Chinese translations), and `screenwriting-en`, whose bodies are English translations of those files. A skill body is the instruction set the agent executes; the English edition exists so a reader who does not read Chinese can audit and learn from what it runs. The Chinese files stay the source of truth. Frontmatter descriptions are English with Chinese keywords in both editions, so questions in either language trigger them.
-
-**Install one edition or the other, not both** — the two carry the same skill names by design, so installing both leaves the agent choosing between two copies of every skill.
+**Ask in your own language.** The skill bodies are written in Chinese, because most of the sources are Chinese originals or Chinese translations. That is an implementation detail, not a restriction: ask in English, Japanese, Korean or French and you get the answer in that language. See [Multilingual support](#multilingual-support) for why there is one source tree and not five.
 
 ## Install
 
@@ -21,7 +19,7 @@ The pack ships in two editions of the same 20 skills: `screenwriting`, whose ski
 /plugin install screenwriting@screenwriting-skills
 ```
 
-For the English edition, `/plugin install screenwriting-en@screenwriting-skills` instead. Skills are then invoked as `/screenwriting:<skill>` (or `/screenwriting-en:<skill>`).
+Skills are then invoked as `/screenwriting:<skill>`, e.g. `/screenwriting:sw-dialogue`.
 
 #### Personal (all projects)
 
@@ -88,6 +86,23 @@ Run `/skills` to list available skills, or invoke one explicitly with `$sw-story
 # → agent uses sw-workflow
 ```
 
+## Multilingual support
+
+**One source tree, every language at runtime.** The skills are written once, in Chinese, and the agent delivers in whatever language you asked in.
+
+This is a deliberate decision, and it was not the first one. An English edition — a parallel `screenwriting-en` plugin with all 20 skills translated — was proposed in [#3](https://github.com/jtydhr88/screenwriting-skills/issues/3), built, and merged. It has since been removed. The argument that killed it is the one that applies equally to every other language: if a reader who cannot read Chinese deserves a translated tree, so does a reader who cannot read English, and the next request is Japanese, then Korean, then French, then Russian. Five languages is 230 files that drift independently, with nothing to tell you which one is stale. The cost is not the translation; it is that forking once removes any principled ground for refusing the second fork.
+
+So the line is drawn at the source, and the runtime does the rest:
+
+- **Output language follows your question.** Ask in French, get French. No flag, no separate install.
+- **Terminology is anchored, not re-improvised.** The craft vocabulary of this field is originally English — *logline*, *act out*, *beat sheet*, *showrunner*, *staff writer*. The Chinese in the source books (计程绳, 出幕, 节拍表, 剧目管理人, 试用编剧) is the translation, and different translators chose differently. [`sw-workflow/terms.md`](plugins/screenwriting/skills/sw-workflow/terms.md) maps each concept back to its original term, so the agent restores the word instead of inventing one — and it serves all languages at once, because a Japanese or French screenwriter also says *act out* and *logline*.
+- **Terms with no equivalent keep their original form plus a gloss.** 戏眼, 扣子, ト書き and 決定稿 are not forced into English; they come through as `戏眼 (xìyǎn — the one-line core attraction of an episode)`.
+- **Your script stays in your script's language.** Discussing a Chinese screenplay in English is normal; the conversation switches language, the draft does not.
+
+What this trades away is auditability: you cannot read the instruction file itself unless you read Chinese, only the agent's account of it. That is a real cost, and it is the one thing the deleted English edition genuinely bought. It was not worth a permanent five-way maintenance burden.
+
+**READMEs are a different matter** and are translated, because they are short, stable, and the thing a newcomer meets first. The Japanese, Korean and French READMEs deliberately stop at install, structure and this policy; the full skill tables and the source bibliography live here and in the Chinese README rather than being copied four times — for exactly the reason above.
+
 ## How the skills are organised
 
 Four layers. A feature project uses layers 1, 3 and 4; a series project uses all four, because the series layer replaces structure-for-film with engine-and-season thinking rather than sitting next to it.
@@ -152,7 +167,7 @@ Each skill has a `SKILL.md` (principles, checklists, workflow), and all but one 
 ## Conventions
 
 - `SKILL.md` frontmatter: `name` (kebab-case, matches the folder) and a long English `description` ending in "Use when …", with Chinese keywords in parentheses for triggering.
-- Skill bodies are Chinese in `screenwriting` and English in `screenwriting-en`; numbered principles, tables and checklists; cross-references between skills by folder name.
+- Skill bodies are Chinese; numbered principles, tables and checklists; cross-references between skills by folder name. Output language is the user's, not the file's — see [Multilingual support](#multilingual-support).
 - Agent-neutral by design: the skill files name no agent and use no agent-specific syntax, so the same `SKILL.md` works under Claude Code, Codex, or anything else that reads the agentskills.io format. Each plugin carries a `.claude-plugin/plugin.json` and a `.codex-plugin/plugin.json` over one shared `skills/` directory.
 - Where the sources disagree, both positions are kept side by side with a note on when to use which — for example Douglas's four-act grid against Oberg's "act breaks are only the size of the sausages", or theme-as-design against theme-as-emergent.
 - Industry facts carry the year of their source, because rates, platforms and act counts date quickly; Chinese policy figures are marked 2014/2016.

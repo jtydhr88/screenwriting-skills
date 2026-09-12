@@ -5,6 +5,8 @@ description: Dialogue writing and revision for screen and stage (对白/台词/�
 
 # 对白（Dialogue）
 
+> **输出语言＝提问语言**；术语一律锚回原词，见 [sw-workflow/terms.md](../sw-workflow/terms.md)，不自创译名。
+
 核心命题只有一条：**对白是一种行动**（麦基：dia＋legein＝经过言辞的行动）。每句话之下有欲望、意图与策略；"对白的毛病是故事的毛病"，改不好的对白先回头查事件与人物设计。本 skill 合并麦基《对白》的完整体系、沃尔特/希克斯的美式实操禁忌、陆军的中国戏剧语言论（含戏曲唱词）、埃格里的人物—对话关系、神经喜剧的台词模式。七个场景逐节拍分析范例与唱词范例见 [reference.md](reference.md)。
 
 ---

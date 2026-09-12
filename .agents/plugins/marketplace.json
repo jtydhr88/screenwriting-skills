@@ -6,23 +6,10 @@
   "plugins": [
     {
       "name": "screenwriting",
-      "description": "20 skills for screenwriting, television writing and dramaturgy, distilled from 32 craft books and 12 volumes of published scripts (Chinese skill bodies)",
+      "description": "20 skills for screenwriting, television writing and dramaturgy, distilled from 32 craft books and 12 volumes of published scripts (Chinese skill bodies); answers in the language you ask in (one Chinese source tree, no per-language forks)",
       "source": {
         "source": "local",
         "path": "./plugins/screenwriting"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Productivity"
-    },
-    {
-      "name": "screenwriting-en",
-      "description": "English edition: the same 20 skills with English skill bodies translated from the Chinese files",
-      "source": {
-        "source": "local",
-        "path": "./plugins/screenwriting-en"
       },
       "policy": {
         "installation": "AVAILABLE",

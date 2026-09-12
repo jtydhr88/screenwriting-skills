@@ -5,6 +5,8 @@ description: Writing screenplays in the style of Ozu Yasujiro and Noda Kogo (小
 
 # 小津安二郎剧本写法（Ozu Screenplay Style）
 
+> **输出语言＝提问语言**；术语一律锚回原词，见 [sw-workflow/terms.md](../sw-workflow/terms.md)，不自创译名。
+
 本 skill 从《小津安二郎剧本集》（野田高梧＋小津安二郎编剧，吴菲译）六部剧本逐场拆解中提炼：《晚春》（1949，103 场）、《麦秋》（1951，145 场）、《东京物语》（1953，176 场）、《浮草》（1959，121 场）、《秋日和》（1960，110 场）、《秋刀鱼之味》（1962，98 场）。
 
 核心信条：**大事件全部发生在画外，剧本只写事件之前和之后的家常。** 观众看到的不是事件，而是事件在人际关系上激起的涟漪。

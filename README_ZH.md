@@ -1,14 +1,12 @@
 # screenwriting-skills（编剧技能集）
 
-[English](README.md)
+[English](README.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Français](README_FR.md)
 
 把 32 本编剧/剧作理论书籍与 12 卷出版剧本（中、美、英、日、韩）提炼成的 20 个 agent skill，面向 [Claude Code Skills](https://docs.anthropic.com/en/docs/claude-code/skills) 与 [OpenAI Codex](https://developers.openai.com/codex/build-skills)，覆盖电影长片、电视剧集、舞台剧。
 
 所有 `SKILL.md` 文件遵循开放的 [agentskills.io](https://agentskills.io) 标准，Claude Code 与 Codex 通用——装一次，两个 Agent 都能用。
 
-同样的 20 个 skill 分两个版本：`screenwriting` 正文为中文（来源多为中文原著或中译本），`screenwriting-en` 正文是它的英文译本。skill 正文就是 agent 实际执行的指令集；英文版的意义在于让看不懂中文的读者能够审查并学习 agent 到底在跑什么。中文文件仍是唯一真源。两版的 frontmatter description 都是英文并附中文关键词，中英文提问都能触发。
-
-**两个版本装一个即可，不要同时安装**——两版的 skill 名有意保持一致，同时装会让 agent 在两份同名 skill 之间挑。
+**用你自己的语言提问即可。** skill 正文是中文，因为来源多为中文原著或中译本；这是实现细节，不是限制——用英语、日语、韩语、法语提问，就用那种语言得到回答。为什么只有一棵源树而不是五棵，见[多语言支持](#多语言支持)。
 
 ## 安装
 
@@ -21,7 +19,7 @@
 /plugin install screenwriting@screenwriting-skills
 ```
 
-英文版把最后一行换成 `/plugin install screenwriting-en@screenwriting-skills`。装好后用 `/screenwriting:<skill>`（或 `/screenwriting-en:<skill>`）调用。
+装好后用 `/screenwriting:<skill>` 调用，例如 `/screenwriting:sw-dialogue`。
 
 #### 个人级别（所有项目生效）
 
@@ -88,6 +86,23 @@ cp -r screenwriting-skills/plugins/screenwriting/skills/* .agents/skills/
 # → agent 调用 sw-workflow
 ```
 
+## 多语言支持
+
+**一棵源树，语言在运行时解决。** skill 只写一遍、用中文写，agent 用你提问的语言交付。
+
+这是个想过之后才定的决定，而且不是第一个决定。英文版——一个把 20 个 skill 全部译过去的平行插件 `screenwriting-en`——在 [#3](https://github.com/jtydhr88/screenwriting-skills/issues/3) 里被提出、做完、合并过，现在已经撤掉。杀死它的理由对其他每种语言同样成立：如果读不懂中文的读者该有一棵译好的树，那读不懂英文的读者也该有，接下来就是日语、韩语、法语、俄语。五种语言＝230 个各自独立漂移的文件，而且没有任何东西会告诉你哪一份已经过期。真正的成本不是翻译本身，而是**只要 fork 过一次，就再没有原则性的理由拒绝第二次**。
+
+所以线划在源头，剩下的交给运行时：
+
+- **输出语言跟着提问走。** 用法语问，用法语答。不需要开关，不需要另外装一份。
+- **术语是锚定的，不是每次重新即兴。** 这一行的术语原本就是英文——*logline*、*act out*、*beat sheet*、*showrunner*、*staff writer*；中文书里的"计程绳""出幕""节拍表""剧目管理人""试用编剧"才是译文，而且不同译者给的不一样。[`sw-workflow/terms.md`](plugins/screenwriting/skills/sw-workflow/terms.md) 把每个概念锚回它的原词，agent 还原而不是发明——而且这一张表同时服务所有语言，因为写日语、法语剧本的人在专业语境里同样说 act out 和 logline。
+- **没有对应物的词保留原词＋一句释义。** 戏眼、扣子、ト書き、決定稿 不硬译成英文，输出成 `戏眼 (xìyǎn — the one-line core attraction of an episode)` 这样的形式。
+- **剧本正文保持作品本身的语言。** 用英语讨论一个中文剧本是常态：对话换语言，稿子不换。
+
+这样换掉的是**可审计性**：除非你读中文，否则你读不到指令文件本身，只能读到 agent 对它的转述。这是真实的代价，也是那个被删掉的英文版唯一真正买到的东西——但它不值一份永久的五向维护负担。
+
+**README 是另一回事**，它翻译了：篇幅短、变动少，而且是新人第一眼看到的东西。日语、韩语、法语三份 README 有意只写到安装、结构和这条政策为止；完整的 skill 对照表与来源书目留在本文和英文 README 里，不复制四遍——理由和上面完全一样。
+
 ## 四层结构
 
 写长片用第 1、3、4 层；写剧集要用全部四层——剧集层不是加在通用层旁边，而是用"引擎＋季"替换掉"为一部电影设计的结构"。
@@ -152,7 +167,7 @@ cp -r screenwriting-skills/plugins/screenwriting/skills/* .agents/skills/
 ## 约定
 
 - frontmatter：`name` 与文件夹同名（kebab-case）；`description` 英文长句以 "Use when …" 收尾，括号内附中文关键词。
-- `screenwriting` 正文中文、`screenwriting-en` 正文英文；编号原则、表格、清单；skill 之间用文件夹名互相引用。
+- 正文中文；编号原则、表格、清单；skill 之间用文件夹名互相引用。输出语言取决于提问者，不取决于文件——见[多语言支持](#多语言支持)。
 - 刻意与具体 agent 解耦：skill 文件里不出现任何 agent 名称、不使用任何 agent 专有语法，因此同一份 `SKILL.md` 在 Claude Code、Codex 或其他遵循 agentskills.io 格式的工具里都能用。每个插件同时带 `.claude-plugin/plugin.json` 与 `.codex-plugin/plugin.json`，共用同一个 `skills/` 目录。
 - 来源之间有分歧时并列保留，并注明什么情况用哪个——例如道格拉斯的四幕格子对奥贝格的"幕断只是香肠的尺寸"，主题预设派对主题涌现派。
 - 行业事实一律带来源年份（费率、平台格局、幕数变得很快）；国产剧政策数据标注 2014/2016。

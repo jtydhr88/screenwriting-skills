@@ -5,6 +5,8 @@ description: Korean and French screenwriting practice (韩国/法国编剧方法
 
 # 韩国与法国编剧方法（Korean & French Screenwriting Practice）
 
+> **输出语言＝提问语言**；术语一律锚回原词，见 [sw-workflow/terms.md](../sw-workflow/terms.md)，不自创译名。
+
 来源《故事创作大师班·国际卷》前四讲中的三位：吴胜郁（韩，《八月照相馆》《绿鱼》《无赖汉》）、崔石焕（韩，《王的男人》《港囧》）、弗雷德里克·奥比坦（法，《巴黎，我爱你》《特使》《偷情桥》）。日本的荒井晴彦与十位日本导演见 `sw-japanese-screenwriting`；好莱坞四讲见 `sw-american-case-studies` 与 `sw-industry-business`。
 
 三人的共同底色：**先探访后写作、把剧本念给苛刻的人听、对制片方"能说服就说服，无法说服就认栽硬着头皮做"**。差异：吴胜郁重情绪与空间，崔石焕重类型契约与欲望/危机双螺旋，奥比坦重台词最后写与后期全程参与。

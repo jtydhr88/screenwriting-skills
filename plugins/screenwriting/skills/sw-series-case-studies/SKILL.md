@@ -5,6 +5,8 @@ description: Case studies of television series writing (剧集案例库) from pr
 
 # 剧集案例库（Series Case Studies）
 
+> **输出语言＝提问语言**；术语一律锚回原词，见 [sw-workflow/terms.md](../sw-workflow/terms.md)，不自创译名。
+
 **范例库**：每案例给"这是什么文本／结构数据／可迁移手法"。原理见 `sw-series-structure`、`sw-series-engine-bible`、`sw-writers-room`、`sw-sitcom-comedy`；《继承之战》单列为 `succession-series-writing`。
 
 只用一手文本。**凡剧本无幕标记、由分析者按篇幅与转折反推的幕界，一律标注"推断"。** 逐集表、幕页表、节拍表、线网格、长引文分三个文件：四部英语剧本集（West Wing／Sopranos／Downton／Fleabag）见 [reference.md](reference.md)；方法书里的 pilot 节拍表与 beat sheet 实物（Calvisi 八个 pilot、Landau 47 部剧结构总表、Miller 的两场 escalation 与四份学生 outline、Goldberg & Rabkin 的 beat sheet）见 [reference-pilots.md](reference-pilots.md)；日韩两部文本（坂元裕二、卢熙京）见 [reference-asia.md](reference-asia.md)。

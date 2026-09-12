@@ -5,6 +5,8 @@ description: Writing a Succession-style ensemble series (继承之战群像剧�
 
 # Succession 式剧集写法（Armstrong 四季 39 集拆解）
 
+> **输出语言＝提问语言**；术语一律锚回原词，见 [sw-workflow/terms.md](../sw-workflow/terms.md)，不自创译名。
+
 本 skill 从 Jesse Armstrong《Succession: The Complete Scripts》四卷（Faber, 2023）逐集拆解中提炼：S1 十集、S2 十集、S3 九集、S4 十集，共 **39 集拍摄稿**，加上 Armstrong 的 S1/S4 前言、四卷 Note on the Text、全部作者脚注，以及 Frank Rich（S2 前言）与 Lucy Prebble（S3 前言《One Last Pitch》）关于伦敦编剧室的一手记述。
 
 **四季 39 集的逐集结构参数表（第八节）与四季季弧网格（第九节）**、set piece 十场对照表、各层模式（S/C/D 编号）的原文引文与证据清单、脚注证据表（八行摘要见第五节，全集版见第十节）、结局工程证据链与主题句格言清单，全部见同目录 [reference.md](reference.md)。

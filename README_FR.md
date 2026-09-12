@@ -1,0 +1,118 @@
+# screenwriting-skills
+
+[English](README.md) · [中文版](README_ZH.md) · [日本語](README_JA.md) · [한국어](README_KO.md)
+
+20 compétences d'agent (« skills ») pour le scénario, l'écriture télévisuelle et la dramaturgie, destinées à [Claude Code](https://docs.anthropic.com/en/docs/claude-code/skills) et [OpenAI Codex](https://developers.openai.com/codex/build-skills). Distillées de 32 ouvrages de méthode et de 12 volumes de scénarios et de pièces publiés (chinois, américains, britanniques, japonais et coréens).
+
+Les fichiers `SKILL.md` suivent la norme ouverte [agentskills.io](https://agentskills.io) et sont partagés par les deux agents — une seule installation, les deux fonctionnent.
+
+**Posez vos questions en français.** Le corps des skills est rédigé en chinois, parce que la plupart des sources sont des originaux chinois ou des traductions chinoises. C'est un détail d'implémentation, pas une restriction : demandez en français, vous obtenez du français. Voir [Prise en charge multilingue](#prise-en-charge-multilingue) pour comprendre pourquoi il n'existe qu'un seul arbre source et non cinq.
+
+## Installation
+
+### Claude Code
+
+#### Place de marché de plugins (recommandé)
+
+```
+/plugin marketplace add jtydhr88/screenwriting-skills
+/plugin install screenwriting@screenwriting-skills
+```
+
+Les skills s'invoquent ensuite par `/screenwriting:<skill>`, par exemple `/screenwriting:sw-dialogue`.
+
+#### Personnel (tous les projets)
+
+```bash
+git clone https://github.com/jtydhr88/screenwriting-skills.git
+cp -r screenwriting-skills/plugins/screenwriting/skills/* ~/.claude/skills/
+```
+
+#### Par projet
+
+```bash
+mkdir -p .claude/skills
+cp -r screenwriting-skills/plugins/screenwriting/skills/* .claude/skills/
+```
+
+### Codex (CLI / application de bureau ChatGPT / extension IDE)
+
+```bash
+codex plugin marketplace add jtydhr88/screenwriting-skills
+
+# Puis, dans l'application de bureau ChatGPT ou dans Codex CLI :
+# Plugins → sélectionner « Screenwriting Skills » → Install
+```
+
+Pour une installation personnelle, copiez vers `~/.agents/skills/` ; par projet, vers `.agents/skills/`. `/skills` liste les skills disponibles, `$sw-story-structure` en invoque un explicitement.
+
+## Exemples d'usage
+
+```
+# « Découpe ma série en 12 épisodes en actes et place les fins d'acte »
+# → sw-series-structure
+
+# « Ces dialogues sont trop explicites, reprends cette scène »
+# → sw-dialogue + sw-scene-craft
+
+# « Transforme ce roman en séquencier d'une série de 40 épisodes »
+# → sw-chinese-series-practice + sw-series-engine-bible
+
+# « Ouvre un projet et garde la trace de où j'en suis »
+# → sw-workflow
+```
+
+## Prise en charge multilingue
+
+**Un seul arbre source, toutes les langues à l'exécution.** Les skills sont écrits une fois, en chinois, et l'agent livre dans la langue de votre question.
+
+C'est une décision réfléchie, et ce n'était pas la première. Une édition anglaise — un plugin parallèle `screenwriting-en` traduisant les 20 skills — a été proposée dans [#3](https://github.com/jtydhr88/screenwriting-skills/issues/3), réalisée et fusionnée. Elle a depuis été supprimée. L'argument qui l'a emporté vaut identiquement pour toutes les autres langues : si un lecteur qui ne lit pas le chinois mérite un arbre traduit, un lecteur qui ne lit pas l'anglais le mérite aussi, et la demande suivante sera le japonais, puis le coréen, puis le français, puis le russe. Cinq langues, ce sont 230 fichiers qui divergent chacun de leur côté, sans rien pour signaler lequel est périmé. Le coût réel n'est pas la traduction : c'est qu'**une fois le premier fork accepté, il ne reste plus aucune raison de principe pour refuser le second**.
+
+La ligne est donc tracée à la source, et l'exécution fait le reste :
+
+- **La langue de sortie suit celle de la question.** Demandez en français, vous obtenez du français. Aucun réglage, aucune installation séparée.
+- **La terminologie est ancrée, pas réimprovisée à chaque fois.** Le vocabulaire de ce métier est à l'origine anglais — *logline*, *act out*, *beat sheet*, *showrunner*, *staff writer*. Le chinois des ouvrages sources (計程繩, 出幕, 節拍表, 劇目管理人, 試用編劇) est la traduction, et les traducteurs n'ont pas fait les mêmes choix. [`sw-workflow/terms.md`](plugins/screenwriting/skills/sw-workflow/terms.md) rattache chaque notion à son terme d'origine : l'agent **restitue** le mot au lieu d'en inventer un. Et cette table unique sert toutes les langues à la fois, car un scénariste francophone dit lui aussi *act out* et *logline*.
+- **Les termes sans équivalent gardent leur forme d'origine, avec une glose.** 戏眼 et 扣子 ne sont pas forcés en français ; ils sortent sous la forme `戏眼 (xìyǎn — l'attrait central d'un épisode, énonçable en une phrase)`.
+- **Votre scénario reste dans la langue de votre scénario.** Discuter en français d'un scénario chinois est courant : la conversation change de langue, pas le texte.
+
+Ce que l'on abandonne en échange, c'est l'**auditabilité** : sans lire le chinois, vous ne pouvez pas lire le fichier d'instructions lui-même, seulement le compte rendu qu'en fait l'agent. C'est un coût réel, et c'est la seule chose que l'édition anglaise supprimée achetait véritablement. Elle ne valait pas une charge de maintenance quintuple et permanente.
+
+**Les README relèvent d'un autre régime** et sont traduits : ils sont courts, stables, et c'est ce qu'un nouveau venu rencontre en premier. Les README japonais, coréen et français s'arrêtent délibérément à l'installation, à la structure et à cette politique ; les tableaux détaillés des skills et la bibliographie restent dans les versions [anglaise](README.md) et [chinoise](README_ZH.md) plutôt que d'être recopiés quatre fois — exactement pour la raison ci-dessus.
+
+## Les quatre couches
+
+Un long métrage utilise les couches 1, 3 et 4 ; une série les utilise toutes les quatre, car la couche série ne s'ajoute pas à côté de la couche générale : elle **remplace** la « structure conçue pour un film » par une logique de moteur et de saison.
+
+```
+1. Dramaturgie générale  prémisse · structure · personnage · dialogue · scène · format · conduite de projet
+2. Couche série          structure de l'épisode et de la saison · moteur et bible · writers' room · comédie de 30 min
+3. Traditions et métier  Amérique · Japon · Corée et France · Chine continentale · le business
+4. Corpus de référence   Tchekhov · Ozu · Succession · études de cas télévisuelles
+```
+
+| Couche | Skills |
+|---|---|
+| 1 | `sw-workflow` (conduite de projet et `story-bible.md`) · `sw-story-structure` · `sw-premise-theme` · `sw-character-conflict` · `sw-dialogue` · `sw-scene-craft` · `sw-format-adaptation` |
+| 2 | `sw-series-structure` · `sw-series-engine-bible` · `sw-writers-room` · `sw-sitcom-comedy` |
+| 3 | `sw-american-case-studies` · `sw-japanese-screenwriting` · `sw-korean-french-screenwriting` · `sw-chinese-series-practice` · `sw-industry-business` |
+| 4 | `chekhov-dramaturgy` · `ozu-screenplay-style` · `succession-series-writing` · `sw-series-case-studies` |
+
+Chaque skill possède un `SKILL.md` (principes, listes de contrôle, marche à suivre), et presque tous un `reference.md` (tableaux, analyses détaillées, citations). Le tableau complet de ce que contient chaque skill et des ouvrages dont il provient se trouve dans le [README anglais](README.md#how-the-skills-are-organised).
+
+Côté français : `sw-korean-french-screenwriting` rassemble les méthodes coréennes et françaises — écrire l'émotion d'abord, la documentation avant tout, le genre comme promesse faite au spectateur, les deux renversements, le dialogue écrit en dernier, l'écriture collective.
+
+## Sources
+
+**Méthode du scénario, 17 ouvrages** — Syd Field, Blake Snyder, Robert McKee (*Story* et *Dialogue*), Julian Hoxter, Neill D. Hicks, Lajos Egri, Lisa Cron, William Indick, Richard Walter, Wendy Jane Henson, Diamond & Weissman, Eric Bork, Mei Feng, Liu Dapeng (dir.), Lu Jun, Haku Kiyo (dir.).
+
+**Méthode télévisuelle, 15 ouvrages** — William Rabkin, Daniel Calvisi, Pamela Douglas, Kam Miller, Emmanuel Oberg, Goldberg & Rabkin, Neil Landau, Evan S. Smith, Richard A. Blum, Yao Kougen, Zhang Wei, Zhang Mingzhi & Song Peiyi, Zhao Binbin.
+
+**Scénarios et pièces publiés, 12 volumes** — Œuvres théâtrales complètes de Tchekhov, Scénarios d'Ozu Yasujirō, Jesse Armstrong *Succession: The Complete Scripts* I–IV, Aaron Sorkin *The West Wing Script Book*, David Chase et al. *The Sopranos*, Julian Fellowes *Downton Abbey* saison 2, Phoebe Waller-Bridge *Fleabag: The Scriptures*, Sakamoto Yūji *Au bout du compte, je t'aimais*, Noh Hee-kyung *Le plus bel adieu du monde*.
+
+Bibliographie complète dans le [README anglais](README.md#source-books).
+
+## Licence
+
+Usage d'étude personnelle. Les citations demeurent la propriété de leurs auteurs et traducteurs.
+
+Projet frère, même idée appliquée à la composition et à l'arrangement japonais : [japanese-composition-skills](https://github.com/jtydhr88/japanese-composition-skills).

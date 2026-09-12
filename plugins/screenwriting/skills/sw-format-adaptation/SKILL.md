@@ -5,6 +5,8 @@ description: Screenplay format, page craft, the writing process and adaptation (
 
 # 格式·流程·改编（Format, Process & Adaptation）
 
+> **输出语言＝提问语言**；术语一律锚回原词，见 [sw-workflow/terms.md](../sw-workflow/terms.md)，不自创译名。
+
 三件事：**页面上怎么写**（格式与动作段落）、**从想法到成稿怎么走**（大纲/处理台本/草稿链/修改）、**改编别人的素材怎么办**。来源：汉森《编剧：步步为营》、沃尔特《剧本》、希克斯《编剧的核心技巧》、菲尔德《电影剧本写作基础》、麦基《故事》、霍克斯特《编剧的十二条法则》、戴蒙德&韦斯曼《好莱坞编剧的生意经》、博克《如何写出好故事》。范例与符号表见 [reference.md](reference.md)。行业与买卖见 `sw-industry-business`。
 
 ---

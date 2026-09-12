@@ -5,6 +5,8 @@ description: Japanese (and East-Asian/European non-Hollywood) screenwriting meth
 
 # 日本编剧方法（Japanese Screenwriting Methods）
 
+> **输出语言＝提问语言**；术语一律锚回原词，见 [sw-workflow/terms.md](../sw-workflow/terms.md)，不自创译名。
+
 日本原创剧本的实战路径，来源《从零开始做编剧：10 位日本金牌导演、编剧谈剧本》（泊贵洋编）、《故事创作大师班·国际卷》（荒井晴彦）。同一大师班中的韩国（吴胜郁、崔石焕）与法国（奥比坦）编剧见 `sw-korean-french-screenwriting`。与好莱坞体系的关系：**古泽良太、内田贤治、筧昌也承认三幕/起承转合是最有效结构但"探究好作品为何是三幕"；三木聪、园子温、横浜聪子、高桥泉、福田雄一走另一条路——主题后置、不写情节构想、片段联结、人物先于事件；行定勋把剧本当"坐标轴"和"议论的材料"。** 小津安二郎的剧本范例见 `ozu-screenplay-style`；编者结语："不要依赖改编剧本，凭原创决胜负。"工作单与情节构想范例见 [reference.md](reference.md)。
 
 ---

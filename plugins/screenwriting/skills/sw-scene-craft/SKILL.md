@@ -5,6 +5,8 @@ description: Scene and sequence craft (场景/段落/细节/道具/悬念/情趣
 
 # 场景与段落（Scene Craft）
 
+> **输出语言＝提问语言**；术语一律锚回原词，见 [sw-workflow/terms.md](../sw-workflow/terms.md)，不自创译名。
+
 场景是"戏剧最小表意单位"（陆军），也是"缩微故事"（麦基）。本 skill 处理一场戏从选址到落笔的全部决定：**为什么在此时此地、押上什么价值、谁要什么用什么策略、节拍如何叠加到转折、道具和细节如何做功、悬念如何设置与延宕、如何进出场景**。分析范例与工具表见 [reference.md](reference.md)；对白层面见 `sw-dialogue`；全片结构见 `sw-story-structure`。
 
 ---

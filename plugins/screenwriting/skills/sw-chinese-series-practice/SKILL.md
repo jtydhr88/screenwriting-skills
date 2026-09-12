@@ -5,6 +5,8 @@ description: Mainland-Chinese TV-series craft, documents and production chain (�
 
 # 国产剧创作体系与制片链（Chinese Series Practice）
 
+> **输出语言＝提问语言**；术语一律锚回原词，见 [sw-workflow/terms.md](../sw-workflow/terms.md)，不自创译名。
+
 中国大陆电视剧的写作体系、文档链、改编工艺与制片/审查链。五个来源各司其职：
 
 - **姚扣根《电视剧写作概论》**（上海戏剧学院编剧学教材丛书，上海人民出版社 2016 年 1 月第 1 版增订版）＝**学院体系**：三重特性、类型学、四种剧本格式、集为单位的结构法则、四级悬念、场面学、36 境遇。

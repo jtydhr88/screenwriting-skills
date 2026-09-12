@@ -5,6 +5,8 @@ description: From an idea to a sellable series design: series engine / franchise
 
 # 剧集引擎与剧集圣经（Series Engine & Bible）
 
+> **输出语言＝提问语言**；术语一律锚回原词，见 [sw-workflow/terms.md](../sw-workflow/terms.md)，不自创译名。
+
 管四层：**引擎**（凭什么每周都有故事）、**人物网**（冲突从哪里自动产生）、**pilot 类型与策略**、**文档**（logline → 提案 → treatment → bible）。
 
 **不管**：单集与季的幕结构、页码、act out 与 cliffhanger 类型学（→ `sw-series-structure`）；编剧室流程与 pitch 会议礼仪（→ `sw-writers-room`）；半小时喜剧的笑点力学与人物配置（→ `sw-sitcom-comedy`）；国产剧策划书、分集大纲、集数体量与审查（→ `sw-chinese-series-practice`）。前提/主控思想/三维人物/对白等媒介无关内容不在此重写（→ `sw-premise-theme`、`sw-character-conflict`）。
