@@ -81,7 +81,9 @@ Ce que l'on abandonne en échange, c'est l'**auditabilité** : sans lire le chin
 
 ## Les genres de scène
 
-Le cinéma et la télévision sont couverts. La scène l'est en partie, le reste est prévu, et une seule règle décide de ce qui reçoit un skill : **le genre fait-il écrire au modèle quelque chose dont la structure, le format ou les règles de langue diffèrent ?** Si oui, un skill à part ; si seuls le sujet ou le style changent, un cas d'étude dans un skill existant. L'opéra chinois remplit ce critère (les parties chantées sont liées aux groupes de rimes 韵辙 et aux mètres 板式, les scènes se découpent en 折/出 et non en pages, l'emploi 行当 décide de l'écriture d'un personnage avant sa psychologie). `sw-chinese-opera` contient aujourd'hui la méthode des parties chantées de Lu Jun et une table de frontière de médium, et déclare ce qu'il ne couvre pas encore. Sont prévus, dans l'ordre : la méthode commune aux genres d'opéra d'après 翁偶虹, 范钧宏 et 李渔, des annexes par genre sous forme de tables, le théâtre parlé de 曹禺 et 老舍, et en dernier la comédie musicale. Le micro-drama vertical et le drama en bande dessinée généré par IA ne sont pas au programme. Un médium s'ajoute par « un skill nouveau, sa table de frontière, une ligne dans la table d'entrée de `sw-workflow` », sans toucher à la couche générale. Texte complet : [English](README.md#stage-genres) / [中文版](README_ZH.md#舞台门类).
+Le cinéma et la télévision sont couverts. La scène l'est en partie, le reste est prévu, et une seule règle décide de ce qui reçoit un skill : **le genre fait-il écrire au modèle quelque chose dont la structure, le format ou les règles de langue diffèrent ?** Si oui, un skill à part ; si seuls le sujet ou le style changent, un cas d'étude dans un skill existant.
+
+L'opéra chinois n'est pas un genre mais **deux écritures**. L'axe qui compte est le système vocal, non le genre régional (剧种). Dans le **système qupai** (曲牌体 : 元杂剧, 明清传奇, 昆曲) le texte est rempli dans un air à patron fixe (nombre de vers, longueurs, tons imposés) ; un 杂剧 tient en quatre 折 et un 楔子, un seul rôle chantant tout un 折 ; un 传奇 se découpe en 出. Dans le **système banqiang** (板腔体 : 京剧, 豫剧, 越剧, 秦腔, 评剧, 沪剧) le texte se construit en distiques de sept ou dix caractères variés par le mètre (板式), tout rôle peut chanter, et l'unité est la 场. Structure et méthode du chant diffèrent : deux skills. Les genres régionaux d'un même système ne diffèrent que par la table de rimes (京剧十三辙 ou 豫剧中州韵) et la table des mètres consultées, même méthode, autre table, donc des annexes de référence et non des skills. 粤剧 (les deux systèmes mêlés, et en cantonais) et 川剧 (dont le 高腔 est qupai) sont traités comme cas limites. `sw-chinese-opera-banqiang` contient aujourd'hui la méthode des parties chantées de Lu Jun et une table de frontière de médium, et déclare ce qu'il ne couvre pas encore. Sont prévus, dans l'ordre : la méthode banqiang commune aux genres et ses annexes par genre, puis `sw-chinese-opera-qupai` (le remplissage d'après 李渔, 吴梅 et 王季烈), le théâtre parlé de 曹禺 et 老舍, et en dernier la comédie musicale. Le micro-drama vertical et le drama en bande dessinée généré par IA ne sont pas au programme. Un médium s'ajoute par « un skill nouveau, sa table de frontière, une ligne dans la table d'entrée de `sw-workflow` », sans toucher à la couche générale. Texte complet : [English](README.md#stage-genres) / [中文版](README_ZH.md#舞台门类).
 
 ## Les quatre couches
 
@@ -90,7 +92,7 @@ Un long métrage utilise les couches 1, 3 et 4 ; une série les utilise toutes l
 ```
 1. Dramaturgie générale  prémisse · structure · personnage · dialogue · scène · format · conduite de projet
 2. Couche médium         série · structure de l'épisode et de la saison · moteur et bible · writers' room · comédie de 30 min
-                         scène · opéra chinois (parties chantées et frontière ; le reste est prévu)
+                         scène · opéra chinois, système banqiang (parties chantées et frontière) ; système qupai prévu
 3. Traditions et métier  Amérique · Japon · Corée et France · Chine continentale · le business
 4. Corpus de référence   Tchekhov · Ozu · Succession · études de cas télévisuelles
 ```
@@ -98,7 +100,7 @@ Un long métrage utilise les couches 1, 3 et 4 ; une série les utilise toutes l
 | Couche | Skills |
 |---|---|
 | 1 | `sw-workflow` (conduite de projet et `story-bible.md`) · `sw-story-structure` · `sw-premise-theme` · `sw-character-conflict` · `sw-dialogue` · `sw-scene-craft` · `sw-format-adaptation` |
-| 2 | Série : `sw-series-structure` · `sw-series-engine-bible` · `sw-writers-room` · `sw-sitcom-comedy`<br>Scène : `sw-chinese-opera` (opéra chinois : méthode des parties chantées et table de frontière de médium ; les mètres, les emplois et le format sont déclarés non couverts) |
+| 2 | Série : `sw-series-structure` · `sw-series-engine-bible` · `sw-writers-room` · `sw-sitcom-comedy`<br>Scène : `sw-chinese-opera-banqiang` (opéra chinois, système banqiang : méthode des parties chantées et table de frontière de médium ; les mètres, les emplois et le format sont déclarés non couverts ; le système qupai est un skill à part, prévu) |
 | 3 | `sw-american-case-studies` · `sw-japanese-screenwriting` · `sw-korean-french-screenwriting` · `sw-chinese-series-practice` · `sw-industry-business` |
 | 4 | `chekhov-dramaturgy` · `ozu-screenplay-style` · `succession-series-writing` · `sw-series-case-studies` |
 

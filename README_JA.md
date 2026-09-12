@@ -81,7 +81,9 @@ codex plugin marketplace add jtydhr88/screenwriting-skills
 
 ## 舞台の諸ジャンルについて
 
-映画とテレビドラマは網羅済み。舞台は一部のみで、残りは計画中です。基準は一つ：**そのジャンルは、モデルに構成・書式・言語規則の異なるものを書かせるか。** 書かせるなら独立したスキル、題材や作風が違うだけなら既存スキル内の事例にとどめます。中国戯曲はこの基準を満たします（唱詞は韻轍と板式に拘束され、場は頁ではなく折／出で切られ、行当が心理より先に人物の書き方を決める）。現在は `sw-chinese-opera` に陸軍の唱詞の方法と媒体境界表があり、未収録の部分はスキル内に明記しています。次に予定しているのは翁偶虹・范鈞宏・李漁による劇種横断の方法、劇種別の付録（表）、曹禺・老舎の話劇、そして最後にミュージカル。縦型ショートドラマと AI 漫画ドラマは対象外です。新しい媒体は「新スキル一つ＋その中の境界表＋`sw-workflow` の入口表に一行」だけで追加し、汎用層には手を入れません。全文は [English](README.md#stage-genres) / [中文版](README_ZH.md#舞台门类)。
+映画とテレビドラマは網羅済み。舞台は一部のみで、残りは計画中です。基準は一つ：**そのジャンルは、モデルに構成・書式・言語規則の異なるものを書かせるか。** 書かせるなら独立したスキル、題材や作風が違うだけなら既存スキル内の事例にとどめます。
+
+中国戯曲は一つのジャンルではなく**二つの書法**です。分ける軸は劇種ではなく声腔体系。**曲牌体**（元雑劇・明清伝奇・昆曲）は填詞——固定の字数・句式・平仄をもつ曲牌に詞を填める。雑劇は四折一楔子で一人主唱、伝奇は出で進む。**板腔体**（京劇・豫劇・越劇・秦腔・評劇・滬劇）は上下句——七字か十字の対句を板式の変化で支え、行当が分けて歌い、単位は場。構成単位も唱詞の書き方も違うので二つのスキルになります。同じ体系内の劇種の差は、どの韻表（京劇十三轍か豫劇中州韻か）・どの板式表を引くかだけ、同じ方法に別の表なので reference の付録にとどめ、劇種ごとにスキルは作りません。粤劇（両体系を混用し、粤語で書く）と川劇（高腔は曲牌体）は境界例として扱います。現在は `sw-chinese-opera-banqiang` に陸軍の唱詞の方法と媒体境界表があり、未収録の部分はスキル内に明記しています。次に予定しているのは板腔体の劇種横断の方法と劇種別付録、その後 `sw-chinese-opera-qupai`（李漁・呉梅・王季烈による填詞法）、曹禺・老舎の話劇、そして最後にミュージカル。縦型ショートドラマと AI 漫画ドラマは対象外です。新しい媒体は「新スキル一つ＋その中の境界表＋`sw-workflow` の入口表に一行」だけで追加し、汎用層には手を入れません。全文は [English](README.md#stage-genres) / [中文版](README_ZH.md#舞台门类)。
 
 ## 四層構成
 
@@ -90,7 +92,7 @@ codex plugin marketplace add jtydhr88/screenwriting-skills
 ```
 1. 一般劇作法   前提 · 構成 · 人物 · 台詞 · 場面 · 書式 · プロジェクト進行
 2. 媒体層       連続ドラマ · 各話とシーズンの構成 · エンジンとバイブル · ライターズルーム · 30 分コメディ
-                舞台 · 中国戯曲（唱詞と境界表、他は計画中）
+                舞台 · 中国戯曲・板腔体（唱詞と境界表）；曲牌体は計画中
 3. 伝統と業界   アメリカ · 日本 · 韓国とフランス · 中国大陸 · ビジネス
 4. 原典コーパス チェーホフ · 小津 · Succession · テレビドラマ事例集
 ```
@@ -98,7 +100,7 @@ codex plugin marketplace add jtydhr88/screenwriting-skills
 | 層 | スキル |
 |---|---|
 | 1 | `sw-workflow`（進行管理と `story-bible.md`）· `sw-story-structure` · `sw-premise-theme` · `sw-character-conflict` · `sw-dialogue` · `sw-scene-craft` · `sw-format-adaptation` |
-| 2 | 連続ドラマ：`sw-series-structure` · `sw-series-engine-bible` · `sw-writers-room` · `sw-sitcom-comedy`<br>舞台：`sw-chinese-opera`（中国戯曲の唱詞の方法と媒体境界表。板式・行当・様式は未収録と明記） |
+| 2 | 連続ドラマ：`sw-series-structure` · `sw-series-engine-bible` · `sw-writers-room` · `sw-sitcom-comedy`<br>舞台：`sw-chinese-opera-banqiang`（中国戯曲・板腔体：唱詞の方法と媒体境界表。板式・行当・様式は未収録と明記。曲牌体は別スキルとして計画中） |
 | 3 | `sw-american-case-studies` · `sw-japanese-screenwriting` · `sw-korean-french-screenwriting` · `sw-chinese-series-practice` · `sw-industry-business` |
 | 4 | `chekhov-dramaturgy` · `ozu-screenplay-style` · `succession-series-writing` · `sw-series-case-studies` |
 

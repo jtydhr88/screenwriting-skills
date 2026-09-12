@@ -110,7 +110,7 @@ Four layers. A feature project uses layers 1, 3 and 4; a series or stage project
 ```
 1. General dramaturgy   premise · structure · character · dialogue · scene · format · project workflow
 2. Medium layer         series · episode & season structure · engine & bible · writers' room · half-hour comedy
-                        stage  · Chinese opera (lyric method and boundary; more planned)
+                        stage  · Chinese opera, banqiang system (lyric method and boundary); qupai system planned
 3. Tradition & trade    America · Japan · Korea & France · mainland China · the business
 4. Master corpora       Chekhov · Ozu · Succession · television case studies
 ```
@@ -140,7 +140,7 @@ Four layers. A feature project uses layers 1, 3 and 4; a series or stage project
 
 | Skill | What it covers | Main sources |
 |---|---|---|
-| `sw-chinese-opera` | The stage-opera slot: Lu Jun's lyric method (choose the rhyme from the character and from the key line first, wide vs narrow rhymes, same-word rhyme, vary the line pattern, put sung passages in the heavy scenes) with worked examples, and a medium-boundary table for applying the general skills to an opera script. States its own gaps: 板式 and 韵辙 tables per 剧种, 行当 and 程式, script format and master corpora are listed as planned, not claimed | Lu Jun; planned: 翁偶虹, 范钧宏, 李渔《闲情偶寄》 |
+| `sw-chinese-opera-banqiang` | The banqiang-system opera slot (京剧 / 豫剧 / 越剧 and the 小戏 tradition; 杂剧 / 传奇 / 昆曲 are the qupai system, a separate planned skill): Lu Jun's lyric method (choose the rhyme from the character and from the key line first, wide vs narrow rhymes, same-word rhyme, vary the line pattern, put sung passages in the heavy scenes) with worked examples, and a medium-boundary table for applying the general skills to an opera script. States its own gaps: 板式 and 韵辙 tables per 剧种, 行当 and 程式, script format and master corpora are listed as planned, not claimed | Lu Jun; planned: 翁偶虹, 范钧宏, 李渔《闲情偶寄》 |
 
 ### 3. Tradition and trade
 
@@ -167,13 +167,15 @@ Each skill has a `SKILL.md` (principles, checklists, workflow), and all but one 
 
 Film and television are covered. The stage is covered in part, the rest is planned, and there is a rule for what gets a skill and what does not.
 
-**The rule.** A genre gets its own skill only if it makes the model write something with different structure, format or language rules. Chinese opera does: sung passages are bound by rhyme groups (韵辙) and metrical patterns (板式), scenes are cut by 折/出 rather than by page, and role types (行当) decide how a character is written before psychology does. Subject matter (spy thriller, costume drama, family) and directorial style do not; those are case studies inside an existing skill, unless a complete script corpus exists, as with Ozu.
+**The rule.** A genre gets its own skill only if it makes the model write something with different structure, format or language rules. Subject matter (spy thriller, costume drama, family) and directorial style do not qualify; those are case studies inside an existing skill, unless a complete script corpus exists, as with Ozu.
 
-**What is here now.** `sw-chinese-opera` holds the lyric-writing method (唱词) from Lu Jun with worked examples, and a medium-boundary table saying which general skills apply to an opera script and which do not. It was moved out of `sw-dialogue`, where a general-purpose skill had been carrying an opera trigger clause. The skill states plainly what it does not yet cover, and its description promises only what is there.
+**Chinese opera is two systems, not one genre.** The axis that matters for a writer is the vocal system, not the regional 剧种. In the **qupai system** (曲牌体: 元杂剧, 明清传奇, 昆曲) a lyric is filled into a fixed tune pattern with set line counts, lengths and tones; a 杂剧 runs four 折 and one 楔子 with a single role singing an entire 折; a 传奇 runs in 出. In the **banqiang system** (板腔体: 京剧, 豫剧, 越剧, 秦腔, 评剧, 沪剧) a lyric is built from paired seven- or ten-character lines varied by metre (板式), any role may sing, and the unit is the 场. Structure and lyric method both differ, so they are two skills. Regional 剧种 within one system differ only in which rhyme table (京剧十三辙 vs 豫剧中州韵) and which metre table they use, the same method with a different lookup, so they are reference appendices rather than skills; China has over three hundred 剧种, and one skill each would be the same combinatorial explosion as one tree per language. Two untidy edges: 粤剧 mixes both systems and is in Cantonese, whose tones and rhymes differ from Mandarin entirely, so whether it needs its own skill depends on whether the model's Cantonese phonology can use the tables, to be tested once material is in; 川剧 uses five vocal styles and its 高腔 is qupai, so it will appear under both.
 
-**What is planned, in order.** The cross-剧种 method (一人一事, 折/出, 行当, 程式, 唱念做打) from 翁偶虹, 范钧宏 and 李渔; per-剧种 appendices as tables (京剧十三辙 and the 西皮二黄 metres, 豫剧中州韵 and its metres); opera script format; master corpora on the Chekhov model (《锁麟囊》《曹操与杨修》《朝阳沟》). Then the spoken-theatre method China's own tradition adds beyond Chekhov: 曹禺's pressure-chamber structure and 老舍's portrait-gallery structure with no main line. Musical theatre last, because song carrying narrative is a genuinely different rule set and none of the current 32 books covers it.
+**What is here now.** `sw-chinese-opera-banqiang` holds the lyric-writing method (唱词) from Lu Jun with worked examples (all his examples are 越剧, 沪剧 and 小戏, so banqiang), and a medium-boundary table saying which general skills apply to an opera script and which do not. It was moved out of `sw-dialogue`, where a general-purpose skill had been carrying an opera trigger clause. The skill states plainly what it does not yet cover, and its description promises only what is there.
 
-**What is not planned.** Short-form vertical drama and AI-generated comic drama, whose logic is distribution rather than dramaturgy. Skills split by subject or by director.
+**What is planned, in order.** For banqiang: the cross-剧种 method (一人一事, 场, 行当, 程式, 唱念做打) from 范钧宏, 翁偶虹, 汪曾祺, 张庚/郭汉城, 王安祈 and 罗怀臻; per-剧种 appendices as tables (京剧十三辙 and the 西皮二黄 metres from 刘吉典, 豫剧中州韵 and its metres); opera script format; master corpora on the Chekhov model (《锁麟囊》《曹操与杨修》《朝阳沟》《白蛇传》《沙家浜》, 越剧《红楼梦》, 魏明伦). Then `sw-chinese-opera-qupai`: the filling method, modes and suites, and the single-singer structure, from 李渔《闲情偶寄》, 吴梅 and 王季烈, with 《窦娥冤》《西厢记》《牡丹亭》《桃花扇》《长生殿》 as corpora. Then the spoken-theatre method China's own tradition adds beyond Chekhov: 曹禺's pressure-chamber structure and 老舍's portrait-gallery structure with no main line. Musical theatre last, because song carrying narrative is a genuinely different rule set and none of the current 32 books covers it.
+
+**What is not planned.** Short-form vertical drama and AI-generated comic drama, whose logic is distribution rather than dramaturgy. Skills split by subject, by director, or by regional 剧种.
 
 **How a medium is added without polluting the general layer.** One new skill; one medium-boundary table inside it declaring what transfers; one row in `sw-workflow`'s entry-path table. The general skills are not edited. The series layer (13 → 20 skills) was added this way and `sw-story-structure` did not change; the opera slot was added the same way, and `sw-dialogue` got shorter.
 
