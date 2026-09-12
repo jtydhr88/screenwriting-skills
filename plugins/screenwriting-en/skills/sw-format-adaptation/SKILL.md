@@ -1,6 +1,6 @@
 ---
 name: sw-format-adaptation
-description: English edition. Screenplay format, page craft, the writing process and adaptation (剧本格式/写作流程/改编) — merged from Wendy Henson's Screenwriting Step by Step (spec format rules, action paragraphs, transitions, story-doing, dramatic premise, subplots), Richard Walter (format, page count, cover, master scenes, flashback, montage, feedback symbols, work habits, revision), Neill Hicks (selling script vs shooting script, harem template, draft chain), Syd Field (form, master shot, card method, adaptation as original work), Robert McKee (description in present tense, image systems, adaptation principles, step outline → treatment → screenplay), Julian Hoxter (format elements, outline vs treatment, adaptation four questions), Diamond & Weissman (one-page nine-step, character chart, meld, connective tissue, set pieces, submission draft) and Eric Bork (idea test before writing) — plus an exact typographic grid (margins, indents, column widths), element conventions (V.O./O.S., MORE/CONT'D, dual dialogue, montage, intercut, super), a machine-writable output contract (Fountain, with forced markers for Chinese, and PDF/.fdx render paths), and modern Asian industry formats (Chinese 场号制 影视剧本格式, Japanese 柱・ト書き・セリフ / 決定稿). Use when formatting a spec script, choosing the output file format for a script, deciding what goes in action lines, planning drafts and outlines, cutting pages, adapting a novel/play/true story, writing a Chinese TV/film or Japanese-style script page, or preparing a submission-ready draft.
+description: English edition. Screenplay format, page craft, the writing process and adaptation (剧本格式/写作流程/改编) — merged from Wendy Henson (spec format rules, action paragraphs, transitions, dramatic premise, subplots), Richard Walter (page count, cover, master scenes, flashback, montage, feedback symbols, revision), Neill Hicks (selling script vs shooting script, draft chain), Syd Field (master shot, card method, adaptation as original work), Robert McKee (present-tense description, image systems, step outline → treatment → screenplay), Julian Hoxter (format elements, outline vs treatment, adaptation four questions), Diamond & Weissman (one-page nine-step, character chart, set pieces, submission draft) and Eric Bork (idea test) — plus an exact typographic grid (margins, indents, column widths), element conventions (V.O./O.S., MORE/CONT'D, dual dialogue, montage, intercut, super), a machine-writable output contract (Fountain, with forced markers for Chinese, and PDF/.fdx render paths), and modern Asian industry formats (Chinese 场号制 影视剧本格式, Japanese 柱・ト書き・セリフ / 決定稿). Use when formatting a spec script, choosing the output file format, deciding what goes in action lines, planning drafts and outlines, cutting pages, adapting a novel/play/true story, writing a Chinese TV/film or Japanese-style script page, or preparing a submission-ready draft.
 ---
 
 # Format, Process & Adaptation (格式·流程·改编)
@@ -57,6 +57,18 @@ Three matters: **how to write on the page** (formatting and action paragraphs), 
 
 The one page ≈ one minute conversion is built upon this exact table; altering any single parameter distorts the estimated page count.
 
+### How a "Page" Is Counted in a Chinese-Language Draft (a matter of Chinese vs. Western page layout, not of film vs. series)
+
+The table above describes US Letter + Courier 12, a Western page. **Chinese is not a 10-characters-per-inch monospaced script, there is no 3.7" character-name indent, and none of the table's premises hold**, so "one page ≈ one minute" cannot be used to count a Chinese draft directly. Chinese screenplays have no page standard, only a character-count standard — yet buyers, platforms and every writing guide still speak in pages. Convert with the chain below, and **state that the figure is a converted page count whenever you use it**:
+
+1. Read "N pages" first as "**N minutes of screen time**."
+2. Chinese characters per minute: **370–400 for dialogue-driven material; 270–330 where action and reaction dominate (thriller, action, single-camera comedy)**.
+3. Converted pages = non-whitespace character count ÷ characters per minute.
+
+**Features and series both use this one chain**: a 100-minute feature at 330 characters/minute is roughly 33,000 characters; a 45-minute episode roughly 15,000; a 28-minute half-hour roughly 9,200. **Do not borrow this chain from the series skills, and do not treat the character count of one format as the standard for another** — characters per minute varies with dialogue density, not with medium.
+
+For sources and a finer breakdown (measured per-episode character counts by genre for mainland-Chinese series) see `sw-chinese-series-practice`; the conversion principle lives here.
+
 ### Element Conventions
 
 - **(V.O.)**: The speaker is not physically present in the scene's spatial setting—voice-over, the other end of a phone call, recordings, internal monologues. **(O.S.)**: Present in the scene's spatial environment, but off-camera (in the next room, outside the door). Television scripts frequently use (O.C.) as equivalent to O.S. Use sparingly, but when used, use accurately.
@@ -96,7 +108,7 @@ Standard structure across the modern Chinese film and television industry (minor
 - **Dialogue**: `人名：台词` (name, full-width colon, line), with parentheticals placed after the character name, e.g., `沈越（低声）：` (whispering); off-screen dialogue is marked `（OS）` or `（画外）`, and voice-over `（VO）` or `（旁白）`.
 - **Do not write transitions**; flashbacks add `（回忆）` (flashback) to the scene line; superimposed titles are written as `字幕：` (SUPER:).
 - An episodic script of 40–45 minutes per episode runs approximately 12,000–15,000 Chinese characters; a scene-by-scene outline (one line per scene) is the precursor to the Scene Numbering Format and is identical to the step outline in `sw-story-structure`.
-- The Scene Numbering Format **does not use Fountain**; deliver it as plain text directly. The agent must ask the user whether Hollywood format or the Scene Numbering Format is desired before outputting.
+- The Scene Numbering Format **does not use Fountain**; deliver it as plain text directly. The agent must ask the user whether Hollywood format or the Scene Numbering Format is desired before outputting; **when no one can be asked, pick the default by language: a project with all-Chinese dialogue uses the Scene Numbering Format, an English project uses Hollywood format / Fountain, and the deliverable states its notation up front. Do not stall because you could not ask**.
 
 ### Japanese Screenplay Format: Scene Heading, Stage Direction, Lines
 
@@ -157,20 +169,58 @@ Standard structure across the modern Chinese film and television industry (minor
 
 ---
 
-## VI. Diagnostic Checklist
+## VI. Diagnostic Checklist (four groups by notation)
 
-1. Does the title page contain only the title and author name? Are scene numbers, dates, draft numbers, and registration numbers absent? Is it Courier 12? Is the page count between 90 and 120?
-2. Do Scene Headings contain the three core elements, moving from general to specific? Are specific details kept in action paragraphs?
-3. Action paragraphs: Present tense, active voice, zero instances of is/are, concrete nouns and action verbs, no camera jargon, no "we see," no "thinks / remembers / realizes," no "does not answer," and sentences ≤10 words?
-4. How many seconds does each action paragraph occupy on screen? Is it worth the audience's money ($?)? Does it have purpose, value, and optimal execution (3 Strikes)?
-5. Are character names capitalized with ages on first appearance, giving only gender, age, and a single distinctive action? Are character lists, background dossiers, and casting notes omitted?
-6. Does dialogue avoid bad page breaks, unneeded parentheticals, underlining, exclamation points, phonetic dialect, and meaningless grunts?
-7. Are you writing master scenes only? Can Montages be avoided or compressed into "chase + key beats"? Are Flashbacks marked with minimal "cheat" indicators?
-8. Before writing, did you complete a one-page synopsis, statement of purpose, dramatic premise, character action chart, and step outline? Have you pitched it verbally for ten minutes?
-9. Does the treatment or outline contain subtext while omitting dialogue? Which intermediate step was skipped?
-10. Did revision tackle macro concepts before micro details? Were heads and tails trimmed? Does every secondary character have a unique voice? Does pacing take precedence over page count?
-11. Adaptation: On which dimension does the original conflict primarily reside? What has been reinvented? Are the rights or option agreements signed? Have the true story's "big stakes" and "perilous journey" been identified?
-12. Output: Is the deliverable a `.fountain` file (Hollywood format) or Scene Numbering Format plain text, rather than Markdown? In Chinese Fountain files, does every Scene Heading, character name, and transition have forced markers? Are V.O. and O.S. used correctly? Does split dialogue include (MORE) and (CONT'D)? Did you ask whether the user wants Hollywood format, Scene Numbering Format, or Japanese format?
+**Settle the notation first, then run the list.** The old version of this checklist was written end to end for a Hollywood feature; anyone writing in the Chinese Scene Numbering Format would fail nearly every item — which means the checklist was wrong for the draft, not the draft wrong for the checklist. Now it is in four groups: **group A applies to all three notations; run only the one of B / C / D you actually use.**
+
+### A. Universal (independent of notation and of medium — run all three)
+
+1. **Action paragraphs**: present tense, active voice, zero is/are, concrete nouns and action verbs, no camera jargon, no "we see," no unfilmable interiority ("thinks / remembers / realizes"), no negative constructions ("does not answer"), sentences ≤10 words wherever possible?
+2. **How many seconds does each action paragraph occupy on screen?** Is it worth the audience's money? Does it have purpose, value, and is this the best way to tell it (3 Strikes)?
+3. **Scene-heading logic** (whatever notation it is written in): all elements present, moving from general to specific, with clock times and dates kept in the action paragraph rather than in the heading?
+4. **Dialogue craft**: no phonetic dialect, no grunts and moans, no emphasis by punctuation (underlining, exclamation points, a third ellipsis), parentheticals ≤3 words, verbs only, and deleted 99% of the time?
+5. **Character introductions**: gender, age and one distinctive action only; no character lists, no background dossiers, no casting notes?
+6. **Master scenes only**? Can a montage be avoided, or compressed into one title plus a few salient features? Are flashbacks minimal and unambiguous in time and place for the reader?
+7. **Before writing**: is there a one-page synopsis, statement of purpose, dramatic premise, character action chart, step outline? Have you pitched it aloud for ten minutes?
+8. **Treatment or outline**: does it carry subtext and omit dialogue? Which link in the document chain was skipped, and why?
+9. **Revision**: macro concepts before micro details? Heads and tails trimmed? Does every secondary character have their own voice? Does pacing take precedence over page count?
+10. **Adaptation**: on which dimension does the source conflict primarily reside? What has been reinvented? Are rights or option agreements signed? For a true story, have you found "why it matters" and "the perilous, obstacle-strewn ordeal"?
+11. **Length**: which conversion did you use? For a Chinese draft, did you compute it with the chain in §2.2 (character count ÷ characters per minute = converted pages) and state that in the deliverable?
+12. **Is the notation consistent across the whole draft**? Are two notations mixed anywhere (scene lines in Scene Numbering Format, action paragraphs in Hollywood style)?
+
+### B. Hollywood format (spec / Fountain, English draft)
+
+13. Title page with title and author only? No scene numbers, dates, draft numbers, registration numbers? **Courier 12**? Page count **90–120**?
+14. Does the layout match the table in §2.2 (left margin 1.5", dialogue column starting at 2.5" and 3.5" wide, character name at 3.7", transitions right-aligned)?
+15. Are characters **ALL CAPS with an age** on first appearance? Are props and sound effects capitalized?
+16. Does dialogue **never break across a page** — and where it must, are `(MORE)` / `(CONT'D)` present?
+17. Are **(V.O.) and (O.S.) used correctly** (outside the scene's space vs. inside the space but off camera)?
+18. Does the draft **never mention the camera** and never write "CUT TO:" (every scene end is a cut by default)?
+19. Is the deliverable a **`.fountain` plain-text file** — not Markdown, not Word?
+
+### C. Chinese Scene Numbering Format (mainland film and television industry draft)
+
+20. Is the scene line written `场号 时 内/外 地点` (episode-scene `集-场` for a series)? Did you **pick one of `日 内` / `内 日` and keep it for the whole draft**?
+21. Are action paragraphs consistently prefixed with `△` (or consistently ▲, or consistently nothing)?
+22. Is dialogue written `人名：台词`, with parentheticals after the name (`沈越（低声）：`)?
+23. Are off-screen and voice-over marked `（OS）`/`（画外）` and `（VO）`/`（旁白）`, one convention throughout?
+24. **No transitions and no camera jargon**? Flashbacks marked `（回忆）` on the scene line? Superimposed titles written `字幕：`?
+25. Is the character count within range (a 40–45 minute episode is roughly 12,000–15,000 characters; other lengths computed with the chain in §2.2)? Does the dialogue proportion suit the genre?
+26. Is the deliverable **plain text** (no Fountain, no Markdown markers)?
+27. Have you mistakenly judged the draft by Hollywood hard rules (Courier 12, 90–120 pages, ALL-CAPS character names) — **none of which apply to a Chinese draft**?
+
+### D. Japanese format (柱・ト書き・セリフ)
+
+28. Is the 柱 written `○location・detail (time)`, with the scene number before the `○`?
+29. Do ト書き paragraphs begin with **three full-width spaces**? Do characters carry an age on first appearance (`沈越（３４）`)?
+30. Are lines written `NAME「line」` (full-width bracket straight after the name, **no colon**)? Are parentheticals placed after the name?
+31. Is elapsed time written `　　×　　×　　×`? Are pauses written `（間）`?
+32. Are narration `（Ｎ）`, interior monologue `（Ｍ）` and recollection `（回想）` marked where they belong?
+33. Is the draft stage noted on the cover (準備稿 → 改訂稿 → 決定稿)?
+
+### If the notation has not been settled
+
+Use the defaults in §2.2: **a project with all-Chinese dialogue uses the Scene Numbering Format, an English project uses Hollywood format / Fountain, and Japanese format only on explicit request**; then state the notation and the conversion method in one line at the top of the deliverable. **Do not stall because there is no one to ask.**
 
 ---
 

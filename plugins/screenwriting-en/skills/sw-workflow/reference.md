@@ -126,7 +126,7 @@ Run through in order, copying failed items into a one-line revision target:
 2. `sw-character-conflict` Section 8: 14 Character Diagnostic Questions
 3. `sw-scene-craft` Section 9: 13 Scene Diagnostic Questions
 4. `sw-dialogue` Section 9: 14 Dialogue Diagnostic Questions
-5. `sw-format-adaptation` Section 6: 11 Format Diagnostic Questions
+5. `sw-format-adaptation` Section 6: format diagnostics in four groups (group A universal, 12 questions, run for all three notations; group B Hollywood 7 questions / group C Chinese Scene Numbering 8 questions / group D Japanese 6 questions — run only the one you use)
 6. Snyder's Nine Diagnostic Questions (at the end of `sw-story-structure` Section 11)
 
 When reviewing in parallel, each agent runs only one checklist, with the standardized output format: `Checklist ID-Question # | Location (Scene/Page) | Issue in one sentence | Recommendation in one sentence`.
@@ -165,6 +165,41 @@ When reviewing in parallel, each agent runs only one checklist, with the standar
 
 ## Decision Log
 - 2026-09-06 Ending changed from "father-daughter reconciliation" to "father finishes the burnt meal" <- The original ending was too neat and contradicted the pessimistic Controlling Idea
+```
+
+---
+
+## V-2. Bible Supplement for a Series Project
+
+A series project fills in platform / format / episode count under "Project Information" above, then replaces sections "2 Structure" and "3 Character and Conflict" with the four sections below (every other section carries over unchanged):
+
+```markdown
+## S1 Engine
+- Thematic opposition (X vs Y):
+- Four franchise elements: concept = ; conflict = ; theme = ; story pattern (one process sentence) =
+- Tacit contract (what the audience gets every week):
+- Central question ("How will X keep doing Y in a world that Z?"):
+- Sample story areas (>=5, each with a different source and a different ending):
+- Engine stress test: the three episodes you can list immediately after the pilot =
+
+## S2 Character Network and Season Arc
+| Character | Expertise / why irreplaceable | Want | What they can lose | Bound to | Position on the rational axis | Landmine (unstated fear or desire; which episode it detonates) |
+|---|---|---|---|---|---|---|
+- Season question (this year's version of the question):
+- Tentpoles: opening = ; midseason = ; finale =
+- Season arc grid file: [filename] (episode x character)
+
+## S3 Documents
+- Logline / springboard (3-5 sentences):
+- Pitch document / series format file: [filename]; bible tier: [minimal / rolling / full]
+- Story-line document: [filename] (per line: purpose / driver / stakes / entry -> exit this episode / cross-episode beats / relation to the Controlling Idea)
+- Mainland-Chinese series: one status line each for 剧情简介 / 故事梗概 / 人物小传 / 分集大纲 / 分场大纲
+
+## S4 Episode Structure
+- Platform and act count: [broadcast teaser+4/5/6 acts | cable or streaming invisible acts | half-hour cold open+2-3 acts+tag]; target page count:
+- Pilot type: [premise / typical-episode / hybrid]; closing move: [launch the franchise / final montage / final discovery]
+- Page anchors and act-out list:
+- A/B/C line entry -> exit (this episode):
 ```
 
 ---

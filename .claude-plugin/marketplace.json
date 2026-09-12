@@ -15,7 +15,7 @@
     {
       "name": "screenwriting-en",
       "source": "./plugins/screenwriting-en",
-      "description": "English edition: the same skills as screenwriting, with English skill bodies translated from the Chinese files, for users who want to read and audit the instructions the agent runs"
+      "description": "English edition: all 20 skills of screenwriting, with English skill bodies translated from the Chinese files, for users who want to read and audit the instructions the agent runs"
     }
   ]
 }

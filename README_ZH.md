@@ -19,9 +19,7 @@ skill 正文用中文（来源多为中文原著或中译本），frontmatter �
 /plugin install screenwriting-en@screenwriting-skills
 ```
 
-`screenwriting-en` 插件收录同样的 skill，正文为英文，用 `/screenwriting-en:<skill>` 调用。skill 正文就是 agent 实际执行的指令集；英文版的意义在于让看不懂中文的读者能够审查并学习 agent 到底在跑什么。中文文件仍是唯一真源，英文文件是它的译本。两个版本装一个即可，不要同时安装。
-
-剧集层尚未翻译，那 7 个 skill 目前只有 `screenwriting` 中文版。
+`screenwriting-en` 插件收录全部 20 个 skill，正文为英文，用 `/screenwriting-en:<skill>` 调用。skill 正文就是 agent 实际执行的指令集；英文版的意义在于让看不懂中文的读者能够审查并学习 agent 到底在跑什么。中文文件仍是唯一真源，英文文件是它的译本。两个版本装一个即可，不要同时安装。
 
 ## 四层结构
 
