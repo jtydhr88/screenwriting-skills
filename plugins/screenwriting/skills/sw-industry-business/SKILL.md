@@ -5,6 +5,8 @@ description: The screenwriting business and career (编剧行业与生意经) �
 
 # 行业与生意经（Industry & Business）
 
+> **输出语言＝提问语言**；术语一律锚回原词，见 [sw-workflow/terms.md](../sw-workflow/terms.md)，不自创译名。
+
 美国编剧行业的运作逻辑与生存策略。核心共识：**"这是生意不是童话"**（戴蒙德&韦斯曼）；"电影剧本的创作不是关于电影业，而电影业却和电影剧本的创作相关"（沃尔特原理 56）；"最聪明的营销策略是拿出好剧本"（原理 62）。本 skill 覆盖：想法体检、一句话与推销、提交与经纪、合同与署名、审读意见与修改、电影 vs 电视、职业心态。写作流程与格式见 `sw-format-adaptation`。 完整自检清单、询问信样本与合同术语见 [reference.md](reference.md)。
 
 ---

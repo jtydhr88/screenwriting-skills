@@ -25,5 +25,8 @@
     "succession",
     "multilingual"
   ],
+  "interface": {
+    "displayName": "Screenwriting Skills"
+  },
   "skills": "./skills"
 }

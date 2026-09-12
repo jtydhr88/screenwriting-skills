@@ -5,6 +5,8 @@ description: How episodic television actually gets made by a group (编剧室与
 
 # 编剧室与制作现实（Writers' Room & Production Reality）
 
+> **输出语言＝提问语言**；术语一律锚回原词，见 [sw-workflow/terms.md](../sw-workflow/terms.md)，不自创译名。
+
 电视剧不是一个人写完交出去的。它是**一个房间里的一群人，在固定日程和固定预算下每周生产一集**，而这个生产过程会反过来改写你的剧本。本 skill 讲：房间怎么运作、文档按什么体量什么顺序交、故事怎么在集体里被"破开"、note 怎么接、职级怎么爬、钱/演员/天气/场地否决你时怎么改而不毁掉这一集。
 
 日程表、文档实物与访谈原话见同目录 [reference.md](reference.md)。

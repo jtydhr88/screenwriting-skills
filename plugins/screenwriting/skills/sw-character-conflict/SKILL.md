@@ -5,6 +5,8 @@ description: Character creation, protagonist/antagonist design and dramatic conf
 
 # 人物与冲突（Character & Conflict）
 
+> **输出语言＝提问语言**；术语一律锚回原词，见 [sw-workflow/terms.md](../sw-workflow/terms.md)，不自创译名。
+
 四个来源体系互相校验：**埃格里**给结构性人物学（三维、编排、对立统一、四类冲突、过渡）；**尹迪克**给动机的心理学（弗洛伊德→埃里克森→荣格→坎贝尔/默多克→阿德勒→罗洛·梅）；**麦基/希克斯/克龙/斯奈德**给美式实操检验（压力下的选择、自我观念、错误信念、救猫咪）；**陆军**给中国戏剧的人物八要与对手配置法。原型表、心理学检查清单与埃格里分析模板见 [reference.md](reference.md)。
 
 ---

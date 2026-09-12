@@ -5,6 +5,8 @@ description: Episode and season structure for TV series (剧集单集与季的�
 
 # 剧集结构（Series Structure：单集与季）
 
+> **输出语言＝提问语言**；术语一律锚回原词，见 [sw-workflow/terms.md](../sw-workflow/terms.md)，不自创译名。
+
 分工：**Calvisi 给 pilot 的逐节拍页码区间，Douglas 给四幕格子与场数，Oberg 给"格式 vs 结构"的地基与信息管理四工具，Landau 给幕数抽样与 cliffhanger 类型学，Goldberg & Rabkin 给经典广播四幕的功能表，Miller 给 landmark 与场结构五件套，Rabkin 给流媒体时代的提速规则，Blum 给各节目类型的幕数页数表，五部剧本集（West Wing / Succession / Sopranos / Downton / Fleabag）给可验证的实测数字。**
 
 表格、完整节拍表与逐集数据见同目录 [reference.md](reference.md)。

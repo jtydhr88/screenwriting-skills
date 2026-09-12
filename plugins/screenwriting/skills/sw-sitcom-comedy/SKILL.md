@@ -5,6 +5,8 @@ description: Half-hour television comedy craft (半小时情景喜剧/笑点力�
 
 # 半小时喜剧（Sitcom & Half-Hour Comedy）
 
+> **输出语言＝提问语言**；术语一律锚回原词，见 [sw-workflow/terms.md](../sw-workflow/terms.md)，不自创译名。
+
 核心命题：**好笑不是后期往台词里塞的，是从故事前提里长出来的。** 喜剧作者在三层上叠加张力——premise → sequence/scene → dialogue/action；种在前一层的喜剧会在后一层"自动产出更多、更大、更无缝的笑"（Smith《Writing Television Sitcoms》p0042）。所以第一个动作不是想笑话，是问"这个前提本身是不是一台 joke-producing machine"。
 
 写半小时剧不是把一小时剧的参数改小，而是**整体切换**：页数、排版、场数、笑点密度、结构单位、人物关系的运转逻辑一起换。本 skill 管这套切换。通用方法不重写——对白见 `sw-dialogue`，场景价值转折见 `sw-scene-craft`，一小时剧幕结构与 act out 类型学见 `sw-series-structure`，引擎与 bible 见 `sw-series-engine-bible`，编剧室全貌见 `sw-writers-room`，Fleabag 逐集表见 `sw-series-case-studies`。
