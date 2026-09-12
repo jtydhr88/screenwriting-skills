@@ -24,5 +24,8 @@
     "ozu",
     "succession"
   ],
+  "interface": {
+    "displayName": "Screenwriting Skills"
+  },
   "skills": "./skills"
 }

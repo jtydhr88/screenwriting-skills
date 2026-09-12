@@ -2,24 +2,91 @@
 
 [English](README.md)
 
-把 32 本编剧/剧作理论书籍与 12 卷出版剧本（中、美、英、日、韩）提炼成的 20 个 Claude Code skill，覆盖电影长片、电视剧集、舞台剧。
+把 32 本编剧/剧作理论书籍与 12 卷出版剧本（中、美、英、日、韩）提炼成的 20 个 agent skill，面向 [Claude Code Skills](https://docs.anthropic.com/en/docs/claude-code/skills) 与 [OpenAI Codex](https://developers.openai.com/codex/build-skills)，覆盖电影长片、电视剧集、舞台剧。
 
-skill 正文用中文（来源多为中文原著或中译本），frontmatter 的 description 用英文并附中文关键词，中英文提问都能触发。
+所有 `SKILL.md` 文件遵循开放的 [agentskills.io](https://agentskills.io) 标准，Claude Code 与 Codex 通用——装一次，两个 Agent 都能用。
+
+同样的 20 个 skill 分两个版本：`screenwriting` 正文为中文（来源多为中文原著或中译本），`screenwriting-en` 正文是它的英文译本。skill 正文就是 agent 实际执行的指令集；英文版的意义在于让看不懂中文的读者能够审查并学习 agent 到底在跑什么。中文文件仍是唯一真源。两版的 frontmatter description 都是英文并附中文关键词，中英文提问都能触发。
+
+**两个版本装一个即可，不要同时安装**——两版的 skill 名有意保持一致，同时装会让 agent 在两份同名 skill 之间挑。
 
 ## 安装
+
+### Claude Code
+
+#### 插件市场（推荐）
 
 ```
 /plugin marketplace add jtydhr88/screenwriting-skills
 /plugin install screenwriting@screenwriting-skills
 ```
 
-## 英文版
+英文版把最后一行换成 `/plugin install screenwriting-en@screenwriting-skills`。装好后用 `/screenwriting:<skill>`（或 `/screenwriting-en:<skill>`）调用。
+
+#### 个人级别（所有项目生效）
+
+```bash
+git clone https://github.com/jtydhr88/screenwriting-skills.git
+cp -r screenwriting-skills/plugins/screenwriting/skills/* ~/.claude/skills/
+```
+
+#### 项目级别
+
+```bash
+mkdir -p .claude/skills
+cp -r screenwriting-skills/plugins/screenwriting/skills/* .claude/skills/
+```
+
+#### 验证
+
+skill 会在 agent 检测到相关上下文时自动加载，也可以用 `/skills` 手动检查。
+
+### Codex（CLI / ChatGPT 桌面应用 / IDE 扩展）
+
+#### 插件市场（推荐）
+
+```bash
+codex plugin marketplace add jtydhr88/screenwriting-skills
+
+# 然后在 ChatGPT 桌面应用或 Codex CLI 中：
+# Plugins → 选择 "Screenwriting Skills" → Install
+```
+
+两边共用同一份 `skills/` 目录下的 20 个 `SKILL.md`，不重复、不改写。
+
+#### 个人级别（所有项目生效）
+
+```bash
+git clone https://github.com/jtydhr88/screenwriting-skills.git
+cp -r screenwriting-skills/plugins/screenwriting/skills/* ~/.agents/skills/
+```
+
+#### 项目级别
+
+```bash
+mkdir -p .agents/skills
+cp -r screenwriting-skills/plugins/screenwriting/skills/* .agents/skills/
+```
+
+#### 验证
+
+用 `/skills` 列出可用 skill，或用 `$sw-story-structure` 显式调用。
+
+## 用法示例
 
 ```
-/plugin install screenwriting-en@screenwriting-skills
-```
+# “把我这 12 集的剧拆幕，定出幕点”
+# → agent 调用 sw-series-structure
 
-`screenwriting-en` 插件收录全部 20 个 skill，正文为英文，用 `/screenwriting-en:<skill>` 调用。skill 正文就是 agent 实际执行的指令集；英文版的意义在于让看不懂中文的读者能够审查并学习 agent 到底在跑什么。中文文件仍是唯一真源，英文文件是它的译本。两个版本装一个即可，不要同时安装。
+# “这场戏的对白太直白了，帮我改”
+# → agent 调用 sw-dialogue + sw-scene-craft
+
+# “把这本 40 万字小说改成 40 集国产剧的分集大纲”
+# → agent 调用 sw-chinese-series-practice + sw-series-engine-bible
+
+# “开个项目，帮我记住进度”
+# → agent 调用 sw-workflow
+```
 
 ## 四层结构
 
@@ -85,7 +152,8 @@ skill 正文用中文（来源多为中文原著或中译本），frontmatter �
 ## 约定
 
 - frontmatter：`name` 与文件夹同名（kebab-case）；`description` 英文长句以 "Use when …" 收尾，括号内附中文关键词。
-- 正文中文，编号原则、表格、清单；skill 之间用文件夹名互相引用。
+- `screenwriting` 正文中文、`screenwriting-en` 正文英文；编号原则、表格、清单；skill 之间用文件夹名互相引用。
+- 刻意与具体 agent 解耦：skill 文件里不出现任何 agent 名称、不使用任何 agent 专有语法，因此同一份 `SKILL.md` 在 Claude Code、Codex 或其他遵循 agentskills.io 格式的工具里都能用。每个插件同时带 `.claude-plugin/plugin.json` 与 `.codex-plugin/plugin.json`，共用同一个 `skills/` 目录。
 - 来源之间有分歧时并列保留，并注明什么情况用哪个——例如道格拉斯的四幕格子对奥贝格的"幕断只是香肠的尺寸"，主题预设派对主题涌现派。
 - 行业事实一律带来源年份（费率、平台格局、幕数变得很快）；国产剧政策数据标注 2014/2016。
 - `reference.md` 承载范例与引文，使 `SKILL.md` 保持在约 40 KB 以内。

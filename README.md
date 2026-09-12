@@ -2,24 +2,91 @@
 
 [中文版](README_ZH.md)
 
-20 Claude Code skills for screenwriting, television writing and dramaturgy, distilled from 32 craft books and 12 volumes of published scripts and plays (Chinese, American, British, Japanese and Korean).
+20 agent skills (for [Claude Code](https://docs.anthropic.com/en/docs/claude-code/skills) and [OpenAI Codex](https://developers.openai.com/codex/build-skills)) for screenwriting, television writing and dramaturgy, distilled from 32 craft books and 12 volumes of published scripts and plays (Chinese, American, British, Japanese and Korean).
 
-Skill bodies are written in Chinese (most sources are Chinese originals or Chinese translations); frontmatter descriptions are in English with Chinese keywords so both languages trigger them.
+The `SKILL.md` files follow the open [agentskills.io](https://agentskills.io) standard and are shared by both agents — install once, works everywhere.
+
+The pack ships in two editions of the same 20 skills: `screenwriting`, whose skill bodies are Chinese (most sources are Chinese originals or Chinese translations), and `screenwriting-en`, whose bodies are English translations of those files. A skill body is the instruction set the agent executes; the English edition exists so a reader who does not read Chinese can audit and learn from what it runs. The Chinese files stay the source of truth. Frontmatter descriptions are English with Chinese keywords in both editions, so questions in either language trigger them.
+
+**Install one edition or the other, not both** — the two carry the same skill names by design, so installing both leaves the agent choosing between two copies of every skill.
 
 ## Install
+
+### Claude Code
+
+#### Plugin marketplace (recommended)
 
 ```
 /plugin marketplace add jtydhr88/screenwriting-skills
 /plugin install screenwriting@screenwriting-skills
 ```
 
-## English edition
+For the English edition, `/plugin install screenwriting-en@screenwriting-skills` instead. Skills are then invoked as `/screenwriting:<skill>` (or `/screenwriting-en:<skill>`).
+
+#### Personal (all projects)
+
+```bash
+git clone https://github.com/jtydhr88/screenwriting-skills.git
+cp -r screenwriting-skills/plugins/screenwriting/skills/* ~/.claude/skills/
+```
+
+#### Project-specific
+
+```bash
+mkdir -p .claude/skills
+cp -r screenwriting-skills/plugins/screenwriting/skills/* .claude/skills/
+```
+
+#### Verify
+
+Skills load automatically when the agent detects relevant context. To list them: `/skills`.
+
+### Codex (CLI / ChatGPT desktop app / IDE extension)
+
+#### Plugin marketplace (recommended)
+
+```bash
+codex plugin marketplace add jtydhr88/screenwriting-skills
+
+# Then, in the ChatGPT desktop app or Codex CLI:
+# Plugins → select "Screenwriting Skills" → Install
+```
+
+The same 20 `SKILL.md` files are shipped through the plugin's `skills/` directory — no duplication, no rewriting.
+
+#### Personal skills (all projects)
+
+```bash
+git clone https://github.com/jtydhr88/screenwriting-skills.git
+cp -r screenwriting-skills/plugins/screenwriting/skills/* ~/.agents/skills/
+```
+
+#### Project-specific
+
+```bash
+mkdir -p .agents/skills
+cp -r screenwriting-skills/plugins/screenwriting/skills/* .agents/skills/
+```
+
+#### Verify
+
+Run `/skills` to list available skills, or invoke one explicitly with `$sw-story-structure`.
+
+## Usage examples
 
 ```
-/plugin install screenwriting-en@screenwriting-skills
-```
+# "Break my 12-episode series into acts and place the act outs"
+# → agent uses sw-series-structure
 
-The `screenwriting-en` plugin carries all 20 skills with English skill bodies, invoked as `/screenwriting-en:<skill>`. A skill body is the instruction set the agent executes; the English edition exists so a reader who does not read Chinese can audit and learn from what it runs. The Chinese files stay the source of truth and the English files are translations of them. Install one edition or the other, not both.
+# "My dialogue is all on the nose, fix this scene"
+# → agent uses sw-dialogue + sw-scene-craft
+
+# "Turn this 400,000-word novel into a 40-episode Chinese drama outline"
+# → agent uses sw-chinese-series-practice + sw-series-engine-bible
+
+# "Set up a project and keep track of where I am"
+# → agent uses sw-workflow
+```
 
 ## How the skills are organised
 
@@ -85,7 +152,8 @@ Each skill has a `SKILL.md` (principles, checklists, workflow), and all but one 
 ## Conventions
 
 - `SKILL.md` frontmatter: `name` (kebab-case, matches the folder) and a long English `description` ending in "Use when …", with Chinese keywords in parentheses for triggering.
-- Skill bodies are Chinese; numbered principles, tables and checklists; cross-references between skills by folder name.
+- Skill bodies are Chinese in `screenwriting` and English in `screenwriting-en`; numbered principles, tables and checklists; cross-references between skills by folder name.
+- Agent-neutral by design: the skill files name no agent and use no agent-specific syntax, so the same `SKILL.md` works under Claude Code, Codex, or anything else that reads the agentskills.io format. Each plugin carries a `.claude-plugin/plugin.json` and a `.codex-plugin/plugin.json` over one shared `skills/` directory.
 - Where the sources disagree, both positions are kept side by side with a note on when to use which — for example Douglas's four-act grid against Oberg's "act breaks are only the size of the sausages", or theme-as-design against theme-as-emergent.
 - Industry facts carry the year of their source, because rates, platforms and act counts date quickly; Chinese policy figures are marked 2014/2016.
 - `reference.md` holds worked examples and quotations so `SKILL.md` stays under ~40 KB.
