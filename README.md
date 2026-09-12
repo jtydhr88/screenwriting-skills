@@ -13,6 +13,14 @@ Skill bodies are written in Chinese (most sources are Chinese originals or Chine
 /plugin install screenwriting@screenwriting-skills
 ```
 
+## English edition
+
+```
+/plugin install screenwriting-en@screenwriting-skills
+```
+
+The `screenwriting-en` plugin carries the same skills with English skill bodies, invoked as `/screenwriting-en:<skill>`. A skill body is the instruction set the agent executes; the English edition exists so a reader who does not read Chinese can audit and learn from what it runs. The Chinese files stay the source of truth and the English files are translations of them. Install one edition or the other, not both.
+
 ## How the skills are organised
 
 Four layers. A feature project uses layers 1, 3 and 4; a series project uses all four, because the series layer replaces structure-for-film with engine-and-season thinking rather than sitting next to it.

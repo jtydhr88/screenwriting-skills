@@ -13,6 +13,14 @@ skill 正文用中文（来源多为中文原著或中译本），frontmatter �
 /plugin install screenwriting@screenwriting-skills
 ```
 
+## 英文版
+
+```
+/plugin install screenwriting-en@screenwriting-skills
+```
+
+`screenwriting-en` 插件收录同样的 skill，正文为英文，用 `/screenwriting-en:<skill>` 调用。skill 正文就是 agent 实际执行的指令集；英文版的意义在于让看不懂中文的读者能够审查并学习 agent 到底在跑什么。中文文件仍是唯一真源，英文文件是它的译本。两个版本装一个即可，不要同时安装。
+
 ## 四层结构
 
 写长片用第 1、3、4 层；写剧集要用全部四层——剧集层不是加在通用层旁边，而是用"引擎＋季"替换掉"为一部电影设计的结构"。
