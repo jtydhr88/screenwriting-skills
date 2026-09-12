@@ -108,6 +108,7 @@ The operational logic and survival strategies of the American screenwriting indu
 - Walter: Television pays most handsomely (residuals "keep flowing for the rest of your life"); television treats writers with greater authority (a second story conference requires an extra $10,000 fee); premium cable shows far more creative daring than mainstream studio features; however, freelance staff writers have vanished (replaced by full-time staff employees); writing for television requires living in Los Angeles.
 - Bork: One-hour TV dramas without life-or-death stakes or procedural machinery must be relentlessly "wealthy, sexy, and glamorous"; the three golden professions of drama series (cops, doctors, lawyers).
 - Diamond: The spec script market has contracted dramatically (173 specs sold in 1995 vs. 55 in 2010), yet it remains the ultimate calling card for emerging talent; the intellectual property (IP) paradox (studios crave pre-existing IP, yet scour unknown screenwriters for fresh original voices to hire for franchise sequels).
+- This section is only an overview from the feature screenwriter's vantage point. For an actual series project, move to the series skills: engine and bible in `sw-series-engine-bible`, episode and season structure in `sw-series-structure`, the writers' room, spec scripts, pitching an episode, staff ranks and step deals in `sw-writers-room`, half-hour comedy in `sw-sitcom-comedy`, and mainland-Chinese project filing, censorship and delivery milestones in `sw-chinese-series-practice`.
 
 ---
 

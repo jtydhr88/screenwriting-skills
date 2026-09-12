@@ -13,6 +13,22 @@ For scene-by-scene structural outlines and original script excerpts for each fil
 
 ---
 
+## 0. Medium Boundary: Which Layers Travel and Which Do Not
+
+This is a method for **Japanese cinema**, and the format section is **the Japanese script notation**. Take it layer by layer:
+
+| Layer | Does it travel? |
+|---|---|
+| **The structural skeleton and the three templates (marrying off a daughter / bereavement / the secret)** | **Yes** — this is the core value of the skill |
+| **The fifteen writing rules** (event off-screen, minimal-syllable confession, the go-between who carries the message, the echoing object in three escalating beats, the supporting character who speaks for the lead, the diminishing ending) | **Yes**, directly usable on film and series |
+| **Dialogue craft** (honorific-level gaps, repeated pleasantries, refusing to explain) | **Yes** |
+| **The format rules (section 8)** | **No.** That is the Japanese 柱・ト書き notation (`○location (time)`, three-space indent for ト書き, `NAME「line」`). For a Chinese-language draft use the 场号制 numbered-scene format; for a Hollywood-style draft use Fountain — see `sw-format-adaptation` §2.2 |
+| **Scene length of 1–1.5 pages** | Careful. It rests on Ozu's rhythm and Japanese page layout; for a Chinese-language draft recompute with the conversion chain in `sw-format-adaptation` rather than transplanting the page count |
+
+**Take the patterns and the writing rules; leave the format and the page counts.**
+
+---
+
 ## 1. The Common Skeleton of the Six Films: A Family Member Leaves
 
 | Title | Core Event | Driver | Lie / Scheme | Absent Figure | Closing Pillow Shot |

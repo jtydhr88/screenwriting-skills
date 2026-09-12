@@ -13,6 +13,22 @@ For act-by-act structure tables and source-text examples of each play, see [refe
 
 ---
 
+## 0. Medium Boundary: Which Layers Travel and Which Do Not
+
+This is a method for the **stage**. When it is invoked on a film or series project, take it layer by layer:
+
+| Layer | Does it travel to film / series? |
+|---|---|
+| **Structure** (no central climax, even-numbered act division, the event off-stage, the announced event that never happens, the correct answer stated in Act 1 and refused, the three-layer ending) | **Yes.** But "act" here is a theatrical unit; on a feature it becomes a sequence, on a series an in-episode movement — **do not treat "four acts" as four acts of a film or four acts of an episode** |
+| **Character** (neither angels nor devils, a group of people against their environment, a character = a composite of two or three real people) | **Yes**, directly usable |
+| **Dialogue** (pauses, answering beside the question, the thematic line interrupted by the mundane, the same speech spoken once at the start and once at the end) | **Yes**, directly usable |
+| **Stage directions and sound discipline** (one sourced set of ambient sounds per act, "—Curtain", "[Pause." on its own line) | **The notation does not travel.** The use of ambient sound does; the way it is written down is theatrical. For film and series format see `sw-format-adaptation` |
+| **The nine one-act methods** | Valid only for stage one-acts and short films; not applicable to features or series |
+
+**In one line**: take the patterns, not the units, not the notation.
+
+---
+
 ## I. Comparison and Evolutionary Arc of the Seven Multi-Act Plays
 
 | Play | Year | Self-designated Genre | Time Span | Central Event (Off-stage / On-stage) | Act Ending Mode | Final Line |
