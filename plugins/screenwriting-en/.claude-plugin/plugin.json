@@ -1,11 +1,28 @@
 {
   "name": "screenwriting-en",
-  "description": "English edition of the screenwriting plugin: the same 13 skills (project workflow & story bible, story structure, premise & theme, character & conflict psychology, dialogue, scene craft, format & adaptation, American case studies, Japanese screenwriting method, Korean & French screenwriting, industry & business, Chekhov dramaturgy, Ozu screenplay style) with English skill bodies translated from the Chinese files",
-  "version": "1.3.0",
+  "description": "English edition of the screenwriting plugin: the same 20 skills in four layers — general dramaturgy (project workflow & story bible, story structure, premise & theme, character & conflict psychology, dialogue, scene craft, format & adaptation), the series layer (episode & season structure, series engine & bible, writers' room, half-hour comedy), tradition & trade (American case studies, Japanese method, Korean & French method, mainland-Chinese series practice and production chain, industry & business), and master corpora (Chekhov dramaturgy, Ozu screenplay style, Succession ensemble writing, television case studies) — with English skill bodies translated from the Chinese files",
+  "version": "2.0.0",
   "author": {
     "name": "terry"
   },
   "license": "For personal study use",
-  "keywords": [ "screenwriting", "dramaturgy", "story-structure", "character", "dialogue", "adaptation", "chekhov", "ozu", "english" ],
+  "keywords": [
+    "screenwriting",
+    "television",
+    "tv-series",
+    "showrunner",
+    "writers-room",
+    "dramaturgy",
+    "story-structure",
+    "character",
+    "dialogue",
+    "adaptation",
+    "sitcom",
+    "chinese-drama",
+    "chekhov",
+    "ozu",
+    "succession",
+    "english"
+  ],
   "skills": "./skills"
 }
