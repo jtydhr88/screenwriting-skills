@@ -1,13 +1,13 @@
 ---
 name: sw-dialogue
-description: Dialogue writing and revision for screen and stage (对白/台词/潜台词/唱词) — merged from Robert McKee's Dialogue (dialogue as action, said/unsaid/unsayable, exposition as ammunition, beat = action/reaction gerunds, flaws of credibility/language/content/design, character-specific vocabulary and grammar, seven scene analyses), Richard Walter (economy, subtext, argument, no small talk, no parentheticals, silence), Neill Hicks (listening, on-the-nose exceptions, energy, five-step exercise), Lu Jun (语言要美: 典雅美/通俗美, 对话三要求 动作性/性格化/潜台词, 戏曲唱词三好 选韵/结构/布局), Lajos Egri (dialogue born of three-dimensional character, escalation), Blake Snyder (cover-the-names test), and screwball-comedy dialogue conventions. Use when writing or polishing dialogue, fixing on-the-nose or expository lines, giving each character a distinct voice, converting a two-hander into a trialogue, writing comedy exchanges, cutting speeches, or composing Chinese opera lyrics.
+description: Dialogue writing and revision for screen and stage (对白/台词/潜台词) — merged from Robert McKee's Dialogue (dialogue as action, said/unsaid/unsayable, exposition as ammunition, beat = action/reaction gerunds, flaws of credibility/language/content/design, character-specific vocabulary and grammar, seven scene analyses), Richard Walter (economy, subtext, argument, no small talk, no parentheticals, silence), Neill Hicks (listening, on-the-nose exceptions, energy, five-step exercise), Lu Jun (语言要美: 典雅美/通俗美, 对话三要求 动作性/性格化/潜台词), Lajos Egri (dialogue born of three-dimensional character, escalation), Blake Snyder (cover-the-names test), and screwball-comedy dialogue conventions. Use when writing or polishing dialogue, fixing on-the-nose or expository lines, giving each character a distinct voice, converting a two-hander into a trialogue, writing comedy exchanges, or cutting speeches. Chinese-opera lyrics (戏曲唱词) are in sw-chinese-opera, not here.
 ---
 
 # 对白（Dialogue）
 
 > **输出语言＝提问语言**；术语一律锚回原词，见 [sw-workflow/terms.md](../sw-workflow/terms.md)，不自创译名。
 
-核心命题只有一条：**对白是一种行动**（麦基：dia＋legein＝经过言辞的行动）。每句话之下有欲望、意图与策略；"对白的毛病是故事的毛病"，改不好的对白先回头查事件与人物设计。本 skill 合并麦基《对白》的完整体系、沃尔特/希克斯的美式实操禁忌、陆军的中国戏剧语言论（含戏曲唱词）、埃格里的人物—对话关系、神经喜剧的台词模式。七个场景逐节拍分析范例与唱词范例见 [reference.md](reference.md)。
+核心命题只有一条：**对白是一种行动**（麦基：dia＋legein＝经过言辞的行动）。每句话之下有欲望、意图与策略；"对白的毛病是故事的毛病"，改不好的对白先回头查事件与人物设计。本 skill 合并麦基《对白》的完整体系、沃尔特/希克斯的美式实操禁忌、陆军的中国戏剧语言论（唱词部分已移至 `sw-chinese-opera`）、埃格里的人物—对话关系、神经喜剧的台词模式。七个场景逐节拍分析范例见 [reference.md](reference.md)。
 
 ---
 
@@ -104,10 +104,7 @@ description: Dialogue writing and revision for screen and stage (对白/台词/�
 - **对话三要求**：①**动作性**（《雷雨》逼药"叫你跪下！"——简直插不进一句话；周萍"爸！我"两个字包含不知多少意思）；②**性格化**（贺拉斯"神说话英雄说话乳母说话货郎说话其间都大不相同"；最忌台词可以由任何人来说；老舍"闻其声知其人"）；③**潜台词**（刘知几"言近而旨远辞浅而义深……睹一事于句中反三隅于字外"；《求婚》"把他弄回来！"；《祖母》"柯特你为什么要问我那个故事是不是那样发生的？"三次追问）。
 - 老舍："说什么固然要紧怎么说却更重要……一声哀叹胜于滔滔不绝；吞吐一语或沉吟半晌也许强于一泻无余。"
 
-### 戏曲唱词三好
-- **韵选好**：根据人物性格定韵（泼辣的李玉桃"交消"韵"回来了回来了我队长娘子李玉桃"；热心的蹄膀娘"江阳"韵；体弱温和的小艾"衣溪"韵）；根据重点句定韵（先写闪光的重点唱句——体现主题/描写心情/揭示关系变化——再由它定韵：《竹园曲》"你一个'狠'字随风过"定"乌乎"韵，铺开"廿年"排比"我为谁付出廿年血和泪"）；宽韵（人辰江阳言前，字多易写易雷同）与险韵（也斜发花，字少但贴切则耳目一新：《一夜生死恋》"癞蛤蟆……十人见了九摇头"倒数）；**同字韵**的魅力（几十个"手"、近百个"人"、"你""我"：洪医生"骗你其实是爱护你……一辈子没有一个安宁的你"）。
-- **结构编织好**：忌一律七字十字；借用不同曲牌句式（"阴阳血"问答、"赋子板"叙事）；随环境与演出样式变（抬轿舞的三重唱合唱旁唱对唱）；回文可表回肠之情（"闷无心我负人，人负我心无闷"）——句式曲格力避呆板划一。
-- **布局好**：忌"当唱不唱、不当唱偏唱""东唱一段西唱一段鸡零狗碎"；精心设计重点场面（男女主人公情感抒发、冲突激烈、命运转折的关键时刻）成整块音乐场面，历代流传唱段都从重场戏中凸现。
+**戏曲唱词**（选韵／句式／布局三条规则与范例）在 [`sw-chinese-opera`](../sw-chinese-opera/SKILL.md)。本节留下的是对宾白同样成立的部分。
 
 ---
 
@@ -147,7 +144,6 @@ description: Dialogue writing and revision for screen and stage (对白/台词/�
 11. 这场能不能不用对白？用一口深吸、一次脱戒指代替？
 12. 陈腔滥调：这是你的第一选择吗？疯狂多写几个再挑。
 13. 通俗剧感是因为动机不足吗？含蓄版本是不是更狠？
-14. 唱词：韵符合性格吗？重点句先有了吗？句式是否一律七字十字？唱段是否集中在重场戏？
 
 ---
 

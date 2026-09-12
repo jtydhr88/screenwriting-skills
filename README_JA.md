@@ -2,7 +2,7 @@
 
 [English](README.md) · [中文版](README_ZH.md) · [한국어](README_KO.md) · [Français](README_FR.md)
 
-脚本執筆・テレビドラマ・劇作法のための 20 個のエージェントスキル（[Claude Code](https://docs.anthropic.com/en/docs/claude-code/skills) と [OpenAI Codex](https://developers.openai.com/codex/build-skills) 対応）。32 冊の理論書と 12 巻の出版シナリオ・戯曲（中国・アメリカ・イギリス・日本・韓国）から抽出したもの。
+脚本執筆・テレビドラマ・劇作法のための 21 個のエージェントスキル（[Claude Code](https://docs.anthropic.com/en/docs/claude-code/skills) と [OpenAI Codex](https://developers.openai.com/codex/build-skills) 対応）。32 冊の理論書と 12 巻の出版シナリオ・戯曲（中国・アメリカ・イギリス・日本・韓国）から抽出したもの。
 
 `SKILL.md` はオープン規格 [agentskills.io](https://agentskills.io) に準拠し、両方のエージェントで共有されます——一度入れれば、どちらでも動きます。
 
@@ -79,13 +79,18 @@ codex plugin marketplace add jtydhr88/screenwriting-skills
 
 **README は別扱い**で、翻訳されています。短く、変動が少なく、新しく来た人が最初に出会うものだからです。日本語・韓国語・フランス語の README は、インストール・構成・この方針までで意図的に止めています。スキルの詳細対照表と出典書誌は [English](README.md) と [中文版](README_ZH.md) にあり、4 回複製することはしません——理由は上と同じです。
 
+## 舞台の諸ジャンルについて
+
+映画とテレビドラマは網羅済み。舞台は一部のみで、残りは計画中です。基準は一つ：**そのジャンルは、モデルに構成・書式・言語規則の異なるものを書かせるか。** 書かせるなら独立したスキル、題材や作風が違うだけなら既存スキル内の事例にとどめます。中国戯曲はこの基準を満たします（唱詞は韻轍と板式に拘束され、場は頁ではなく折／出で切られ、行当が心理より先に人物の書き方を決める）。現在は `sw-chinese-opera` に陸軍の唱詞の方法と媒体境界表があり、未収録の部分はスキル内に明記しています。次に予定しているのは翁偶虹・范鈞宏・李漁による劇種横断の方法、劇種別の付録（表）、曹禺・老舎の話劇、そして最後にミュージカル。縦型ショートドラマと AI 漫画ドラマは対象外です。新しい媒体は「新スキル一つ＋その中の境界表＋`sw-workflow` の入口表に一行」だけで追加し、汎用層には手を入れません。全文は [English](README.md#stage-genres) / [中文版](README_ZH.md#舞台门类)。
+
 ## 四層構成
 
 長編映画は第 1・3・4 層を使い、連続ドラマは四層すべてを使います。シリーズ層は通用層の隣に足されるのではなく、「一本の映画のために設計された構成」を「エンジン＋シーズン」で**置き換える**からです。
 
 ```
 1. 一般劇作法   前提 · 構成 · 人物 · 台詞 · 場面 · 書式 · プロジェクト進行
-2. シリーズ層   各話とシーズンの構成 · シリーズエンジンとバイブル · ライターズルーム · 30 分コメディ
+2. 媒体層       連続ドラマ · 各話とシーズンの構成 · エンジンとバイブル · ライターズルーム · 30 分コメディ
+                舞台 · 中国戯曲（唱詞と境界表、他は計画中）
 3. 伝統と業界   アメリカ · 日本 · 韓国とフランス · 中国大陸 · ビジネス
 4. 原典コーパス チェーホフ · 小津 · Succession · テレビドラマ事例集
 ```
@@ -93,7 +98,7 @@ codex plugin marketplace add jtydhr88/screenwriting-skills
 | 層 | スキル |
 |---|---|
 | 1 | `sw-workflow`（進行管理と `story-bible.md`）· `sw-story-structure` · `sw-premise-theme` · `sw-character-conflict` · `sw-dialogue` · `sw-scene-craft` · `sw-format-adaptation` |
-| 2 | `sw-series-structure` · `sw-series-engine-bible` · `sw-writers-room` · `sw-sitcom-comedy` |
+| 2 | 連続ドラマ：`sw-series-structure` · `sw-series-engine-bible` · `sw-writers-room` · `sw-sitcom-comedy`<br>舞台：`sw-chinese-opera`（中国戯曲の唱詞の方法と媒体境界表。板式・行当・様式は未収録と明記） |
 | 3 | `sw-american-case-studies` · `sw-japanese-screenwriting` · `sw-korean-french-screenwriting` · `sw-chinese-series-practice` · `sw-industry-business` |
 | 4 | `chekhov-dramaturgy` · `ozu-screenplay-style` · `succession-series-writing` · `sw-series-case-studies` |
 

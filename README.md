@@ -2,7 +2,7 @@
 
 [中文版](README_ZH.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Français](README_FR.md)
 
-20 agent skills (for [Claude Code](https://docs.anthropic.com/en/docs/claude-code/skills) and [OpenAI Codex](https://developers.openai.com/codex/build-skills)) for screenwriting, television writing and dramaturgy, distilled from 32 craft books and 12 volumes of published scripts and plays (Chinese, American, British, Japanese and Korean).
+21 agent skills (for [Claude Code](https://docs.anthropic.com/en/docs/claude-code/skills) and [OpenAI Codex](https://developers.openai.com/codex/build-skills)) for screenwriting, television writing and dramaturgy, distilled from 32 craft books and 12 volumes of published scripts and plays (Chinese, American, British, Japanese and Korean).
 
 The `SKILL.md` files follow the open [agentskills.io](https://agentskills.io) standard and are shared by both agents — install once, works everywhere.
 
@@ -50,7 +50,7 @@ codex plugin marketplace add jtydhr88/screenwriting-skills
 # Plugins → select "Screenwriting Skills" → Install
 ```
 
-The same 20 `SKILL.md` files are shipped through the plugin's `skills/` directory — no duplication, no rewriting.
+The same 21 `SKILL.md` files are shipped through the plugin's `skills/` directory — no duplication, no rewriting.
 
 #### Personal skills (all projects)
 
@@ -105,11 +105,12 @@ What this trades away is auditability: you cannot read the instruction file itse
 
 ## How the skills are organised
 
-Four layers. A feature project uses layers 1, 3 and 4; a series project uses all four, because the series layer replaces structure-for-film with engine-and-season thinking rather than sitting next to it.
+Four layers. A feature project uses layers 1, 3 and 4; a series or stage project adds layer 2, because the medium layer replaces structure-for-film with the medium's own units rather than sitting next to it.
 
 ```
 1. General dramaturgy   premise · structure · character · dialogue · scene · format · project workflow
-2. Series layer         episode & season structure · series engine & bible · writers' room · half-hour comedy
+2. Medium layer         series · episode & season structure · engine & bible · writers' room · half-hour comedy
+                        stage  · Chinese opera (lyric method and boundary; more planned)
 3. Tradition & trade    America · Japan · Korea & France · mainland China · the business
 4. Master corpora       Chekhov · Ozu · Succession · television case studies
 ```
@@ -126,7 +127,7 @@ Four layers. A feature project uses layers 1, 3 and 4; a series project uses all
 | `sw-scene-craft` | Scene as value turn, five-step scene analysis, enter late leave early, pacing and transitions, action over talk; 意趣要足, 细节要妙, 道具要精 | McKee, Field, Hicks, Walter, Henson, Hoxter, Mei Feng, Lu Jun |
 | `sw-format-adaptation` | Spec format hard rules, typographic grid, element conventions, Fountain output contract with forced markers for Chinese, 场号制 and Japanese 柱・ト書き formats, outline→treatment→script chain, revision, adaptation principles | Henson, Walter, Hicks, Field, McKee, Hoxter, Diamond & Weissman, Bork; grid/Fountain/Asian formats are industry conventions |
 
-### 2. Series layer — what a feature does not teach
+### 2. Medium layer — what a feature does not teach
 
 | Skill | What it covers | Main sources |
 |---|---|---|
@@ -134,6 +135,12 @@ Four layers. A feature project uses layers 1, 3 and 4; a series project uses all
 | `sw-series-engine-bible` | Series engine / franchise (Rabkin's four elements, Landau's tacit contract, Blum's three tests, the 100-episode and "name three more episodes" tests); story pattern and story landmines; character webs that keep generating conflict; pilot types (premise / typical-episode / hybrid) and three endings; series types and story-types; and every selling document — logline, springboard, pitch document, series format, treatment, bible tiers, plus a storyline-document skeleton | Rabkin, Landau 1e/2e, Oberg, Douglas, Goldberg & Rabkin, Blum, Miller, Calvisi, Smith; engines read off Sopranos, Fleabag, Succession |
 | `sw-writers-room` | How an episode is actually made by a group: the showrunner's duties and veto, breaking story (Chase's 35 beats and scissors, Wells's ten chairs, Douglas's grid, Mazzara without an outline), the document chain and its page budgets, the six-week episode and the 14-day draft, spec scripts and pitching to an existing show, taking and giving notes, the staff ladder and step deals, production limits as creative triggers, and single-author alternatives | Goldberg & Rabkin, Douglas, Landau 1e/2e interviews, Smith, Blum (dated), plus first-hand accounts by Chase, Armstrong, Prebble, Sorkin, Fellowes, Waller-Bridge |
 | `sw-sitcom-comedy` | Half-hour comedy as a whole-mode switch: premise-driven comedy in three levels, nine predicaments, six character mixes, joke mechanics (two-part setups, punch word last, toppers, running gags, ten comedic nuances, 2–4 laughs per page), cold open / acts / tag, multi-camera vs single-camera vs animation formats and page counts, direct address as a season-long device, dramedy | Evan Smith, Waller-Bridge's *Fleabag*, Landau, Blum, Douglas on dramedy, Miller |
+
+**Stage**
+
+| Skill | What it covers | Main sources |
+|---|---|---|
+| `sw-chinese-opera` | The stage-opera slot: Lu Jun's lyric method (choose the rhyme from the character and from the key line first, wide vs narrow rhymes, same-word rhyme, vary the line pattern, put sung passages in the heavy scenes) with worked examples, and a medium-boundary table for applying the general skills to an opera script. States its own gaps: 板式 and 韵辙 tables per 剧种, 行当 and 程式, script format and master corpora are listed as planned, not claimed | Lu Jun; planned: 翁偶虹, 范钧宏, 李渔《闲情偶寄》 |
 
 ### 3. Tradition and trade
 
@@ -155,6 +162,20 @@ Four layers. A feature project uses layers 1, 3 and 4; a series project uses all
 | `sw-series-case-studies` | Worked episodes from primary texts: Sorkin's six *West Wing* teleplays (act-page tables, eight act-out types), Chase's five *Sopranos* scripts, Fellowes's annotated *Downton Abbey* season two (19 storylines, 419 author footnotes), *Fleabag: The Scriptures*, Calvisi's eight minute-by-minute pilot breakdowns, Landau's 47-series structure appendix, Miller's *Hannibal* and *HTGAWM* scene breakdowns, Goldberg & Rabkin's beat sheets, Sakamoto Yuji and Noh Hee-kyung | the published scripts and the case chapters of the books above |
 
 Each skill has a `SKILL.md` (principles, checklists, workflow), and all but one also carry a `reference.md` (tables, worked analyses, excerpts). Three skills split their tables across several files so each can be read in one pass: `sw-series-case-studies` into `reference.md` (the four English script collections), `reference-pilots.md` (pilot beat sheets and structure tables from the craft books) and `reference-asia.md` (the Japanese and Korean texts); `sw-series-engine-bible` into engine teardowns, document field tables and filled samples; `sw-chinese-series-practice` into the craft reference, format and planning samples, the six adaptation cases and the content red lines.
+
+## Stage genres
+
+Film and television are covered. The stage is covered in part, the rest is planned, and there is a rule for what gets a skill and what does not.
+
+**The rule.** A genre gets its own skill only if it makes the model write something with different structure, format or language rules. Chinese opera does: sung passages are bound by rhyme groups (韵辙) and metrical patterns (板式), scenes are cut by 折/出 rather than by page, and role types (行当) decide how a character is written before psychology does. Subject matter (spy thriller, costume drama, family) and directorial style do not; those are case studies inside an existing skill, unless a complete script corpus exists, as with Ozu.
+
+**What is here now.** `sw-chinese-opera` holds the lyric-writing method (唱词) from Lu Jun with worked examples, and a medium-boundary table saying which general skills apply to an opera script and which do not. It was moved out of `sw-dialogue`, where a general-purpose skill had been carrying an opera trigger clause. The skill states plainly what it does not yet cover, and its description promises only what is there.
+
+**What is planned, in order.** The cross-剧种 method (一人一事, 折/出, 行当, 程式, 唱念做打) from 翁偶虹, 范钧宏 and 李渔; per-剧种 appendices as tables (京剧十三辙 and the 西皮二黄 metres, 豫剧中州韵 and its metres); opera script format; master corpora on the Chekhov model (《锁麟囊》《曹操与杨修》《朝阳沟》). Then the spoken-theatre method China's own tradition adds beyond Chekhov: 曹禺's pressure-chamber structure and 老舍's portrait-gallery structure with no main line. Musical theatre last, because song carrying narrative is a genuinely different rule set and none of the current 32 books covers it.
+
+**What is not planned.** Short-form vertical drama and AI-generated comic drama, whose logic is distribution rather than dramaturgy. Skills split by subject or by director.
+
+**How a medium is added without polluting the general layer.** One new skill; one medium-boundary table inside it declaring what transfers; one row in `sw-workflow`'s entry-path table. The general skills are not edited. The series layer (13 → 20 skills) was added this way and `sw-story-structure` did not change; the opera slot was added the same way, and `sw-dialogue` got shorter.
 
 ## Source books
 

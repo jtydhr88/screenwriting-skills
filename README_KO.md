@@ -2,7 +2,7 @@
 
 [English](README.md) · [中文版](README_ZH.md) · [日本語](README_JA.md) · [Français](README_FR.md)
 
-시나리오·드라마 극본·극작법을 위한 20개의 에이전트 스킬([Claude Code](https://docs.anthropic.com/en/docs/claude-code/skills) 및 [OpenAI Codex](https://developers.openai.com/codex/build-skills) 지원). 32권의 작법서와 12권의 출간 대본·희곡(중국·미국·영국·일본·한국)에서 추출했습니다.
+시나리오·드라마 극본·극작법을 위한 21개의 에이전트 스킬([Claude Code](https://docs.anthropic.com/en/docs/claude-code/skills) 및 [OpenAI Codex](https://developers.openai.com/codex/build-skills) 지원). 32권의 작법서와 12권의 출간 대본·희곡(중국·미국·영국·일본·한국)에서 추출했습니다.
 
 `SKILL.md` 파일은 공개 규격인 [agentskills.io](https://agentskills.io) 표준을 따르며 두 에이전트가 공유합니다 — 한 번 설치하면 어디서든 작동합니다.
 
@@ -79,13 +79,18 @@ codex plugin marketplace add jtydhr88/screenwriting-skills
 
 **README는 별개**이며 번역되어 있습니다. 짧고, 잘 바뀌지 않으며, 처음 온 사람이 가장 먼저 마주치는 것이기 때문입니다. 일본어·한국어·프랑스어 README는 설치·구성·이 방침까지로 의도적으로 멈춰 있습니다. 스킬 상세 대조표와 출처 서지는 [English](README.md)와 [中文版](README_ZH.md)에 있으며 네 번 복제하지 않습니다 — 이유는 위와 같습니다.
 
+## 무대 장르에 대하여
+
+영화와 드라마는 다뤘습니다. 무대는 일부만 다뤘고 나머지는 계획 중입니다. 기준은 하나입니다: **그 장르가 모델로 하여금 구조·형식·언어 규칙이 다른 것을 쓰게 하는가.** 그렇다면 독립 스킬, 소재나 작풍만 다르다면 기존 스킬 안의 사례로 둡니다. 중국 희곡은 이 기준을 충족합니다(창사는 운철과 판식에 묶이고, 장은 쪽이 아니라 절/출로 나뉘며, 행당이 심리보다 먼저 인물의 쓰는 법을 정합니다). 지금은 `sw-chinese-opera`에 루쥔의 창사 작법과 매체 경계표가 있고, 미수록 부분은 스킬 안에 명기했습니다. 다음 순서는 옹우홍·판쥔훙·리위의 극종 횡단 방법, 극종별 부록(표), 차오위·라오서의 화극, 마지막으로 뮤지컬입니다. 세로형 숏드라마와 AI 만화 드라마는 대상이 아닙니다. 새 매체는 "새 스킬 하나＋그 안의 경계표＋`sw-workflow` 진입표에 한 줄"로만 추가하고 일반 계층은 손대지 않습니다. 전문은 [English](README.md#stage-genres) / [中文版](README_ZH.md#舞台门类).
+
 ## 4계층 구조
 
 장편영화는 1·3·4계층을, 시리즈는 네 계층 전부를 씁니다. 시리즈 계층은 일반 계층 옆에 더해지는 것이 아니라 "한 편의 영화를 위해 설계된 구조"를 "엔진＋시즌"으로 **대체**하기 때문입니다.
 
 ```
 1. 일반 극작법   전제 · 구조 · 인물 · 대사 · 장면 · 포맷 · 프로젝트 진행
-2. 시리즈 계층   회차와 시즌 구조 · 시리즈 엔진과 바이블 · 작가실 · 30분 코미디
+2. 매체 계층     시리즈 · 회차와 시즌 구조 · 엔진과 바이블 · 작가실 · 30분 코미디
+                무대 · 중국 희곡(창사와 경계표, 나머지는 계획 중)
 3. 전통과 업계   미국 · 일본 · 한국과 프랑스 · 중국 본토 · 비즈니스
 4. 원전 코퍼스   체호프 · 오즈 · Succession · 드라마 사례집
 ```
@@ -93,7 +98,7 @@ codex plugin marketplace add jtydhr88/screenwriting-skills
 | 계층 | 스킬 |
 |---|---|
 | 1 | `sw-workflow`(진행 관리와 `story-bible.md`) · `sw-story-structure` · `sw-premise-theme` · `sw-character-conflict` · `sw-dialogue` · `sw-scene-craft` · `sw-format-adaptation` |
-| 2 | `sw-series-structure` · `sw-series-engine-bible` · `sw-writers-room` · `sw-sitcom-comedy` |
+| 2 | 시리즈: `sw-series-structure` · `sw-series-engine-bible` · `sw-writers-room` · `sw-sitcom-comedy`<br>무대: `sw-chinese-opera`(중국 희곡의 창사 작법과 매체 경계표. 판식·행당·서식은 미수록으로 명기) |
 | 3 | `sw-american-case-studies` · `sw-japanese-screenwriting` · `sw-korean-french-screenwriting` · `sw-chinese-series-practice` · `sw-industry-business` |
 | 4 | `chekhov-dramaturgy` · `ozu-screenplay-style` · `succession-series-writing` · `sw-series-case-studies` |
 

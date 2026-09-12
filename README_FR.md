@@ -2,7 +2,7 @@
 
 [English](README.md) · [中文版](README_ZH.md) · [日本語](README_JA.md) · [한국어](README_KO.md)
 
-20 compétences d'agent (« skills ») pour le scénario, l'écriture télévisuelle et la dramaturgie, destinées à [Claude Code](https://docs.anthropic.com/en/docs/claude-code/skills) et [OpenAI Codex](https://developers.openai.com/codex/build-skills). Distillées de 32 ouvrages de méthode et de 12 volumes de scénarios et de pièces publiés (chinois, américains, britanniques, japonais et coréens).
+21 compétences d'agent (« skills ») pour le scénario, l'écriture télévisuelle et la dramaturgie, destinées à [Claude Code](https://docs.anthropic.com/en/docs/claude-code/skills) et [OpenAI Codex](https://developers.openai.com/codex/build-skills). Distillées de 32 ouvrages de méthode et de 12 volumes de scénarios et de pièces publiés (chinois, américains, britanniques, japonais et coréens).
 
 Les fichiers `SKILL.md` suivent la norme ouverte [agentskills.io](https://agentskills.io) et sont partagés par les deux agents — une seule installation, les deux fonctionnent.
 
@@ -79,13 +79,18 @@ Ce que l'on abandonne en échange, c'est l'**auditabilité** : sans lire le chin
 
 **Les README relèvent d'un autre régime** et sont traduits : ils sont courts, stables, et c'est ce qu'un nouveau venu rencontre en premier. Les README japonais, coréen et français s'arrêtent délibérément à l'installation, à la structure et à cette politique ; les tableaux détaillés des skills et la bibliographie restent dans les versions [anglaise](README.md) et [chinoise](README_ZH.md) plutôt que d'être recopiés quatre fois — exactement pour la raison ci-dessus.
 
+## Les genres de scène
+
+Le cinéma et la télévision sont couverts. La scène l'est en partie, le reste est prévu, et une seule règle décide de ce qui reçoit un skill : **le genre fait-il écrire au modèle quelque chose dont la structure, le format ou les règles de langue diffèrent ?** Si oui, un skill à part ; si seuls le sujet ou le style changent, un cas d'étude dans un skill existant. L'opéra chinois remplit ce critère (les parties chantées sont liées aux groupes de rimes 韵辙 et aux mètres 板式, les scènes se découpent en 折/出 et non en pages, l'emploi 行当 décide de l'écriture d'un personnage avant sa psychologie). `sw-chinese-opera` contient aujourd'hui la méthode des parties chantées de Lu Jun et une table de frontière de médium, et déclare ce qu'il ne couvre pas encore. Sont prévus, dans l'ordre : la méthode commune aux genres d'opéra d'après 翁偶虹, 范钧宏 et 李渔, des annexes par genre sous forme de tables, le théâtre parlé de 曹禺 et 老舍, et en dernier la comédie musicale. Le micro-drama vertical et le drama en bande dessinée généré par IA ne sont pas au programme. Un médium s'ajoute par « un skill nouveau, sa table de frontière, une ligne dans la table d'entrée de `sw-workflow` », sans toucher à la couche générale. Texte complet : [English](README.md#stage-genres) / [中文版](README_ZH.md#舞台门类).
+
 ## Les quatre couches
 
 Un long métrage utilise les couches 1, 3 et 4 ; une série les utilise toutes les quatre, car la couche série ne s'ajoute pas à côté de la couche générale : elle **remplace** la « structure conçue pour un film » par une logique de moteur et de saison.
 
 ```
 1. Dramaturgie générale  prémisse · structure · personnage · dialogue · scène · format · conduite de projet
-2. Couche série          structure de l'épisode et de la saison · moteur et bible · writers' room · comédie de 30 min
+2. Couche médium         série · structure de l'épisode et de la saison · moteur et bible · writers' room · comédie de 30 min
+                         scène · opéra chinois (parties chantées et frontière ; le reste est prévu)
 3. Traditions et métier  Amérique · Japon · Corée et France · Chine continentale · le business
 4. Corpus de référence   Tchekhov · Ozu · Succession · études de cas télévisuelles
 ```
@@ -93,7 +98,7 @@ Un long métrage utilise les couches 1, 3 et 4 ; une série les utilise toutes l
 | Couche | Skills |
 |---|---|
 | 1 | `sw-workflow` (conduite de projet et `story-bible.md`) · `sw-story-structure` · `sw-premise-theme` · `sw-character-conflict` · `sw-dialogue` · `sw-scene-craft` · `sw-format-adaptation` |
-| 2 | `sw-series-structure` · `sw-series-engine-bible` · `sw-writers-room` · `sw-sitcom-comedy` |
+| 2 | Série : `sw-series-structure` · `sw-series-engine-bible` · `sw-writers-room` · `sw-sitcom-comedy`<br>Scène : `sw-chinese-opera` (opéra chinois : méthode des parties chantées et table de frontière de médium ; les mètres, les emplois et le format sont déclarés non couverts) |
 | 3 | `sw-american-case-studies` · `sw-japanese-screenwriting` · `sw-korean-french-screenwriting` · `sw-chinese-series-practice` · `sw-industry-business` |
 | 4 | `chekhov-dramaturgy` · `ozu-screenplay-style` · `succession-series-writing` · `sw-series-case-studies` |
 

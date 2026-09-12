@@ -2,7 +2,7 @@
 
 [English](README.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Français](README_FR.md)
 
-把 32 本编剧/剧作理论书籍与 12 卷出版剧本（中、美、英、日、韩）提炼成的 20 个 agent skill，面向 [Claude Code Skills](https://docs.anthropic.com/en/docs/claude-code/skills) 与 [OpenAI Codex](https://developers.openai.com/codex/build-skills)，覆盖电影长片、电视剧集、舞台剧。
+把 32 本编剧/剧作理论书籍与 12 卷出版剧本（中、美、英、日、韩）提炼成的 21 个 agent skill，面向 [Claude Code Skills](https://docs.anthropic.com/en/docs/claude-code/skills) 与 [OpenAI Codex](https://developers.openai.com/codex/build-skills)，覆盖电影长片、电视剧集、舞台剧。
 
 所有 `SKILL.md` 文件遵循开放的 [agentskills.io](https://agentskills.io) 标准，Claude Code 与 Codex 通用——装一次，两个 Agent 都能用。
 
@@ -50,7 +50,7 @@ codex plugin marketplace add jtydhr88/screenwriting-skills
 # Plugins → 选择 "Screenwriting Skills" → Install
 ```
 
-两边共用同一份 `skills/` 目录下的 20 个 `SKILL.md`，不重复、不改写。
+两边共用同一份 `skills/` 目录下的 21 个 `SKILL.md`，不重复、不改写。
 
 #### 个人级别（所有项目生效）
 
@@ -105,11 +105,12 @@ cp -r screenwriting-skills/plugins/screenwriting/skills/* .agents/skills/
 
 ## 四层结构
 
-写长片用第 1、3、4 层；写剧集要用全部四层——剧集层不是加在通用层旁边，而是用"引擎＋季"替换掉"为一部电影设计的结构"。
+写长片用第 1、3、4 层；写剧集或舞台作品再加第 2 层。媒介层做的是替换：用该媒介自己的单位取代「为一部电影设计的结构」。
 
 ```
 1. 通用剧作层   前提 · 结构 · 人物 · 对白 · 场景 · 格式 · 项目调度
-2. 剧集层       单集与季结构 · 引擎与 bible · 编剧室 · 半小时喜剧
+2. 媒介层       剧集 · 单集与季结构 · 引擎与 bible · 编剧室 · 半小时喜剧
+                舞台 · 戏曲（唱词方法与媒介边界，其余在建）
 3. 传统与行业层 美国 · 日本 · 韩法 · 中国大陆 · 行业生意
 4. 大师语料层   契诃夫 · 小津 · 继承之战 · 剧集案例库
 ```
@@ -126,7 +127,7 @@ cp -r screenwriting-skills/plugins/screenwriting/skills/* .agents/skills/
 | `sw-scene-craft` 场景与段落 | 场景＝价值转折、五步场景分析、晚进早出、节奏与过渡、动作优于对白；意趣要足、细节要妙、道具要精 | 麦基、菲尔德、希克斯、沃尔特、汉森、霍克斯特、梅峰、陆军 |
 | `sw-format-adaptation` 格式·流程·改编 | 推销剧本格式硬规则、版面规格表、元素级约定、Fountain 输出契约（含中文强制记号）、中文场号制与日式柱・ト書き、大纲→处理台本→草稿链、修改、改编原则 | 汉森、沃尔特、希克斯、菲尔德、麦基、霍克斯特、戴蒙德&韦斯曼、博克；版面规格与 Fountain 为行业通行做法 |
 
-### 第 2 层 剧集层（电影编剧书不教的部分）
+### 第 2 层 媒介层（电影编剧书不教的部分）
 
 | 技能 | 内容 | 主要来源 |
 |---|---|---|
@@ -134,6 +135,12 @@ cp -r screenwriting-skills/plugins/screenwriting/skills/* .agents/skills/
 | `sw-series-engine-bible` 引擎与 bible | 系列引擎 / franchise（拉布金四元素、兰道 tacit contract、布鲁姆三问、一百集检验与"再说三集"检验）；故事模式与潜台词地雷；能持续生产冲突的人物网；pilot 类型（premise / 典型集 / 混合）与三种收法；剧集类型学与 story-type；以及全部推销文档——logline、跳板、pitch document、series format、treatment、bible 三档，外加一份故事线文档骨架 | 拉布金、兰道一/二版、奥贝格、道格拉斯、戈德堡&拉布金、布鲁姆、米勒、卡尔维西、史密斯；引擎拆解取自《黑道家族》《伦敦生活》《继承之战》 |
 | `sw-writers-room` 编剧室与制作现实 | showrunner 的职责与否决权；破故事（蔡斯的 35 拍与剪刀胶带、威尔斯的十把椅子、道格拉斯的格子、马扎拉的无大纲法）；文档链与各自的页数预算；单集六周与初稿十四天法；spec 剧本与向既有剧 pitch 单集；接 note 与给 note；职级阶梯与阶段交易；制作限制作为创作触发；单一作者的替代方案 | 戈德堡&拉布金、道格拉斯、兰道一/二版访谈、史密斯、布鲁姆（标时效），以及蔡斯、阿姆斯特朗、普雷布尔、索尔金、费罗斯、沃勒-布里奇的一手自述 |
 | `sw-sitcom-comedy` 半小时喜剧 | 半小时喜剧是"整体切换"：前提驱动的三层喜剧法、九种困境、六种人物配比、笑点力学（两段式 setup、punch word 置尾、topper、running gag、十种喜剧微调、每页 2–4 个笑点）、cold open/幕/tag、多机位与单机位与动画三套格式与页数、直接对镜作为季弧装置、dramedy | 埃文·史密斯、沃勒-布里奇《伦敦生活》、兰道、布鲁姆、道格拉斯（dramedy）、米勒 |
+
+**舞台**
+
+| Skill | 内容 | 主要来源 |
+|---|---|---|
+| `sw-chinese-opera` | 舞台层的戏曲一格：陆军的唱词三好（性格定韵与重点句定韵、宽韵险韵与同字韵、句式忌一律七字十字、唱段落在重场戏）与六组范例，加一张媒介边界表，说明通用 skill 哪几层能用在戏曲上。缺口明写：各剧种的板式与韵辙表、行当与程式、剧本体例、大师全本，列为计划而非已有 | 陆军；计划：翁偶虹、范钧宏、李渔《闲情偶寄》 |
 
 ### 第 3 层 传统与行业层
 
@@ -155,6 +162,20 @@ cp -r screenwriting-skills/plugins/screenwriting/skills/* .agents/skills/
 | `sw-series-case-studies` 剧集案例库 | 一手剧本的逐集拆解：索尔金六集《白宫风云》（幕页码表、八种出幕）、蔡斯五集《黑道家族》、费罗斯带注的《唐顿庄园》第二季（19 条线、419 条作者脚注）、《伦敦生活》剧本集、卡尔维西八个 pilot 的逐分钟节拍表、兰道 47 部剧结构总表、米勒的《汉尼拔》与《金牌律师》场拆解、戈德堡&拉布金的 beat sheet、坂元裕二与卢熙京 | 上述出版剧本与各书的案例章 |
 
 每个 skill 有 `SKILL.md`（原理、清单、工作流程），除一个之外都另有 `reference.md`（表格、逐集分析、原文引文）。有三个 skill 的表格分成多个文件，保证每个都能一次读完：`sw-series-case-studies` 分为 `reference.md`（四部英语剧本集）、`reference-pilots.md`（方法书里的 pilot 节拍表与结构总表）、`reference-asia.md`（日韩两部文本）；`sw-series-engine-bible` 分为引擎拆解、文档模板字段表、填好的样例三册；`sw-chinese-series-practice` 分为实务册、格式与策划样本册、张巍六案例册、片段索引与内容红线册。
+
+## 舞台门类
+
+电影和剧集已经覆盖。舞台覆盖了一部分，其余在计划里，并且有一条规则决定什么该开 skill、什么不该。
+
+**规则。** 一个门类会不会让模型写出结构、格式、语言规则都不同的东西？会，就单开 skill；只是题材或风格不同，就放进现有 skill 当案例。戏曲会：唱段受韵辙和板式硬约束，场次按折／出而不按页切，行当先于心理决定一个角色怎么写。题材（谍战、古装、家庭）和导演风格不会；除非像小津那样有完整剧本集，否则是案例不是方法。
+
+**现在有什么。** `sw-chinese-opera` 装了陆军的唱词方法（选韵、句式、布局）与范例，加一张媒介边界表，说明通用 skill 哪几层能用在戏曲上、哪几层不能。这部分是从 `sw-dialogue` 搬出来的，一个通用 skill 的触发条件里不该挂着「写戏曲唱词」。skill 里明写了它还没覆盖什么，description 只承诺已有的部分。
+
+**计划补什么，按顺序。** 跨剧种的结构方法（一人一事、折／出、行当、程式、唱念做打），来源翁偶虹、范钧宏、李渔；剧种附录做成表格（京剧十三辙与西皮二黄板式字句、豫剧中州韵与板式）；戏曲剧本体例；大师语料按契诃夫的做法全本逐折拆（《锁麟囊》《曹操与杨修》《朝阳沟》）。之后是中国话剧一脉在契诃夫之外的东西：曹禺的封闭空间高压结构、老舍《茶馆》的人像展览式无主线结构。音乐剧排最后，歌承担叙事是一套真正不同的规则，现有 32 本书里没有。
+
+**不做什么。** 竖屏短剧与 AI 漫剧，它们的逻辑是投放不是剧作学。按题材拆、按导演拆的 skill。
+
+**新媒介怎么加进来而不污染通用层。** 一个新 skill；skill 里一张媒介边界表声明哪几层能搬走；`sw-workflow` 入口路径加一行。通用 skill 不改。剧集层（13 → 20）就是这么加的，`sw-story-structure` 一字未动；戏曲这一格也是这么加的，`sw-dialogue` 反而变短了。
 
 ## 来源书目
 

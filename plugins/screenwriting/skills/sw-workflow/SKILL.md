@@ -50,6 +50,7 @@ story-bible 模板与各阶段工作单见 [reference.md](reference.md)；跨语
 **参照类 skill 何时进入**：
 - `sw-american-case-studies`：阶段 1–2 找同类型片单和陈词滥调；阶段 6 对照同类型高潮。
 - `chekhov-dramaturgy`、`ozu-screenplay-style`：写反高潮、多主人公、家庭题材、"事件画外反应画内"时，从阶段 2 起作为结构与语气的样板。
+- `sw-chinese-opera`：项目是戏曲时从阶段 4 起接管唱词，并在阶段 2 之前用它的媒介边界表决定通用 skill 哪几层能用。
 - `sw-japanese-screenwriting`、`sw-korean-french-screenwriting`：片段优先、主题后置、类型承诺、集体创作等替代路径；用户明确不走三幕经典设计时在阶段 1 就引入。
 - 剧集类 skill（`sw-series-structure`、`sw-series-engine-bible`、`sw-writers-room`、`sw-sitcom-comedy`、`sw-chinese-series-practice`、`succession-series-writing`、`sw-series-case-studies`）：只在入口路径判为剧集时进入，走三之二的剧集阶段表。
 
@@ -65,6 +66,7 @@ story-bible 模板与各阶段工作单见 [reference.md](reference.md)；跨语
 | 手里已有初稿要改 | 先做阶段 1–3 的**反向填表**（从稿子里提取前提、结构、人物填进 bible），再进阶段 6 | 填表时把稿子里没有的项标"缺"，这些缺项就是修改清单 |
 | 改编小说 / 舞台剧 / 真实事件 | 0 → `sw-format-adaptation` 改编四问 → 1 → 2 … | 阶段 1 先答"原素材的冲突主要在哪一层面、要重新发明什么"；真人故事先确认授权 |
 | 短片 / 小戏 / 独幕剧 | 1 → 2（用陆军起承转合与八法代替 BS2）→ 3 → 5 | 演示板缩到 10–15 卡；人物≤5；戏核必须先有 |
+| 戏曲（京剧 / 豫剧 / 越剧 / 昆曲 / 小戏唱本） | 同上一行，但进入前先读 `sw-chinese-opera` 第〇节的媒介边界表 | 唱段只分配给价值转折最大的场次；宾白走 `sw-dialogue`，唱词走 `sw-chinese-opera`；板式、行当、体例目前未覆盖，直说 |
 | 只有一个点子，不知道能不能写 | 1（只到一句话故事）→ 7 的 PROBLEM 自检 | 通过再回 2；不通过就换点子，bible 里保留被否的点子和原因 |
 | 电视剧 / 剧集 / pilot / 一季 | 走第三节之二的**剧集阶段表**（S0–S7），不走上面的长片阶段表 | 引擎与 bible 先于剧本；国产剧另加 `sw-chinese-series-practice` 的文档链；企画书格式见 `sw-format-adaptation` reference 的大宫艾丽模板 |
 | 半小时喜剧 / 情景喜剧 | 剧集阶段表，但 S2、S5 换用 `sw-sitcom-comedy` | 页数、格式、笑点密度整体切换 |
