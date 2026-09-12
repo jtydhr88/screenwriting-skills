@@ -2,7 +2,7 @@
 
 [English](README.md) · [中文版](README_ZH.md) · [日本語](README_JA.md) · [Français](README_FR.md)
 
-시나리오·드라마 극본·극작법을 위한 21개의 에이전트 스킬([Claude Code](https://docs.anthropic.com/en/docs/claude-code/skills) 및 [OpenAI Codex](https://developers.openai.com/codex/build-skills) 지원). 32권의 작법서와 12권의 출간 대본·희곡(중국·미국·영국·일본·한국)에서 추출했습니다.
+시나리오·드라마 극본·극작법을 위한 24개의 에이전트 스킬([Claude Code](https://docs.anthropic.com/en/docs/claude-code/skills) 및 [OpenAI Codex](https://developers.openai.com/codex/build-skills) 지원). 45권의 작법서와 23권의 출간 대본·악보·희곡(중국·미국·영국·일본·한국)에서 추출했습니다.
 
 `SKILL.md` 파일은 공개 규격인 [agentskills.io](https://agentskills.io) 표준을 따르며 두 에이전트가 공유합니다 — 한 번 설치하면 어디서든 작동합니다.
 
@@ -83,7 +83,7 @@ codex plugin marketplace add jtydhr88/screenwriting-skills
 
 영화와 드라마는 다뤘습니다. 무대는 일부만 다뤘고 나머지는 계획 중입니다. 기준은 하나입니다: **그 장르가 모델로 하여금 구조·형식·언어 규칙이 다른 것을 쓰게 하는가.** 그렇다면 독립 스킬, 소재나 작풍만 다르다면 기존 스킬 안의 사례로 둡니다.
 
-중국 희곡은 하나의 장르가 아니라 **두 가지 작법**입니다. 나누는 축은 극종이 아니라 성강 체계입니다. **곡패체**(원잡극·명청전기·곤곡)는 전사(填詞)——자수·구식·평측이 정해진 곡패에 가사를 채워 넣습니다. 잡극은 4절 1설자에 한 사람이 주창하고, 전기는 출(出) 단위로 갑니다. **판강체**(경극·예극·월극·진강·평극·호극)는 상하구——7자 또는 10자 대구를 판식 변화로 떠받치고, 행당이 나누어 부르며, 단위는 장(場)입니다. 구조 단위와 창사 작법이 모두 다르므로 두 개의 스킬입니다. 같은 체계 안의 극종 차이는 어느 운표(경극 십삼철인가 예극 중주운인가)·어느 판식표를 찾느냐뿐이라, 같은 방법에 다른 표이므로 reference 부록으로 두고 극종별 스킬은 만들지 않습니다. 월극(粵劇, 두 체계를 섞고 광둥어로 씀)과 천극(고강은 곡패체)은 경계 사례로 다룹니다. 지금은 `sw-chinese-opera-banqiang`에 루쥔의 창사 작법과 매체 경계표가 있고, 미수록 부분은 스킬 안에 명기했습니다. 다음 순서는 판강체의 극종 횡단 방법과 극종별 부록, 그다음 `sw-chinese-opera-qupai`(리위·우메이·왕지례의 전사법), 차오위·라오서의 화극, 마지막으로 뮤지컬입니다. 세로형 숏드라마와 AI 만화 드라마는 대상이 아닙니다. 새 매체는 "새 스킬 하나＋그 안의 경계표＋`sw-workflow` 진입표에 한 줄"로만 추가하고 일반 계층은 손대지 않습니다. 전문은 [English](README.md#stage-genres) / [中文版](README_ZH.md#舞台门类).
+중국 희곡은 하나의 장르가 아니라 **두 가지 작법**입니다. 나누는 축은 극종이 아니라 성강 체계입니다. **곡패체**(원잡극·명청전기·곤곡)는 전사(填詞)——자수·구식·평측이 정해진 곡패에 가사를 채워 넣습니다. 잡극은 4절 1설자에 한 사람이 주창하고, 전기는 출(出) 단위로 갑니다. **판강체**(경극·예극·월극·진강·평극·호극)는 상하구——7자 또는 10자 대구를 판식 변화로 떠받치고, 행당이 나누어 부르며, 단위는 장(場)입니다. 구조 단위와 창사 작법이 모두 다르므로 두 개의 스킬입니다. 같은 체계 안의 극종 차이는 어느 운표(경극 십삼철인가 예극 중주운인가)·어느 판식표를 찾느냐뿐이라, 같은 방법에 다른 표이므로 reference 부록으로 두고 극종별 스킬은 만들지 않습니다. 월극(粵劇, 두 체계를 섞고 광둥어로 씀)과 천극(고강은 곡패체)은 경계 사례로 다룹니다. 지금은 네 개의 스킬(판강체·곡패체 각각의 방법 스킬과 전본 자료집, 25건의 자료에서 추출)이 있고, 각 방법 스킬 첫머리에 출처가 달린 매체 경계표를 두었습니다. 다음 순서는 예극의 운철표와 월극(粵劇) 처리, 그다음 차오위·라오서의 화극, 마지막으로 뮤지컬입니다. 세로형 숏드라마와 AI 만화 드라마는 대상이 아닙니다. 새 매체는 "새 스킬 하나＋그 안의 경계표＋`sw-workflow` 진입표에 한 줄"로만 추가하고 일반 계층은 손대지 않습니다. 전문은 [English](README.md#stage-genres) / [中文版](README_ZH.md#舞台门类).
 
 ## 4계층 구조
 
@@ -92,7 +92,7 @@ codex plugin marketplace add jtydhr88/screenwriting-skills
 ```
 1. 일반 극작법   전제 · 구조 · 인물 · 대사 · 장면 · 포맷 · 프로젝트 진행
 2. 매체 계층     시리즈 · 회차와 시즌 구조 · 엔진과 바이블 · 작가실 · 30분 코미디
-                무대 · 중국 희곡 판강체(창사와 경계표); 곡패체는 계획 중
+                무대 · 중국 희곡: 판강체·곡패체 두 방법, 각각 전본 자료집
 3. 전통과 업계   미국 · 일본 · 한국과 프랑스 · 중국 본토 · 비즈니스
 4. 원전 코퍼스   체호프 · 오즈 · Succession · 드라마 사례집
 ```
@@ -100,7 +100,7 @@ codex plugin marketplace add jtydhr88/screenwriting-skills
 | 계층 | 스킬 |
 |---|---|
 | 1 | `sw-workflow`(진행 관리와 `story-bible.md`) · `sw-story-structure` · `sw-premise-theme` · `sw-character-conflict` · `sw-dialogue` · `sw-scene-craft` · `sw-format-adaptation` |
-| 2 | 시리즈: `sw-series-structure` · `sw-series-engine-bible` · `sw-writers-room` · `sw-sitcom-comedy`<br>무대: `sw-chinese-opera-banqiang`(중국 희곡 판강체: 창사 작법과 매체 경계표. 판식·행당·서식은 미수록으로 명기. 곡패체는 별도 스킬로 계획 중) |
+| 2 | 시리즈: `sw-series-structure` · `sw-series-engine-bible` · `sw-writers-room` · `sw-sitcom-comedy`<br>무대: `sw-chinese-opera-banqiang` · `sw-chinese-opera-qupai`(두 성강 체계의 방법) · `sw-chinese-opera-banqiang-cases` · `sw-chinese-opera-qupai-cases`(전본 자료집: 쇄린낭·사가빈·백사전·조양구／두아원·구풍진·모란정·도화선·장생전) |
 | 3 | `sw-american-case-studies` · `sw-japanese-screenwriting` · `sw-korean-french-screenwriting` · `sw-chinese-series-practice` · `sw-industry-business` |
 | 4 | `chekhov-dramaturgy` · `ozu-screenplay-style` · `succession-series-writing` · `sw-series-case-studies` |
 

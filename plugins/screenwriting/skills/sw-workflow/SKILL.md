@@ -50,7 +50,7 @@ story-bible 模板与各阶段工作单见 [reference.md](reference.md)；跨语
 **参照类 skill 何时进入**：
 - `sw-american-case-studies`：阶段 1–2 找同类型片单和陈词滥调；阶段 6 对照同类型高潮。
 - `chekhov-dramaturgy`、`ozu-screenplay-style`：写反高潮、多主人公、家庭题材、"事件画外反应画内"时，从阶段 2 起作为结构与语气的样板。
-- `sw-chinese-opera-banqiang`：项目是板腔体戏曲时从阶段 4 起接管唱词，并在阶段 2 之前用它的媒介边界表决定通用 skill 哪几层能用。曲牌体（杂剧／传奇／昆曲）尚无对应 skill。
+- 戏曲四个 skill（`sw-chinese-opera-banqiang`、`sw-chinese-opera-qupai` 与两个 `-cases`）：项目是戏曲时不走本节的长片阶段表，改走三之三的 X 表或 Q 表；两个方法 skill 开头的媒介边界表决定通用 skill 哪几层能用。
 - `sw-japanese-screenwriting`、`sw-korean-french-screenwriting`：片段优先、主题后置、类型承诺、集体创作等替代路径；用户明确不走三幕经典设计时在阶段 1 就引入。
 - 剧集类 skill（`sw-series-structure`、`sw-series-engine-bible`、`sw-writers-room`、`sw-sitcom-comedy`、`sw-chinese-series-practice`、`succession-series-writing`、`sw-series-case-studies`）：只在入口路径判为剧集时进入，走三之二的剧集阶段表。
 
@@ -66,8 +66,8 @@ story-bible 模板与各阶段工作单见 [reference.md](reference.md)；跨语
 | 手里已有初稿要改 | 先做阶段 1–3 的**反向填表**（从稿子里提取前提、结构、人物填进 bible），再进阶段 6 | 填表时把稿子里没有的项标"缺"，这些缺项就是修改清单 |
 | 改编小说 / 舞台剧 / 真实事件 | 0 → `sw-format-adaptation` 改编四问 → 1 → 2 … | 阶段 1 先答"原素材的冲突主要在哪一层面、要重新发明什么"；真人故事先确认授权 |
 | 短片 / 小戏 / 独幕剧 | 1 → 2（用陆军起承转合与八法代替 BS2）→ 3 → 5 | 演示板缩到 10–15 卡；人物≤5；戏核必须先有 |
-| 戏曲·板腔体（京剧 / 豫剧 / 越剧 / 秦腔 / 评剧 / 沪剧 / 小戏唱本） | 同上一行，但进入前先读 `sw-chinese-opera-banqiang` 第〇之二节的媒介边界表 | 唱段只分配给价值转折最大的场次；宾白走 `sw-dialogue`，唱词走 `sw-chinese-opera-banqiang`；板式、行当、体例目前未覆盖，直说 |
-| 戏曲·曲牌体（元杂剧 / 明清传奇 / 昆曲） | 暂无对应 skill（`sw-chinese-opera-qupai` 待建） | 填词、宫调、一人主唱是另一套写法，不要用板腔体或通用层硬凑，直说未覆盖 |
+| 戏曲·板腔体（京剧 / 豫剧 / 越剧 / 秦腔 / 评剧 / 沪剧 / 川剧弹戏胡琴） | 走三之三的**板腔体 X0–X6**，不走长片阶段表 | 先定体制再定结构；唱段只给重场戏；宾白走 `sw-dialogue`，唱词与板式走 `sw-chinese-opera-banqiang`；全本对照看 `sw-chinese-opera-banqiang-cases` |
+| 戏曲·曲牌体（元杂剧 / 明清传奇 / 昆曲 / 川剧高腔） | 走三之三的**曲牌体 Q0–Q6** | 先答"场上还是案头""杂剧还是传奇"两个开关；填词走 `sw-chinese-opera-qupai`；全本对照看 `sw-chinese-opera-qupai-cases`；川剧本子两表都看 |
 | 只有一个点子，不知道能不能写 | 1（只到一句话故事）→ 7 的 PROBLEM 自检 | 通过再回 2；不通过就换点子，bible 里保留被否的点子和原因 |
 | 电视剧 / 剧集 / pilot / 一季 | 走第三节之二的**剧集阶段表**（S0–S7），不走上面的长片阶段表 | 引擎与 bible 先于剧本；国产剧另加 `sw-chinese-series-practice` 的文档链；企画书格式见 `sw-format-adaptation` reference 的大宫艾丽模板 |
 | 半小时喜剧 / 情景喜剧 | 剧集阶段表，但 S2、S5 换用 `sw-sitcom-comedy` | 页数、格式、笑点密度整体切换 |
@@ -91,6 +91,38 @@ story-bible 模板与各阶段工作单见 [reference.md](reference.md)；跨语
 **参照类 skill 何时进入**：`succession-series-writing`（流媒体群像、隐形幕、季形对称、结局工程）从 S2 起作样板；`sw-series-case-studies`（West Wing 四幕、Sopranos pilot、Downton 多线、Fleabag 六集季、Calvisi 八个 pilot 节拍表、坂元裕二、卢熙京）在 S1 找同类 comp、S4 对照节拍。**长片 skill 的媒介无关部分照用**：对白、场景价值转折、三维人物、前提——不要因为是剧集就跳过它们。
 
 **回退**：S4 写不出第二集的 act out，通常是 S1 的引擎问题；S6 对白写不动，通常是 S2 的人物网没有可失之物。回去补，记决策日志。
+
+### 三之三、戏曲阶段表（板腔体 / 曲牌体）
+
+戏曲不走长片阶段表，也不走剧集阶段表：它的结构单位是场／折／出，唱段先于对白，体制（唱工戏还是做工戏）先于结构，而且**要先判声腔体系再选 skill**。判法：京剧、豫剧、越剧、秦腔、评剧、沪剧、川剧弹戏胡琴 → 板腔体（X 表）；元杂剧、明清传奇、昆曲、川剧高腔 → 曲牌体（Q 表）；川剧本子一本之内可跨两体系，两表都看。两张表的方法在 `sw-chinese-opera-banqiang` 与 `sw-chinese-opera-qupai`，全本语料在 `sw-chinese-opera-banqiang-cases` 与 `sw-chinese-opera-qupai-cases`；两体系共用的美学与排演层在 `sw-chinese-opera-banqiang/reference-common.md`。
+
+**板腔体 X0–X6**
+
+| # | 阶段 | 调用的 skill | 交付物（写入 story-bible 的节） | 建议通过标准 |
+|---|---|---|---|---|
+| X0 | 启动 | 本 skill | 剧种、体系、是新编／整理老戏／现代戏／命题改编、为哪位演员或行当写 | 剧种与体系判定不含糊；剧本体例定京剧式还是越剧式 |
+| X1 | 定体制 | `sw-chinese-opera-banqiang`（体制与体裁）＋ `sw-premise-theme`（戏核） | 唱工／做工／武打／并重之一，及其依据（人物行动性与行当、情节繁简与舞蹈条件、风格）；戏核一句 | 体制定了再往下；"顺向开辟"自检过（不逆剧种气质） |
+| X2 | 主线与技术结构 | `sw-chinese-opera-banqiang`（主线的集中、技术结构与排场） | 主线一句（纵的集中）；场次表（每场事件＋唱念做打配比＋冷热）；重场戏两三场；过场清单 | 排场交替律过；上板段集中在重场戏；过场不给主角加唱 |
+| X3 | 行当与人物 | `sw-chinese-opera-banqiang`（行当决定写法、为演员写戏）＋ `sw-character-conflict` | 人物表带行当；主演的技艺清单与剧目缺口；行当禁忌核对 | 没有净角唱反二黄之类的禁忌违反；一赶多（若有）成立 |
+| X4 | 唱段设计 | `sw-chinese-opera-banqiang`（唱词、对唱、编剧要标什么） | 唱段表（场次／人物／板式意向／句数／辙口）；每段的重点句先写；垛句位置；辙口全剧布局 | 上下句分句法过；下句押、上句可不押；奇数句只在扫头；对唱段有递减或交锋结构 |
+| X5 | 初稿 | `sw-chinese-opera-banqiang`（宾白与唱白衔接、程式的用法）＋ `sw-dialogue`（宾白）＋ `sw-chinese-opera-banqiang-cases`（对照语料） | 剧本（唱／白／科介；若选京剧式则另标板式与锣鼓；越剧式或不标板式一路见 `sw-chinese-opera-banqiang` 第九节） | 每段唱前一行是称呼语；程式取舍清单写明；现代戏不留自报家门定场诗 |
+| X6 | 审腔与修改 | `sw-chinese-opera-banqiang`（与演员琴师的接口、诊断清单） | 修改记录；板式标注是意向书，改词必改腔的清单 | 诊断清单跑完；分歧处注明选了哪一方 |
+
+**曲牌体 Q0–Q6**
+
+| # | 阶段 | 调用的 skill | 交付物 | 建议通过标准 |
+|---|---|---|---|---|
+| Q0 | 启动 | 本 skill | 杂剧还是传奇还是昆曲折子；场上还是案头（剧曲 vs 清曲）；新填还是改老本 | 两个开关都答了 |
+| Q1 | 立主脑与体制 | `sw-chinese-opera-qupai`（开篇立场、杂剧支／传奇支）＋ `sw-premise-theme` | 一人一事一句；折数或出数；主唱权归谁（杂剧）或副末开场怎么写（传奇） | 主唱权＝主角权成立；题目正名／副末开场有了 |
+| Q2 | 宫调与排场 | `sw-chinese-opera-qupai`（宫调与套数、排场与剧情） | 每折／出的宫调与套式意向；排场表（冷热、过场短剧、南北曲用途） | 一折一宫调一韵（杂剧）；排场交替律过；南北曲分工说得出理由 |
+| Q3 | 人物与行当 | `sw-chinese-opera-qupai`（四色四气）＋ `sw-character-conflict` | 人物表带脚色与色气归类 | 净丑有结构功能不只是笑料 |
+| Q4 | 填词 | `sw-chinese-opera-qupai`（填词法）＋ `reference.md` 曲牌表 | 曲牌表（折／曲牌／务头句／韵）；每支先定务头再填 | 格律按谱（或注明走现代新编"零金碎玉"路线）；四十禁格律半过 |
+| Q5 | 初稿 | `sw-chinese-opera-qupai`（宾白→曲接口、帮腔）＋ `sw-dialogue` ＋ `sw-chinese-opera-qupai-cases` | 剧本（曲／白／科介／帮腔） | 每支曲前一句白引出首句；名作违律表对过 |
+| Q6 | 修改 | `sw-chinese-opera-qupai`（改编与改本、诊断清单） | 修改记录 | 诊断清单跑完；改本三种结果对照过（合律毁文是常见失败） |
+
+**本节两表未点名的影视格式类 skill（`sw-format-adaptation` 等）不进入戏曲项目；要用先查对应戏曲 skill 的媒介边界表。**
+
+**一次性交付**（写一段唱词、改一折）不建 bible，直接进对应 skill 的那一节。
 
 ---
 

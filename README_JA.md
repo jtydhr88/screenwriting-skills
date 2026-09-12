@@ -2,7 +2,7 @@
 
 [English](README.md) · [中文版](README_ZH.md) · [한국어](README_KO.md) · [Français](README_FR.md)
 
-脚本執筆・テレビドラマ・劇作法のための 21 個のエージェントスキル（[Claude Code](https://docs.anthropic.com/en/docs/claude-code/skills) と [OpenAI Codex](https://developers.openai.com/codex/build-skills) 対応）。32 冊の理論書と 12 巻の出版シナリオ・戯曲（中国・アメリカ・イギリス・日本・韓国）から抽出したもの。
+脚本執筆・テレビドラマ・劇作法のための 24 個のエージェントスキル（[Claude Code](https://docs.anthropic.com/en/docs/claude-code/skills) と [OpenAI Codex](https://developers.openai.com/codex/build-skills) 対応）。45 冊の理論書と 23 巻の出版シナリオ・曲譜・戯曲（中国・アメリカ・イギリス・日本・韓国）から抽出したもの。
 
 `SKILL.md` はオープン規格 [agentskills.io](https://agentskills.io) に準拠し、両方のエージェントで共有されます——一度入れれば、どちらでも動きます。
 
@@ -83,7 +83,7 @@ codex plugin marketplace add jtydhr88/screenwriting-skills
 
 映画とテレビドラマは網羅済み。舞台は一部のみで、残りは計画中です。基準は一つ：**そのジャンルは、モデルに構成・書式・言語規則の異なるものを書かせるか。** 書かせるなら独立したスキル、題材や作風が違うだけなら既存スキル内の事例にとどめます。
 
-中国戯曲は一つのジャンルではなく**二つの書法**です。分ける軸は劇種ではなく声腔体系。**曲牌体**（元雑劇・明清伝奇・昆曲）は填詞——固定の字数・句式・平仄をもつ曲牌に詞を填める。雑劇は四折一楔子で一人主唱、伝奇は出で進む。**板腔体**（京劇・豫劇・越劇・秦腔・評劇・滬劇）は上下句——七字か十字の対句を板式の変化で支え、行当が分けて歌い、単位は場。構成単位も唱詞の書き方も違うので二つのスキルになります。同じ体系内の劇種の差は、どの韻表（京劇十三轍か豫劇中州韻か）・どの板式表を引くかだけ、同じ方法に別の表なので reference の付録にとどめ、劇種ごとにスキルは作りません。粤劇（両体系を混用し、粤語で書く）と川劇（高腔は曲牌体）は境界例として扱います。現在は `sw-chinese-opera-banqiang` に陸軍の唱詞の方法と媒体境界表があり、未収録の部分はスキル内に明記しています。次に予定しているのは板腔体の劇種横断の方法と劇種別付録、その後 `sw-chinese-opera-qupai`（李漁・呉梅・王季烈による填詞法）、曹禺・老舎の話劇、そして最後にミュージカル。縦型ショートドラマと AI 漫画ドラマは対象外です。新しい媒体は「新スキル一つ＋その中の境界表＋`sw-workflow` の入口表に一行」だけで追加し、汎用層には手を入れません。全文は [English](README.md#stage-genres) / [中文版](README_ZH.md#舞台门类)。
+中国戯曲は一つのジャンルではなく**二つの書法**です。分ける軸は劇種ではなく声腔体系。**曲牌体**（元雑劇・明清伝奇・昆曲）は填詞——固定の字数・句式・平仄をもつ曲牌に詞を填める。雑劇は四折一楔子で一人主唱、伝奇は出で進む。**板腔体**（京劇・豫劇・越劇・秦腔・評劇・滬劇）は上下句——七字か十字の対句を板式の変化で支え、行当が分けて歌い、単位は場。構成単位も唱詞の書き方も違うので二つのスキルになります。同じ体系内の劇種の差は、どの韻表（京劇十三轍か豫劇中州韻か）・どの板式表を引くかだけ、同じ方法に別の表なので reference の付録にとどめ、劇種ごとにスキルは作りません。粤劇（両体系を混用し、粤語で書く）と川劇（高腔は曲牌体）は境界例として扱います。現在は四つのスキル（板腔体・曲牌体それぞれの方法スキルと全本語料庫、25 点の資料から抽出）があり、各方法スキルの冒頭に出典付きの媒体境界表を置いています。次に予定しているのは豫劇の韻轍表と粤劇の扱い、その後曹禺・老舎の話劇、最後にミュージカル。縦型ショートドラマと AI 漫画ドラマは対象外です。新しい媒体は「新スキル一つ＋その中の境界表＋`sw-workflow` の入口表に一行」だけで追加し、汎用層には手を入れません。全文は [English](README.md#stage-genres) / [中文版](README_ZH.md#舞台门类)。
 
 ## 四層構成
 
@@ -92,7 +92,7 @@ codex plugin marketplace add jtydhr88/screenwriting-skills
 ```
 1. 一般劇作法   前提 · 構成 · 人物 · 台詞 · 場面 · 書式 · プロジェクト進行
 2. 媒体層       連続ドラマ · 各話とシーズンの構成 · エンジンとバイブル · ライターズルーム · 30 分コメディ
-                舞台 · 中国戯曲・板腔体（唱詞と境界表）；曲牌体は計画中
+                舞台 · 中国戯曲：板腔体と曲牌体の二方法、各々に全本語料庫
 3. 伝統と業界   アメリカ · 日本 · 韓国とフランス · 中国大陸 · ビジネス
 4. 原典コーパス チェーホフ · 小津 · Succession · テレビドラマ事例集
 ```
@@ -100,7 +100,7 @@ codex plugin marketplace add jtydhr88/screenwriting-skills
 | 層 | スキル |
 |---|---|
 | 1 | `sw-workflow`（進行管理と `story-bible.md`）· `sw-story-structure` · `sw-premise-theme` · `sw-character-conflict` · `sw-dialogue` · `sw-scene-craft` · `sw-format-adaptation` |
-| 2 | 連続ドラマ：`sw-series-structure` · `sw-series-engine-bible` · `sw-writers-room` · `sw-sitcom-comedy`<br>舞台：`sw-chinese-opera-banqiang`（中国戯曲・板腔体：唱詞の方法と媒体境界表。板式・行当・様式は未収録と明記。曲牌体は別スキルとして計画中） |
+| 2 | 連続ドラマ：`sw-series-structure` · `sw-series-engine-bible` · `sw-writers-room` · `sw-sitcom-comedy`<br>舞台：`sw-chinese-opera-banqiang` · `sw-chinese-opera-qupai`（二つの声腔体系の方法）· `sw-chinese-opera-banqiang-cases` · `sw-chinese-opera-qupai-cases`（全本語料庫：鎖麟嚢・沙家浜・白蛇伝・朝陽溝／竇娥冤・救風塵・牡丹亭・桃花扇・長生殿） |
 | 3 | `sw-american-case-studies` · `sw-japanese-screenwriting` · `sw-korean-french-screenwriting` · `sw-chinese-series-practice` · `sw-industry-business` |
 | 4 | `chekhov-dramaturgy` · `ozu-screenplay-style` · `succession-series-writing` · `sw-series-case-studies` |
 

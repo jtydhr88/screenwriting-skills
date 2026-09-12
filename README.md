@@ -2,7 +2,7 @@
 
 [中文版](README_ZH.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Français](README_FR.md)
 
-21 agent skills (for [Claude Code](https://docs.anthropic.com/en/docs/claude-code/skills) and [OpenAI Codex](https://developers.openai.com/codex/build-skills)) for screenwriting, television writing and dramaturgy, distilled from 32 craft books and 12 volumes of published scripts and plays (Chinese, American, British, Japanese and Korean).
+24 agent skills (for [Claude Code](https://docs.anthropic.com/en/docs/claude-code/skills) and [OpenAI Codex](https://developers.openai.com/codex/build-skills)) for screenwriting, television writing and dramaturgy, distilled from 45 craft books and 23 volumes of published scripts, scores and plays (Chinese, American, British, Japanese and Korean).
 
 The `SKILL.md` files follow the open [agentskills.io](https://agentskills.io) standard and are shared by both agents — install once, works everywhere.
 
@@ -50,7 +50,7 @@ codex plugin marketplace add jtydhr88/screenwriting-skills
 # Plugins → select "Screenwriting Skills" → Install
 ```
 
-The same 21 `SKILL.md` files are shipped through the plugin's `skills/` directory — no duplication, no rewriting.
+The same 24 `SKILL.md` files are shipped through the plugin's `skills/` directory — no duplication, no rewriting.
 
 #### Personal skills (all projects)
 
@@ -110,7 +110,7 @@ Four layers. A feature project uses layers 1, 3 and 4; a series or stage project
 ```
 1. General dramaturgy   premise · structure · character · dialogue · scene · format · project workflow
 2. Medium layer         series · episode & season structure · engine & bible · writers' room · half-hour comedy
-                        stage  · Chinese opera, banqiang system (lyric method and boundary); qupai system planned
+                        stage  · Chinese opera: banqiang and qupai methods, each with a full-script case library
 3. Tradition & trade    America · Japan · Korea & France · mainland China · the business
 4. Master corpora       Chekhov · Ozu · Succession · television case studies
 ```
@@ -140,7 +140,10 @@ Four layers. A feature project uses layers 1, 3 and 4; a series or stage project
 
 | Skill | What it covers | Main sources |
 |---|---|---|
-| `sw-chinese-opera-banqiang` | The banqiang-system opera slot (京剧 / 豫剧 / 越剧 and the 小戏 tradition; 杂剧 / 传奇 / 昆曲 are the qupai system, a separate planned skill): Lu Jun's lyric method (choose the rhyme from the character and from the key line first, wide vs narrow rhymes, same-word rhyme, vary the line pattern, put sung passages in the heavy scenes) with worked examples, and a medium-boundary table for applying the general skills to an opera script. States its own gaps: 板式 and 韵辙 tables per 剧种, 行当 and 程式, script format and master corpora are listed as planned, not claimed | Lu Jun; planned: 翁偶虹, 范钧宏, 李渔《闲情偶寄》 |
+| `sw-chinese-opera-banqiang` | The banqiang-system method (京剧 / 豫剧 / 越剧 / 秦腔 / 评剧 / 沪剧): decide the 体制 first (唱工 / 做工 / 武打), the three schools on concentrating the main line (李渔 / 范钧宏 / 翁偶虹, kept side by side), technical structure and 排场, role type before psychology and writing for a named performer, the lyric method (line-splitting for seven- and ten-character lines, the key line, 垛句, rhyme-group planning across a whole play, the real tolerance of rhyme), the salutation that turns speech into song, duets by shrinking line length, what a writer marks (Peking-opera style vs Yue-opera style, which marks no 板式 at all), the writer–performer–musician interface (板式 is a letter of intent), reworking old plays and commissioned adaptation, and the three contemporary routes (modernising the conventions / absurdist time-crossing / re-coding), each with its own boundary | 范钧宏, 翁偶虹 (two books), 刘吉典, 樊尚林, 张庚 & 郭汉城, 顾仲彝, 罗怀臻, Lu Jun; method conclusions from the corpus |
+| `sw-chinese-opera-qupai` | The qupai-system method (元杂剧 / 明清传奇 / 昆曲 / 川剧高腔): the stage school vs the desk school (李渔 vs 吴梅 & 王季烈), "play" and "song" as two separate scales, the 清曲 / 剧曲 switch, the 杂剧 branch (one 折 one mode one rhyme, the sole singer's right = the protagonist's right, 题目正名) and the 传奇 branch (副末开场, upper and lower halves, north–south suites, 集唐 exit poems), filling a tune pattern (前腔 / 换头 / 幺, padding characters, 务头, the forty prohibitions), modes and suites (the seventeen-mode mood table), 排场, the speech-to-song interface, 帮腔, reworking old texts, and the contemporary qupai practice that abandons suites | 李渔, 吴梅 (three books), 王季烈, 孔尚任's 凡例 and 纲领, 关汉卿, 汤显祖; 魏明伦 and 罗怀臻 for the modern practice |
+| `sw-chinese-opera-banqiang-cases` | Banqiang full-script corpus with the creative-process record attached: 《锁麟囊》 (翁偶虹's account, 程砚秋's three changes, 范钧宏's critique, the performance score), 《沙家浜》 1965 with the 1970 differences, 《白蛇传》 1955 with 田汉's preface and 王瑶卿's five notes on the tunes, 《朝阳沟》, 《潘金莲》, 罗怀臻's 越剧 and regional plays; an index of some fifty of 翁偶虹's creation records and 范钧宏's seven adaptation notes | the published scripts and scores above |
+| `sw-chinese-opera-qupai-cases` | Qupai full-script corpus: 《窦娥冤》《救风尘》《金线池》 (twelve 折 measured for mode, rhyme, singer and song-to-speech ratio), 《牡丹亭》 55 出 with its full scene table and selected arias, 《桃花扇》 44 出 with the 凡例, 《长生殿》 by 王季烈's fifty-折 排场 table, 《巴山秀才》 (modern 高腔, nine 帮腔 passages); each with the passages the theorists called out as breaking the rules | the texts above, from public-domain editions, verified against the originals |
 
 ### 3. Tradition and trade
 
@@ -171,9 +174,9 @@ Film and television are covered. The stage is covered in part, the rest is plann
 
 **Chinese opera is two systems, not one genre.** The axis that matters for a writer is the vocal system, not the regional 剧种. In the **qupai system** (曲牌体: 元杂剧, 明清传奇, 昆曲) a lyric is filled into a fixed tune pattern with set line counts, lengths and tones; a 杂剧 runs four 折 and one 楔子 with a single role singing an entire 折; a 传奇 runs in 出. In the **banqiang system** (板腔体: 京剧, 豫剧, 越剧, 秦腔, 评剧, 沪剧) a lyric is built from paired seven- or ten-character lines varied by metre (板式), any role may sing, and the unit is the 场. Structure and lyric method both differ, so they are two skills. Regional 剧种 within one system differ only in which rhyme table (京剧十三辙 vs 豫剧中州韵) and which metre table they use, the same method with a different lookup, so they are reference appendices rather than skills; China has over three hundred 剧种, and one skill each would be the same combinatorial explosion as one tree per language. Two untidy edges: 粤剧 mixes both systems and is in Cantonese, whose tones and rhymes differ from Mandarin entirely, so whether it needs its own skill depends on whether the model's Cantonese phonology can use the tables, to be tested once material is in; 川剧 uses five vocal styles and its 高腔 is qupai, so it will appear under both.
 
-**What is here now.** `sw-chinese-opera-banqiang` holds the lyric-writing method (唱词) from Lu Jun with worked examples (all his examples are 越剧, 沪剧 and 小戏, so banqiang), and a medium-boundary table saying which general skills apply to an opera script and which do not. It was moved out of `sw-dialogue`, where a general-purpose skill had been carrying an opera trigger clause. The skill states plainly what it does not yet cover, and its description promises only what is there.
+**What is here now.** Four skills, distilled from 25 sources (twelve method and theory books, thirteen full scripts, scores and collected plays): a method skill for each vocal system and a full-script case library for each. The two method skills open with a boundary table that says, with sources, which general skills apply to an opera script and which do not, and share one file of common aesthetics and staging. Classical texts were taken from public-domain editions and checked against the originals; where a scan could not be verified (some 吴梅 and 白蛇传 passages) the notes say so, and the skills do not build rules on them.
 
-**What is planned, in order.** For banqiang: the cross-剧种 method (一人一事, 场, 行当, 程式, 唱念做打) from 范钧宏, 翁偶虹, 汪曾祺, 张庚/郭汉城, 王安祈 and 罗怀臻; per-剧种 appendices as tables (京剧十三辙 and the 西皮二黄 metres from 刘吉典, 豫剧中州韵 and its metres); opera script format; master corpora on the Chekhov model (《锁麟囊》《曹操与杨修》《朝阳沟》《白蛇传》《沙家浜》, 越剧《红楼梦》, 魏明伦). Then `sw-chinese-opera-qupai`: the filling method, modes and suites, and the single-singer structure, from 李渔《闲情偶寄》, 吴梅 and 王季烈, with 《窦娥冤》《西厢记》《牡丹亭》《桃花扇》《长生殿》 as corpora. Then the spoken-theatre method China's own tradition adds beyond Chekhov: 曹禺's pressure-chamber structure and 老舍's portrait-gallery structure with no main line. Musical theatre last, because song carrying narrative is a genuinely different rule set and none of the current 32 books covers it.
+**What is planned, in order.** Two gaps in the opera layer first: a per-tradition rhyme table for 豫剧 (the sources only give the principle, not the table) and a fourth-system edge for 粤剧, whose Cantonese phonology may need its own treatment. Then the spoken-theatre method China's own tradition adds beyond Chekhov: 曹禺's pressure-chamber structure and 老舍's portrait-gallery structure with no main line. Musical theatre last, because song carrying narrative is a genuinely different rule set and none of the current sources covers it.
 
 **What is not planned.** Short-form vertical drama and AI-generated comic drama, whose logic is distribution rather than dramaturgy. Skills split by subject, by director, or by regional 剧种.
 
@@ -186,6 +189,10 @@ Film and television are covered. The stage is covered in part, the rest is plann
 **Television craft (15)** — William Rabkin *Writing the Pilot: Creating the Series*; Daniel Calvisi *Story Maps: TV Drama*; Pamela Douglas *Writing the TV Drama Series* (3rd ed.) and its Chinese translation《美剧编剧入门》(2nd ed.); Kam Miller *The Hero Succeeds*; Emmanuel Oberg *Writing a Successful TV Series*; Lee Goldberg & William Rabkin *Successful Television Writing*; Neil Landau *The TV Showrunner's Roadmap* (1st ed., 21 tips) and (2nd ed., 2022); Evan S. Smith *Writing Television Sitcoms*; Richard A. Blum *Television and Screen Writing*（中译《电视与银幕写作》）; 姚扣根《电视剧写作概论》; 张巍等《电视剧改编教程》; 张明智、宋培义主编《电视剧出品人与制片人教程》; 赵彬彬主编《影视剧片段改编教程》.
 
 **Published scripts and plays (12)** — 《契诃夫戏剧全集》; 《小津安二郎剧本集》; Jesse Armstrong *Succession: The Complete Scripts*, Seasons One–Four; Aaron Sorkin *The West Wing Script Book*; David Chase et al. *The Sopranos: Selected Scripts from Three Seasons*; Julian Fellowes *Downton Abbey: The Complete Scripts, Season Two*; Phoebe Waller-Bridge *Fleabag: The Scriptures*; 坂元裕二《花束般的恋爱》剧本; 卢熙京《世间最美丽的离别》.
+
+**Chinese opera craft (13)** — 李渔《闲情偶寄》词曲部·演习部; 吴梅《顾曲麈谈》《曲学通论》《中国戏曲概论》; 王季烈《螾庐曲谈》; 范钧宏《戏曲编剧论集》; 翁偶虹《翁偶虹编剧生涯》《翁偶虹戏曲论文集》; 张庚、郭汉城主编《中国戏曲通论》; 顾仲彝《编剧理论与技巧》; 刘吉典《京剧音乐概论》(the 板式 chapters only); 樊尚林《豫剧祥符调流派唱腔、板式暨器乐曲牌集萃》(the 板式 notes only); 罗怀臻《罗怀臻戏剧文集》理论·演讲卷.
+
+**Chinese opera scripts and scores (11 volumes, plus three public-domain originals)** — 汤显祖《牡丹亭》; 孔尚任《桃花扇》with the 小引 / 凡例 / 纲领 / 本末; 关汉卿《窦娥冤》《救风尘》《金线池》(维基文库, 元曲选 text) with a 戏剧故事选 for plot skeletons; 翁偶虹《锁麟囊》京剧曲谱 (王吟秋 ed.); 北京京剧团《沙家浜》1965; 田汉《白蛇传》1955; 杨兰春《朝阳沟》1978; 魏明伦《潘金莲》《巴山秀才》; 罗怀臻《罗怀臻戏剧文集》越剧卷 and 地方戏卷; 《长生殿》through 王季烈's fifty-折 table.
 
 ## Conventions
 

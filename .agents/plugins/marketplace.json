@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "screenwriting",
-      "description": "21 skills for screenwriting, television writing and dramaturgy, distilled from 32 craft books and 12 volumes of published scripts (Chinese skill bodies); answers in the language you ask in (one Chinese source tree, no per-language forks)",
+      "description": "24 skills for screenwriting, television writing and dramaturgy, distilled from 32 craft books and 12 volumes of published scripts (Chinese skill bodies); answers in the language you ask in (one Chinese source tree, no per-language forks)",
       "source": {
         "source": "local",
         "path": "./plugins/screenwriting"

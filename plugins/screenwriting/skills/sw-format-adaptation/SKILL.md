@@ -99,7 +99,7 @@ description: Screenplay format, page craft, the writing process and adaptation (
 
 **渲染路径**：Fountain → PDF：afterwriting（命令行）、Beat（macOS，免费）、Highland、Slugline；Fountain → .fdx：Fade In、Final Draft 直接导入，或 afterwriting 导出。中文渲染需指定 CJK 等宽字体（Sarasa Mono、Noto Sans Mono CJK），Courier 没有中文字形。
 
-**与 `sw-workflow` 的衔接**：阶段 5 的交付物就是 `.fountain` 文件；story-bible 只记文件名与页数。
+**与 `sw-workflow` 的衔接**：阶段 5 的交付物按体例走——好莱坞式交 `.fountain` 文件，中文场号制与日式交纯文本，戏曲本子走戏曲 skill 的体例；story-bible 只记文件名与页数。
 
 ### 中文影视剧本：场号制
 
@@ -110,7 +110,7 @@ description: Screenplay format, page craft, the writing process and adaptation (
 - **对白**：`人名：台词`，括注放人名后 `沈越（低声）：`；画外音标 `（OS）`/`（画外）`，旁白 `（VO）`/`（旁白）`。
 - **不写转场**；闪回在场景行加 `（回忆）`；字幕写 `字幕：`。
 - 剧集每集 40–45 分钟约 1.2–1.5 万字；分场大纲（每场一行）是场号制的前身，与 `sw-story-structure` 的步骤大纲同物。
-- 场号制**不用 Fountain**，直接纯文本交付；agent 输出前先问用户要好莱坞式还是场号制；**问不到人时按语言定默认值：全中文对白的项目用场号制，英文项目用好莱坞式／Fountain，并在交付件开头声明体例。不要因为无法提问就停下来**。
+- 场号制**不用 Fountain**，直接纯文本交付；agent 输出前先问用户要好莱坞式还是场号制；**问不到人时按语言定默认值：全中文对白的项目用场号制，英文项目用好莱坞式／Fountain，并在交付件开头声明体例。不要因为无法提问就停下来**。**戏曲本子例外**：这条默认值只管电影与剧集；戏曲（京剧、豫剧、越剧、昆曲……）的体例是唱／白／科介与板式或曲牌标记，不用场号制也不用 Fountain，见 `sw-chinese-opera-banqiang` 第九节、`sw-chinese-opera-qupai`。
 
 ### 日式剧本：柱・ト書き・セリフ
 
@@ -223,7 +223,7 @@ description: Screenplay format, page craft, the writing process and adaptation (
 
 ### 体例没定怎么办
 
-按二之二的默认值：**全中文对白的项目用场号制，英文项目用好莱坞式／Fountain，日式只在明确要求时用**；并在交付件开头一句声明体例与折算方式。**不要因为没人可问就停下来。**
+按二之二的默认值：**全中文对白的项目用场号制，英文项目用好莱坞式／Fountain，日式只在明确要求时用；戏曲本子不在此列，走戏曲 skill 的体例**；并在交付件开头一句声明体例与折算方式。**不要因为没人可问就停下来。**
 
 ---
 
