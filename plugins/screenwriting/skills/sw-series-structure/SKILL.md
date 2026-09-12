@@ -75,6 +75,7 @@ Douglas、Peter Blake（House）、Miller 三套改法，以及"Act Six 实际�
 - **给新手的硬规则**（Douglas 中译 p0098）："坚持以故事而非信息来开场……许多学生……误以为用重大的主题思想或抽象的哲理来开场会给人留下深刻印象。**他们实际上是看到戏剧弧线推进的挑战而畏缩。最佳的引子倾向于最佳的戏剧化。**"
 - **teaser flashback 的禁忌**（Oberg）：可以从 dramatic action 的中段甚至末段起叙（The Walking Dead、Breaking Bad），**但绝不能在 teaser 里回答 dramatic question**；取材自结尾就选 climax **之前或之中**（Run All Night），不要之后（John Wick）。
 - **teaser 不是必需品**：Landau 2e 与 Oberg 的论据、无 teaser 与"短第一幕充当 teaser"的剧目清单见 [reference.md](reference.md) 第三节。
+- **国产 45 分钟集**：teaser 与"开场 3 分钟钩子"（`sw-chinese-series-practice` 5.1）占同一位置，**二者择一**，默认留钩子。
 - **cold open ≠ teaser**（Miller）：Brooklyn Nine-Nine pilot 的 cold open 不影响主线、只启动本集主题，所以该集 point of attack 落在第一幕。
 
 ### 2.5 隐形幕：三重判据

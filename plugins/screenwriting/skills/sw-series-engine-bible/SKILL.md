@@ -163,7 +163,7 @@ reference.md／reference-documents.md／reference-samples.md 都是查表用的�
 **38. 两条进场硬规则**：Oberg 3.2——premise pilot **不要把 inciting incident 留到集末**，"You can't afford to have a pilot that's just a long first dramatic act."；Calvisi §6——**"Enter the action of your story as late as possible in the world but as soon as possible in the script."**（Scandal 原剧本里委托人第 12 页才进门，成片提前到**第 6 分钟**）。
 
 **39. 三种网台策略与"premise pilot 陷阱"**（Blum ch17，1999–2001 语境，**台别已过时、机制仍有效**）：原话是 premise pilot"很可能成为预测剧集发展走势的**可怜晴雨表（a poor barometer）**"；**Smith ch20 同向（半小时喜剧）**——**"most network executives prefer to see a typical-episode pilot"**；**Landau 的不同立场**：不是陷阱，只要求在 pitch 里说明是哪一种。（三种策略原文与 Smith 的论据见 reference.md 四）
-→ **四条判据**：①保守的大众频道或半小时喜剧→typical 或 half-premise；②世界设定复杂、必须解释规则→premise（Lost、Stranger Things、TWD）；③人物关系网即引擎→midstream（Fleabag、The Office、Succession）；④两头都要→Breaking Bad 式：前半设定、后半跑一遍 story pattern。
+→ **四条判据**：①保守的大众频道或半小时喜剧→typical 或 half-premise；②世界设定复杂、必须解释规则→premise（Lost、Stranger Things、TWD）；③人物关系网即引擎→midstream（Fleabag、The Office、Succession）；④两头都要→Breaking Bad 式：前半设定、后半跑一遍 story pattern。**优先级：四条可以同时命中（③人物网即引擎 ＋ ②世界规则要解释是最常见的一对）；命中两条以上一律走④**——④是唯一能在一集里同时交付设定与"每周长什么样"的形状，而不是在②与③之间二选一。只命中一条时才按那一条办。
 
 **40. 三种收法**：①**"The end of your pilot is the beginning of your series."**（Landau）；②**Stick the landing**；③**不一定要 cliffhanger**（Miller ch6）。（三条原文与 Calvisi 的平衡句见 reference.md 四）
 
