@@ -2,7 +2,7 @@
 
 [English](README.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Français](README_FR.md)
 
-把 45 本编剧/剧作理论书籍与 23 卷出版剧本、曲谱（中、美、英、日、韩）提炼成的 24 个 agent skill，面向 [Claude Code Skills](https://docs.anthropic.com/en/docs/claude-code/skills) 与 [OpenAI Codex](https://developers.openai.com/codex/build-skills)，覆盖电影长片、电视剧集、舞台剧。
+把 46 本编剧/剧作理论书籍与 23 卷出版剧本、曲谱（中、美、英、日、韩）提炼成的 25 个 agent skill，面向 [Claude Code Skills](https://docs.anthropic.com/en/docs/claude-code/skills) 与 [OpenAI Codex](https://developers.openai.com/codex/build-skills)，覆盖电影长片、电视剧集、舞台剧。
 
 所有 `SKILL.md` 文件遵循开放的 [agentskills.io](https://agentskills.io) 标准，Claude Code 与 Codex 通用，装一次，两个 Agent 都能用。
 
@@ -50,7 +50,7 @@ codex plugin marketplace add jtydhr88/screenwriting-skills
 # Plugins → 选择 "Screenwriting Skills" → Install
 ```
 
-两边共用同一份 `skills/` 目录下的 24 个 `SKILL.md`，不重复、不改写。
+两边共用同一份 `skills/` 目录下的 25 个 `SKILL.md`，不重复、不改写。
 
 #### 个人级别（所有项目生效）
 
@@ -108,7 +108,7 @@ cp -r screenwriting-skills/plugins/screenwriting/skills/* .agents/skills/
 写长片用第 1、3、4 层；写剧集或舞台作品再加第 2 层。媒介层做的是替换：把按电影设计的结构，换成该媒介自己的单位。
 
 ```
-1. 通用剧作层   前提 · 结构 · 人物 · 对白 · 场景 · 格式 · 项目调度
+1. 通用剧作层   前提 · 结构 · 人物 · 对白 · 场景 · 格式 · 特鲁比有机解剖 · 项目调度
 2. 媒介层       剧集 · 单集与季结构 · 引擎与 bible · 编剧室 · 半小时喜剧
                 舞台 · 戏曲：板腔体与曲牌体两套方法，各带一个全本语料库
 3. 传统与行业层 美国 · 日本 · 韩法 · 中国大陆 · 行业生意
@@ -126,6 +126,7 @@ cp -r screenwriting-skills/plugins/screenwriting/skills/* .agents/skills/
 | `sw-dialogue` 对白 | 对白是行动、已说/未说/不能说、解说当弹药、动名词节拍、四类瑕疵、角色专属词汇；语言要美、戏曲唱词三好 | 麦基《对白》、沃尔特、希克斯、陆军、埃格里、斯奈德、梅峰 |
 | `sw-scene-craft` 场景与段落 | 场景＝价值转折、五步场景分析、晚进早出、节奏与过渡、动作优于对白；意趣要足、细节要妙、道具要精 | 麦基、菲尔德、希克斯、沃尔特、汉森、霍克斯特、梅峰、陆军 |
 | `sw-format-adaptation` 格式·流程·改编 | 推销剧本格式硬规则、版面规格表、元素级约定、Fountain 输出契约（含中文强制记号）、中文场号制与日式柱・ト書き、大纲→处理台本→草稿链、修改、改编原则 | 汉森、沃尔特、希克斯、菲尔德、麦基、霍克斯特、戴蒙德&韦斯曼、博克；版面规格与 Fountain 为行业通行做法 |
+| `sw-truby-anatomy` 有机故事解剖 | 与 `sw-story-structure` 的页码地图**并排使用、互相校验而非替代**的有机骨架：设计原则（把前提扩展为深层结构：故事发展过程＋独创手法）、七大关键步骤与 22 个步骤、BS2 查不出的中段组件（幽灵、假盟友对手、计划、对手的计划与反击、盟友的攻击、看似落败、三次揭露与抉择、对观众的揭露、闸门／体验死亡、道德抉择）、四角对立（每个对手用不同方式攻击主角弱点）、道德议题策略链与主角—对手力量平衡判据、场景编排（单一行动＋结构步骤标签＋叙事线编号）、手风琴原则（任何长度不少于七大步骤） | 特鲁比《故事写作大师班》（John Truby, *The Anatomy of Story*） |
 
 ### 第 2 层 媒介层（电影编剧书不教的部分）
 
@@ -184,7 +185,7 @@ cp -r screenwriting-skills/plugins/screenwriting/skills/* .agents/skills/
 
 ## 来源书目
 
-**编剧理论（17 本）**：悉德·菲尔德《电影剧本写作基础》；布莱克·斯奈德《救猫咪》；罗伯特·麦基《故事》《对白》；朱利安·霍克斯特《编剧的十二条法则》；尼尔·D·希克斯《编剧的核心技巧》；拉约什·埃格里《编剧的艺术》；莉萨·克龙《怎样写故事》；威廉·尹迪克《编剧心理学》；理查德·沃尔特《剧本》；温迪·简·汉森《编剧：步步为营》；戴蒙德&韦斯曼《好莱坞编剧的生意经》；埃里克·博克《如何写出好故事：HBO 大师写作课》；梅峰《编剧的自修课》；刘大鹏编《故事创作大师班（国际卷）》；陆军《编剧理论与技法》；泊贵洋编《从零开始做编剧》。
+**编剧理论（18 本）**：悉德·菲尔德《电影剧本写作基础》；布莱克·斯奈德《救猫咪》；罗伯特·麦基《故事》《对白》；约翰·特鲁比《故事写作大师班》（The Anatomy of Story）；朱利安·霍克斯特《编剧的十二条法则》；尼尔·D·希克斯《编剧的核心技巧》；拉约什·埃格里《编剧的艺术》；莉萨·克龙《怎样写故事》；威廉·尹迪克《编剧心理学》；理查德·沃尔特《剧本》；温迪·简·汉森《编剧：步步为营》；戴蒙德&韦斯曼《好莱坞编剧的生意经》；埃里克·博克《如何写出好故事：HBO 大师写作课》；梅峰《编剧的自修课》；刘大鹏编《故事创作大师班（国际卷）》；陆军《编剧理论与技法》；泊贵洋编《从零开始做编剧》。
 
 **电视剧编剧（15 本）**：William Rabkin《Writing the Pilot: Creating the Series》；Daniel Calvisi《Story Maps: TV Drama》；Pamela Douglas《Writing the TV Drama Series》（英文第三版）与其中译《美剧编剧入门》（第二版）；Kam Miller《The Hero Succeeds》；Emmanuel Oberg《Writing a Successful TV Series》；Lee Goldberg & William Rabkin《Successful Television Writing》；Neil Landau《The TV Showrunner's Roadmap》（2014 年 21 条版）与（2022 年第二版）；Evan S. Smith《Writing Television Sitcoms》；理查德·A·布鲁姆《电视与银幕写作》；姚扣根《电视剧写作概论》；张巍等《电视剧改编教程》；张明智、宋培义主编《电视剧出品人与制片人教程》；赵彬彬主编《影视剧片段改编教程》。
 

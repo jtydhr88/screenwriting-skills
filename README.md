@@ -2,7 +2,7 @@
 
 [中文版](README_ZH.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Français](README_FR.md)
 
-24 agent skills (for [Claude Code](https://docs.anthropic.com/en/docs/claude-code/skills) and [OpenAI Codex](https://developers.openai.com/codex/build-skills)) for screenwriting, television writing and dramaturgy, distilled from 45 craft books and 23 volumes of published scripts, scores and plays (Chinese, American, British, Japanese and Korean).
+25 agent skills (for [Claude Code](https://docs.anthropic.com/en/docs/claude-code/skills) and [OpenAI Codex](https://developers.openai.com/codex/build-skills)) for screenwriting, television writing and dramaturgy, distilled from 46 craft books and 23 volumes of published scripts, scores and plays (Chinese, American, British, Japanese and Korean).
 
 The `SKILL.md` files follow the open [agentskills.io](https://agentskills.io) standard and are shared by both agents: install once and it works in both.
 
@@ -50,7 +50,7 @@ codex plugin marketplace add jtydhr88/screenwriting-skills
 # Plugins → select "Screenwriting Skills" → Install
 ```
 
-The same 24 `SKILL.md` files are shipped through the plugin's `skills/` directory, with no duplication and no rewriting.
+The same 25 `SKILL.md` files are shipped through the plugin's `skills/` directory, with no duplication and no rewriting.
 
 #### Personal skills (all projects)
 
@@ -108,7 +108,7 @@ What this trades away is auditability: you cannot read the instruction file itse
 Four layers. A feature project uses layers 1, 3 and 4; a series or stage project adds layer 2, because the medium layer replaces structure-for-film with the medium's own units.
 
 ```
-1. General dramaturgy   premise · structure · character · dialogue · scene · format · project workflow
+1. General dramaturgy   premise · structure · character · dialogue · scene · format · Truby organic anatomy · project workflow
 2. Medium layer         series · episode & season structure · engine & bible · writers' room · half-hour comedy
                         stage  · Chinese opera: banqiang and qupai methods, each with a full-script case library
 3. Tradition & trade    America · Japan · Korea & France · mainland China · the business
@@ -126,6 +126,7 @@ Four layers. A feature project uses layers 1, 3 and 4; a series or stage project
 | `sw-dialogue` | Dialogue as action, said/unsaid/unsayable, exposition as ammunition, beats as gerunds, credibility/language/content/design flaws, character-specific vocabulary; 语言要美, 戏曲唱词三好 | McKee *Dialogue*, Walter, Hicks, Lu Jun, Egri, Snyder, Mei Feng |
 | `sw-scene-craft` | Scene as value turn, five-step scene analysis, enter late leave early, pacing and transitions, action over talk; 意趣要足, 细节要妙, 道具要精 | McKee, Field, Hicks, Walter, Henson, Hoxter, Mei Feng, Lu Jun |
 | `sw-format-adaptation` | Spec format hard rules, typographic grid, element conventions, Fountain output contract with forced markers for Chinese, 场号制 and Japanese 柱・ト書き formats, outline→treatment→script chain, revision, adaptation principles | Henson, Walter, Hicks, Field, McKee, Hoxter, Diamond & Weissman, Bork; grid/Fountain/Asian formats are industry conventions |
+| `sw-truby-anatomy` | Organic story anatomy kept side by side with the Field/Snyder page maps, not replacing them: the designing principle (premise expanded into deep structure), the seven key steps and all twenty-two steps as the organic spine, the middle-act machinery the beat sheets lack (ghost, fake-ally opponent, plan, opponent's drive, ally's attack, fake defeat, three revelation-and-decision pairs, audience revelation, visit to death, moral decision), four-corner opposition, the moral-argument chain with the hero-opponent power-balance rule, scene weave with structure-step tags and storyline numbers, the accordion rule | John Truby, *The Anatomy of Story* |
 
 ### 2. Medium layer: what a feature does not teach
 
@@ -184,7 +185,7 @@ Film and television are covered. The stage is covered in part, the rest is plann
 
 ## Source books
 
-**Screenwriting craft (17):** Syd Field *Screenplay*; Blake Snyder *Save the Cat*; Robert McKee *Story* and *Dialogue*; Julian Hoxter *Write What You Don't Know*; Neill D. Hicks *Screenwriting 101*; Lajos Egri *The Art of Dramatic Writing*; Lisa Cron *Story Genius*; William Indick *Psychology for Screenwriters*; Richard Walter *Essentials of Screenwriting*; Wendy Jane Henson *Screenwriting Step by Step*; Diamond & Weissman *Bulletproof*; Eric Bork *The Idea*; 梅峰《编剧的自修课》; 刘大鹏编《故事创作大师班（国际卷）》; 陆军《编剧理论与技法》; 泊贵洋编《从零开始做编剧》.
+**Screenwriting craft (18):** Syd Field *Screenplay*; Blake Snyder *Save the Cat*; Robert McKee *Story* and *Dialogue*; John Truby *The Anatomy of Story* (中译《故事写作大师班》); Julian Hoxter *Write What You Don't Know*; Neill D. Hicks *Screenwriting 101*; Lajos Egri *The Art of Dramatic Writing*; Lisa Cron *Story Genius*; William Indick *Psychology for Screenwriters*; Richard Walter *Essentials of Screenwriting*; Wendy Jane Henson *Screenwriting Step by Step*; Diamond & Weissman *Bulletproof*; Eric Bork *The Idea*; 梅峰《编剧的自修课》; 刘大鹏编《故事创作大师班（国际卷）》; 陆军《编剧理论与技法》; 泊贵洋编《从零开始做编剧》.
 
 **Television craft (15):** William Rabkin *Writing the Pilot: Creating the Series*; Daniel Calvisi *Story Maps: TV Drama*; Pamela Douglas *Writing the TV Drama Series* (3rd ed.) and its Chinese translation《美剧编剧入门》(2nd ed.); Kam Miller *The Hero Succeeds*; Emmanuel Oberg *Writing a Successful TV Series*; Lee Goldberg & William Rabkin *Successful Television Writing*; Neil Landau *The TV Showrunner's Roadmap* (1st ed., 21 tips) and (2nd ed., 2022); Evan S. Smith *Writing Television Sitcoms*; Richard A. Blum *Television and Screen Writing*（中译《电视与银幕写作》）; 姚扣根《电视剧写作概论》; 张巍等《电视剧改编教程》; 张明智、宋培义主编《电视剧出品人与制片人教程》; 赵彬彬主编《影视剧片段改编教程》.
 
