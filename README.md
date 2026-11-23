@@ -2,7 +2,7 @@
 
 [中文版](README_ZH.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Français](README_FR.md)
 
-26 agent skills (for [Claude Code](https://docs.anthropic.com/en/docs/claude-code/skills) and [OpenAI Codex](https://developers.openai.com/codex/build-skills)) for screenwriting, television writing and dramaturgy, distilled from 47 craft books and 23 volumes of published scripts, scores and plays (Chinese, American, British, Japanese and Korean).
+27 agent skills (for [Claude Code](https://docs.anthropic.com/en/docs/claude-code/skills) and [OpenAI Codex](https://developers.openai.com/codex/build-skills)) for screenwriting, television writing and dramaturgy, distilled from 47 craft books and 23 volumes of published scripts, scores and plays (Chinese, American, British, Japanese and Korean).
 
 The skill files follow the open [agentskills.io](https://agentskills.io) standard and are shared by both agents: install once and it works in both.
 
@@ -50,7 +50,7 @@ codex plugin marketplace add jtydhr88/screenwriting-skills
 # Plugins → select "Screenwriting Skills" → Install
 ```
 
-The same 26 skill files are shipped through the plugin, with no duplication and no rewriting.
+The same 27 skill files are shipped through the plugin, with no duplication and no rewriting.
 
 #### Personal skills (all projects)
 
@@ -108,7 +108,7 @@ What this trades away is auditability: you cannot read the instruction file itse
 Four layers. A feature project uses layers 1, 3 and 4; a series or stage project adds layer 2, because the medium layer replaces structure-for-film with the medium's own units.
 
 ```
-1. General dramaturgy   premise · structure · character · dialogue · scene · format · Truby organic anatomy · genre anatomy · project workflow
+1. General dramaturgy   premise · structure · character · character bio · dialogue · scene · format · Truby organic anatomy · genre anatomy · project workflow
 2. Medium layer         series · episode & season structure · engine & bible · writers' room · half-hour comedy
                         stage  · Chinese opera: banqiang and qupai methods, each with a full-script case library
 3. Tradition & trade    America · Japan · Korea & France · mainland China · the business
@@ -123,6 +123,7 @@ Four layers. A feature project uses layers 1, 3 and 4; a series or stage project
 | `sw-story-structure` | Paradigm & plot points, Save the Cat beats and board, McKee's event/scene/sequence/act, inciting incident, progressive complications, crisis-climax-resolution, subplots, Hoxter's nine beats, Hicks' attraction/anticipation/satisfaction, Lu Jun's 起承转合, eight openings, eight endings | Field, Snyder, McKee *Story*, Hoxter, Hicks, Lu Jun |
 | `sw-premise-theme` | Premise as tyrant, controlling idea (value + cause), the "third rail" (desire vs misbelief), five premise questions, logline tests, 选材/开掘/视角/戏核 | Egri, McKee, Cron, Hicks, Hoxter, Snyder, Lu Jun |
 | `sw-character-conflict` | Three-dimensional character, orchestration, unity of opposites, pivotal character, rising vs static vs jumping conflict; Freud/Erikson/Jung/Campbell/Murdock/Adler/May for motive; 人物要活八要, 对手要强 | Egri, Indick, McKee, Hicks, Cron, Snyder, Lu Jun |
+| `sw-character-bio` | Character bios and cast lists as documents: a routing table by medium and reader (English-language spec features, US series proposals and bibles, mainland-Chinese contracts and 策划 files, fragment adaptation, Chinese opera), private working notes versus the delivered document, tiering (who gets a bio, who gets one line in the cast list), five delivery formats (three-dimension paragraphs, prose, checklist, causal bullet chain, cast-list line), the length figures the books give set beside word counts measured on the samples they print, with a way to pick a size by reader, where the bio sits in two Chinese screenwriter contracts, the producer's four steps and the 策划 file, plus a short checklist for reconciling bios with an existing draft | Field, Hicks, Cron, Henson, Walter, Diamond & Weisman, Miller, Oberg, Douglas, Smith, Landau, Goldberg & Rabkin, Rabkin, Calvisi, Yao Kougen, Zhang Wei, Zhang Mingzhi & Song Peiyi, Zhao Binbin |
 | `sw-dialogue` | Dialogue as action, said/unsaid/unsayable, exposition as ammunition, beats as gerunds, credibility/language/content/design flaws, character-specific vocabulary; 语言要美, 戏曲唱词三好 | McKee *Dialogue*, Walter, Hicks, Lu Jun, Egri, Snyder, Mei Feng |
 | `sw-scene-craft` | Scene as value turn, five-step scene analysis, enter late leave early, pacing and transitions, action over talk; 意趣要足, 细节要妙, 道具要精 | McKee, Field, Hicks, Walter, Henson, Hoxter, Mei Feng, Lu Jun |
 | `sw-format-adaptation` | Spec format hard rules, typographic grid, element conventions, Fountain output contract with forced markers for Chinese, 场号制 and Japanese 柱・ト書き formats, outline→treatment→script chain, revision, adaptation principles | Henson, Walter, Hicks, Field, McKee, Hoxter, Diamond & Weissman, Bork; grid/plain-text/Asian formats are industry conventions |
@@ -154,7 +155,7 @@ Four layers. A feature project uses layers 1, 3 and 4; a series or stage project
 | `sw-american-case-studies` | Worked features: Westerns, screwball, Wilder, Hitchcock, *Adaptation*, *Mildred Pierce*, *Thelma & Louise*, *Fargo*, *Good Will Hunting*, *American Beauty*, *Eternal Sunshine*, Bourne, Zootopia | Mei Feng, Walter, masterclass, Hoxter, Snyder, Field |
 | `sw-japanese-screenwriting` | Ten Japanese directors and writers: structure-first vs fragment-first, small-material notebooks, "if + moreover", character = actor + flaw, theme-emerges-later | 泊贵洋 ed., masterclass |
 | `sw-korean-french-screenwriting` | Korean and French methods: write the emotion, research first, genre as a promise, two reversals, dialogue written last, collective writing | masterclass (international) |
-| `sw-chinese-series-practice` | The mainland-China series layer: taxonomy and running-time rules, the document chain (创意 → 梗概 → 人物小传 → 分集大纲 → 分场大纲 → 剧本) with its word counts, four coexisting Chinese teleplay formats, the episode-end suspense law and four tiers of suspense, adapting novels and IP into 30–50 episode dramas (sell-point migration, copy/delete/adapt), fragment adaptation in the opposite direction, and the production chain (立项/备案/两道审查, delivery gates, screenwriter contracts, content red lines), plus a Chinese–English glossary | 姚扣根, 张巍, 张明智 & 宋培义, 赵彬彬, and the Chinese translations of Douglas and Blum |
+| `sw-chinese-series-practice` | The mainland-China series layer: taxonomy and running-time rules, three coexisting document chains (the 策划 file, the producer's 故事大纲 → 分集梗概 → 分集剧本, and the contract chains) with the size of each document, four coexisting Chinese teleplay formats, the episode-end suspense law and four tiers of suspense, adapting novels and IP into 30–50 episode dramas (sell-point migration, copy/delete/adapt), fragment adaptation in the opposite direction, and the production chain (立项/备案/两道审查, delivery gates, screenwriter contracts, content red lines), plus a Chinese–English glossary | 姚扣根, 张巍, 张明智 & 宋培义, 赵彬彬, and the Chinese translations of Douglas and Blum |
 | `sw-industry-business` | Buyer's-eye workflow, PROBLEM idea test, logline/query/pitch, agents, options, credits, WGA, gross vs net, film vs TV, career resilience | Diamond & Weissman, Bork, Hicks, Walter, Henson, Snyder, Hoxter, Mei Feng, masterclass |
 
 ### 4. Master corpora: complete primary texts, read and tabulated
@@ -196,6 +197,8 @@ Film and television are covered. The stage is covered in part, the rest is plann
 
 **Chinese opera scripts and scores (11 volumes, plus three public-domain originals):** 汤显祖《牡丹亭》; 孔尚任《桃花扇》with the 小引 / 凡例 / 纲领 / 本末; 关汉卿《窦娥冤》《救风尘》《金线池》(维基文库, 元曲选 text) with a 戏剧故事选 for plot skeletons; 翁偶虹《锁麟囊》京剧曲谱 (王吟秋 ed.); 北京京剧团《沙家浜》1965; 田汉《白蛇传》1955; 杨兰春《朝阳沟》1978; 魏明伦《潘金莲》《巴山秀才》; 罗怀臻《罗怀臻戏剧文集》越剧卷 and 地方戏卷; 《长生殿》through 王季烈's fifty-折 table.
 
+**Two directing books, quoted for a few passages on how directors and actors use character biographies:** Michael Rabiger *Directing: Film Techniques and Aesthetics* (4th ed.); Nicholas T. Proferes *Film Directing Fundamentals* (3rd ed.).
+
 ## Conventions
 
 - Skill bodies are Chinese; numbered principles, tables and checklists; cross-references between skills by folder name. Output language follows the user; see [Multilingual support](#multilingual-support).
@@ -207,7 +210,7 @@ Film and television are covered. The stage is covered in part, the rest is plann
 
 - **Files in each skill**: the main file is `SKILL.md`, the reference file is `reference.md`. `reference.md` holds worked examples and quotations so `SKILL.md` stays under ~40 KB. The three files of `sw-series-case-studies` are `reference.md`, `reference-pilots.md` and `reference-asia.md`.
 - **Frontmatter**: every `SKILL.md` has `name` (kebab-case, matches the folder) and a long English `description` ending in "Use when …", with Chinese keywords in parentheses for triggering.
-- **Plugins**: each plugin carries a `.claude-plugin/plugin.json` and a `.codex-plugin/plugin.json` over one shared `skills/` directory, so Claude Code and Codex read the same 26 `SKILL.md` files.
+- **Plugins**: each plugin carries a `.claude-plugin/plugin.json` and a `.codex-plugin/plugin.json` over one shared `skills/` directory, so Claude Code and Codex read the same 27 `SKILL.md` files.
 - **Term table**: [`sw-workflow/terms.md`](plugins/screenwriting/skills/sw-workflow/terms.md).
 - **Story bible**: `sw-workflow` keeps project state in the file `story-bible.md`.
 

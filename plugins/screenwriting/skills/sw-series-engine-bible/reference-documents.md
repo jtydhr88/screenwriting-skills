@@ -110,7 +110,7 @@ Pitch document 必须包含：①多层类型定位的 Overview（每行一个�
 |---|---|---|---|
 | 开头要不要 sell copy | 可选，且"很多 format 省略"，写坏会 cutesy | Oberg 3.1 第 3 组件：Series Overview 可含 **opening statement**（创作者与题材的个人联系，"a discrete way to tie yourself to the show"），可独立成节 | 有真实个人联系就写成 opening statement（不是广告词）；没有就省掉 |
 | 要不要写市场分析 | 可选，要极短且客观；"有人主张干脆不写" | Miller 附录六样本中只有 *Minotaur* 写了 **Markets** 一节，论证公式＝目标平台既有调性＋它缺的那一格（第十二节五） | 数字不强就不写；要写就写"平台缺口"而不是收视表 |
-| 人物写在哪一节 | **第 6 节单列**；第 3 节每人只给一个短语 | Oberg：Character Breakdowns 3–5 主角各 ≤1 页；Douglas 3e ch2：每人一页、只写少数几个；Landau：人物要嵌在故事里介绍、不列清单 | 三者一致的硬规则是"**不要在概述里塞人物清单**"；分歧只在详细人物段的长度 |
+| 人物写在哪一节 | **第 6 节单列**；第 3 节每人只给一个短语 | Oberg 3.1：Character Breakdowns 给 3–5 个主角"up to one page"（原句可读作每人至多一页，也可读作合计一页），每人几段即可；Douglas 3e ch2：每人一页、只写少数几个；Landau：人物要嵌在故事里介绍、不列清单 | 三者一致的硬规则是"**不要在概述里塞人物清单**"；分歧只在详细人物段的长度（各家说法与样本实测的并列表见 `sw-character-bio` 五） |
 | premise 还是 typical-episode pilot | **"most network executives prefer to see a typical-episode pilot"**；premise pilot 示范不了普通集（"that Martian won't crash-land in someone's yard every week"）且重播效果差 | Landau：不是陷阱，只要在 pitch 里说明是哪一种 | 见本文件第四节第 37 条的四条判据；半小时喜剧按 Smith |
 | format 能不能代替 pilot 剧本 | 资历编剧可以；也可两样都带 | Oberg 3 First Up：**没有 track record 的人强烈建议先把 pilot 写好**，并准备一份可留下的书面版；Landau："write your pilot scripts on spec"；反方 Aranya："a script is also 60 pages of reasons to say no" | 无履历→先写剧本；有履历→format 先行 |
 

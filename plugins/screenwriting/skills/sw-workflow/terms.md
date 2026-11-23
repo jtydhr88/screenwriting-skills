@@ -61,6 +61,11 @@
 | want vs need | 渴望 vs 需要 | 想要 vs 需要 | — |
 | misbelief | 错误信念 | 错误认知 | 克龙 |
 | rising / static / jumping conflict | 上升／静止／跳跃冲突 | — | 埃格里 |
+| character bio / biography | 人物小传 | 人物传记（菲尔德中译）／角色研究（希克斯中译）／人物简介（克龙中译）／人物设计（姚扣根） | 各书叫法不一；体例见 `sw-character-bio` |
+| character breakdown | 人物节 | 人物分解 | Oberg＝bible 里写人物的一节 |
+| cast list / continuing characters | 人物表／常设人物表 | 角色表 | Smith；戏曲人物表另带行当 |
+| backstory | 前史／幕后故事 | 背景故事 | 麦基：不等于生活史或传记 |
+| signature trait | signature trait（保留原词） | — | Miller＝主角每周让观众爱看的那一手，不是每个主角都有 |
 
 ## 三、剧集与行业（series & industry）
 

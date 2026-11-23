@@ -41,7 +41,7 @@ story-bible 模板与各阶段工作单见 [reference.md](reference.md)；跨语
 | 0 | 启动 / 续写 | 本 skill | 项目信息、入口路径、当前阶段 | 知道要做什么类型、多长、给谁 |
 | 1 | 选材与前提 | `sw-premise-theme` | 闪念与"为什么在乎"、主旨一句、假设问题、**前提**（人物特质＋导致＋结局）、**主控思想**（价值＋原因）、第三条轨道（渴望 vs 错误信念）、戏核、一句话故事、logline | 前提只有一个；能向陌生人一句话说清；戏核抽掉戏不成立；主题词定了 |
 | 2 | 结构 | `sw-story-structure` | 结尾、开端、情节点Ⅰ/Ⅱ、中点性质（胜利假象/失败假象）、BS2 页码表、幕比例、次情节与主控思想的关系 | 四件事（结尾/开端/两个情节点）都知道；铺垫≤25 页；中点与"失去一切"互为反面；最后一幕最短 |
-| 3 | 人物与冲突 | `sw-character-conflict` | 主要人物三维表、具体类别、对主题态度、对立统一的绑定物、对手的刀、成长阶梯、原初场景 | 主角最多维；对手总和强于主角；没有两人同型；有"最强的对手是自己"的一面；没有祥云 |
+| 3 | 人物与冲突 | `sw-character-conflict` ＋ `sw-character-bio`（人物文档） | 主要人物三维表、具体类别、对主题态度、对立统一的绑定物、对手的刀、成长阶梯、原初场景；人物文档（工作稿 `characters-notes.md`；要对外交时按 `sw-character-bio` 选体例出 `characters.md`） | 主角最多维；对手总和强于主角；没有两人同型；有"最强的对手是自己"的一面；没有祥云；每个有名字的人物定了级 |
 | 4 | 场景清单 / 处理台本 | `sw-scene-craft` ＋ `sw-format-adaptation` | 步骤大纲（每场一两句＋价值转折＋结构位置）、演示板 40 卡（+/-、><）、道具与形象系统、处理台本（可选） | 每场价值有转折；第三幕不止两张卡；相邻场景有过渡要素；无纯解说场 |
 | 5 | 初稿 | `sw-dialogue` ＋ `sw-format-adaptation`（格式与输出契约）＋ 参照类 skill | 剧本文件（好莱坞式交 `.fountain`，中文场号制或日式交纯文本，见 `sw-format-adaptation` 二之二）、页数、每日进度 | 页数在目标 ±15%；格式硬规则全过；对白遮名可辨 |
 | 6 | 修改 | 各 skill 的"诊断清单" | 修改目标清单、逐项完成记录、稿次 | 结构诊断 13 问、人物诊断 14 问、对白诊断 14 问、场景诊断 13 问、格式诊断（A 通用 12 问＋所采用体例那一组）都跑过一遍 |
@@ -54,6 +54,7 @@ story-bible 模板与各阶段工作单见 [reference.md](reference.md)；跨语
 - `sw-japanese-screenwriting`、`sw-korean-french-screenwriting`：片段优先、主题后置、类型承诺、集体创作等替代路径；用户明确不走三幕经典设计时在阶段 1 就引入。
 - `sw-truby-anatomy`（有机故事解剖）：页码地图与有机骨架并排——阶段 2 的 BS2 板定稿后做有机校验（七大步骤倒查＋22 步骤中段组件）；阶段 3 人物表配四角对立工作单；阶段 4 步骤大纲的结构位置列可标 22 步骤名＋线号；阶段 6 中段松散跑它的诊断十问。契诃夫／小津式反高潮、多主人公项目与剧集项目不适用其中心对决组件。
 - `sw-genre-anatomy`（类型解剖）：阶段 0 定主类型与副类型；阶段 1 主控思想对照该类型的人生哲学；阶段 2 结构定稿后过该类型的节拍表，跑混合类型工作单；阶段 3 人物表对照该类型的主角／对手模板；阶段 6 跑类型诊断 12 问。剧集只取它标明的四处剧集结论，戏曲与反高潮项目不套节拍表。
+- `sw-character-bio`（人物小传与人物表）：只管人物文档。先过它的分流表，判断这个媒介、这个读者要不要交人物文档、交哪一种（英美 spec 长片不随剧本交）；阶段 3 与 S2 出工作稿，S3 出交付稿；已有初稿的项目可用它第八节的核对表让小传与现稿对账。戏曲项目只取人物表体例，行当仍按戏曲 skill。
 - 剧集类 skill（`sw-series-structure`、`sw-series-engine-bible`、`sw-writers-room`、`sw-sitcom-comedy`、`sw-chinese-series-practice`、`succession-series-writing`、`sw-series-case-studies`）：只在入口路径判为剧集时进入，走三之二的剧集阶段表。
 
 **阶段可以回退**：阶段 5 发现对白写不动，通常是阶段 3 的人物或阶段 1 的前提有洞，回去补，然后在决策日志记一笔。
@@ -65,7 +66,7 @@ story-bible 模板与各阶段工作单见 [reference.md](reference.md)；跨语
 | 用户情况 | 从哪个阶段开始 | 特别处理 |
 |---|---|---|
 | 从零写长片 / 多幕剧 | 0 → 1 → … → 7 全走 | 标准路径 |
-| 手里已有初稿要改 | 先做阶段 1–3 的**反向填表**（从稿子里提取前提、结构、人物填进 bible），再进阶段 6 | 填表时把稿子里没有的项标"缺"，这些缺项就是修改清单 |
+| 手里已有初稿要改 | 先做阶段 1–3 的**反向填表**（从稿子里提取前提、结构、人物填进 bible），再进阶段 6 | 填表时把稿子里没有的项标"缺"，这些缺项就是修改清单；人物一栏可用 `sw-character-bio` 第八节的核对表对账，待决清单并入修改清单 |
 | 改编小说 / 舞台剧 / 真实事件 | 0 → `sw-format-adaptation` 改编四问 → 1 → 2 … | 阶段 1 先答"原素材的冲突主要在哪一层面、要重新发明什么"；真人故事先确认授权；**戏曲题材不走本行，走三之三的 X0.5／Q0.5** |
 | 短片 / 小戏 / 独幕剧 | 1 → 2（用陆军起承转合与八法代替 BS2）→ 3 → 5 | 演示板缩到 10–15 卡；人物≤5；戏核必须先有 |
 | 戏曲·板腔体（京剧 / 豫剧 / 越剧 / 秦腔 / 评剧 / 沪剧 / 川剧弹戏胡琴） | 走三之三的**板腔体 X0–X6**，不走长片阶段表 | 先定体制再定结构；唱段只给重场戏；宾白走 `sw-dialogue`，唱词与板式走 `sw-chinese-opera-banqiang`；全本对照看 `sw-chinese-opera-banqiang-cases` |
@@ -83,8 +84,8 @@ story-bible 模板与各阶段工作单见 [reference.md](reference.md)；跨语
 |---|---|---|---|---|
 | S0 | 启动 / 续写 | 本 skill | 平台与格式（广播 / 有线 / 流媒体；一小时 / 半小时；集数、季数）、入口路径 | 知道幕数由谁决定（广告位还是自己）、目标页数 |
 | S1 | 引擎与前提 | `sw-series-engine-bible` ＋ `sw-premise-theme` | 主题对立命题、franchise 四元素（concept / conflict / theme / story pattern）、核心问题写成"过程句"、tacit contract 一句话、5–6 条 sample story areas | "pilot 之后想不出三集"即不通过；五条 story area 来源或结局雷同即不通过 |
-| S2 | 人物网与季弧 | `sw-series-engine-bible` ＋ `sw-character-conflict` | 3–4 位主角（各 ≤1 页）与冲突网（谁和谁绑定、专长分工、家庭动力学）、季弧表（集 × 人物 want/状态）、season question 与 tentpole | 主角之间不能"微笑着同意对方"；每人有可失之物；季末回答的是"今年这个版本的问题"而不是总问题 |
-| S3 | 文档 | `sw-series-engine-bible`（+ `sw-chinese-series-practice` 若为国产剧） | logline 与跳板、pitch document / series format、bible（选档）、故事线文档（每条线的目的/推动者/入口出口/跨集节拍）；国产剧另交剧情简介→梗概→人物小传→分集大纲 | 文档能让陌生人复述"每周会发生什么"；国产剧分集大纲每集有收口悬念 |
+| S2 | 人物网与季弧 | `sw-series-engine-bible` ＋ `sw-character-conflict` ＋ `sw-character-bio` | 3–4 位主角与冲突网（谁和谁绑定、专长分工、家庭动力学）、人物文档工作稿（体例与篇幅按 `sw-character-bio` 选档）、季弧表（集 × 人物 want/状态）、season question 与 tentpole | 主角之间不能"微笑着同意对方"；每人有可失之物；季末回答的是"今年这个版本的问题"而不是总问题 |
+| S3 | 文档 | `sw-series-engine-bible` ＋ `sw-character-bio`（+ `sw-chinese-series-practice` 若为国产剧） | logline 与跳板、pitch document / series format、bible（选档）、故事线文档（每条线的目的/推动者/入口出口/跨集节拍）、人物文档 `characters.md`（作为 bible、treatment 或策划文件的人物节，体例见 `sw-character-bio`）；国产剧按对方采用的文档链交付：策划口径、制片方口径、合同口径三套并存（`sw-chinese-series-practice` 三），先问清是哪一套、人物小传在不在链里 | 文档能让陌生人复述"每周会发生什么"；国产剧分集大纲每集有收口悬念 |
 | S4 | pilot 与单集结构 | `sw-series-structure`（半小时喜剧换 `sw-sitcom-comedy`） | pilot 类型选择（premise / typical-episode / hybrid）、幕数与页码锚点、act out 清单、A/B/C 线的入口出口、Story Map 17 栏 | 每个 act out 提出新问题；C 线不收幕；隐形幕能说出三重依据 |
 | S5 | 破故事与大纲 | `sw-writers-room` ＋ `sw-scene-craft` | beat sheet（每幕 6–7 场）→ outline（locked）；单集 6 周日程 | outline 每场一个 beat，含幕内位置；改结尾必须回大纲 |
 | S6 | 初稿与改稿 | `sw-dialogue` ＋ `sw-format-adaptation` ＋ `sw-writers-room`（接 note） | 剧本文件（teaser / ACT 标记或 day 标记）、页数、warm read 与 cold read 记录 | 页数在格式区间内（一小时 48–63、半小时单机 ≈30、多机 ≈50）；cold read 能答"下一集是什么" |
@@ -140,7 +141,7 @@ story-bible 模板与各阶段工作单见 [reference.md](reference.md)；跨语
 
 **阶段 2**：先定结尾；再按目标页数换算 BS2 页码（110 页表按比例缩放：主题 5%、触发 11%、二幕 23%、中点 50%、失去一切 68%、三幕 77%）；填页码表；写"中点是什么假象、失去一切是什么反面"。
 
-**阶段 3**：每个主要人物填三维表一行；单独写"对立统一的绑定物是什么、只有谁的哪个特性消亡才能打破"；给对手至少一把刀；列主角的镣铐。
+**阶段 3**：每个主要人物填三维表一行；单独写"对立统一的绑定物是什么、只有谁的哪个特性消亡才能打破"；给对手至少一把刀；列主角的镣铐。要成形的人物文档时走 `sw-character-bio` 第十一节，bible 里只记文件名和状态。
 
 **阶段 4**：步骤大纲每场一行：`场次 | 内外·地点·日夜 | 一句话 | 押上的价值 开→结 | 结构位置`；然后过一遍"删掉会怎样"，价值不变的场删。
 

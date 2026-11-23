@@ -2,7 +2,7 @@
 
 [English](README.md) · [中文版](README_ZH.md) · [한국어](README_KO.md) · [Français](README_FR.md)
 
-脚本執筆・テレビドラマ・劇作法のための 26 個のエージェントスキル（[Claude Code](https://docs.anthropic.com/en/docs/claude-code/skills) と [OpenAI Codex](https://developers.openai.com/codex/build-skills) 対応）。47 冊の理論書と 23 巻の出版シナリオ・曲譜・戯曲（中国・アメリカ・イギリス・日本・韓国）から抽出したもの。
+脚本執筆・テレビドラマ・劇作法のための 27 個のエージェントスキル（[Claude Code](https://docs.anthropic.com/en/docs/claude-code/skills) と [OpenAI Codex](https://developers.openai.com/codex/build-skills) 対応）。47 冊の理論書と 23 巻の出版シナリオ・曲譜・戯曲（中国・アメリカ・イギリス・日本・韓国）から抽出したもの。
 
 スキルファイルはオープン規格 [agentskills.io](https://agentskills.io) に準拠し、両方のエージェントで共有されます。一度入れれば、どちらでも動きます。
 
@@ -90,7 +90,7 @@ codex plugin marketplace add jtydhr88/screenwriting-skills
 長編映画は第 1・3・4 層を使い、連続ドラマは四層すべてを使います。シリーズ層は「一本の映画のために設計された構成」を「エンジン＋シーズン」で**置き換える**からです。
 
 ```
-1. 一般劇作法   前提 · 構成 · 人物 · 台詞 · 場面 · 書式 · プロジェクト進行
+1. 一般劇作法   前提 · 構成 · 人物 · 人物小伝 · 台詞 · 場面 · 書式 · プロジェクト進行
 2. 媒体層       連続ドラマ · 各話とシーズンの構成 · エンジンとバイブル · ライターズルーム · 30 分コメディ
                 舞台 · 中国戯曲：板腔体と曲牌体の二方法、各々に全本語料庫
 3. 伝統と業界   アメリカ · 日本 · 韓国とフランス · 中国大陸 · ビジネス
@@ -99,7 +99,7 @@ codex plugin marketplace add jtydhr88/screenwriting-skills
 
 | 層 | スキル |
 |---|---|
-| 1 | `sw-workflow`（進行管理とストーリーバイブル）· `sw-story-structure` · `sw-premise-theme` · `sw-character-conflict` · `sw-dialogue` · `sw-scene-craft` · `sw-format-adaptation` |
+| 1 | `sw-workflow`（進行管理とストーリーバイブル）· `sw-story-structure` · `sw-premise-theme` · `sw-character-conflict` · `sw-character-bio`（人物小伝と人物表：提出用の書式、人物の格付け、作業稿と提出稿の分け方、既存脚本との照合）· `sw-dialogue` · `sw-scene-craft` · `sw-format-adaptation` |
 | 2 | 連続ドラマ：`sw-series-structure` · `sw-series-engine-bible` · `sw-writers-room` · `sw-sitcom-comedy`<br>舞台：`sw-chinese-opera-banqiang` · `sw-chinese-opera-qupai`（二つの声腔体系の方法）· `sw-chinese-opera-banqiang-cases` · `sw-chinese-opera-qupai-cases`（全本語料庫：鎖麟嚢・沙家浜・白蛇伝・朝陽溝／竇娥冤・救風塵・牡丹亭・桃花扇・長生殿） |
 | 3 | `sw-american-case-studies` · `sw-japanese-screenwriting` · `sw-korean-french-screenwriting` · `sw-chinese-series-practice` · `sw-industry-business` |
 | 4 | `chekhov-dramaturgy` · `ozu-screenplay-style` · `succession-series-writing` · `sw-series-case-studies` |
@@ -115,6 +115,8 @@ codex plugin marketplace add jtydhr88/screenwriting-skills
 **テレビ理論 15 冊**：ウィリアム・ラプキン、ダニエル・カルヴィージ、パメラ・ダグラス、カム・ミラー、エマニュエル・オバーグ、ゴールドバーグ＆ラプキン、ニール・ランダウ、エヴァン・S・スミス、リチャード・A・ブラム、姚扣根、張巍、張明智・宋培義、趙彬彬。
 
 **出版シナリオ・戯曲 12 巻**：チェーホフ戯曲全集、小津安二郎脚本集、Jesse Armstrong *Succession: The Complete Scripts* I–IV、Aaron Sorkin *The West Wing Script Book*、David Chase 他 *The Sopranos*、Julian Fellowes *Downton Abbey* Season Two、Phoebe Waller-Bridge *Fleabag: The Scriptures*、坂元裕二『花束みたいな恋をした』、盧熙京『世界で最も美しい別れ』。
+
+**演出書 2 冊、監督と俳優による人物伝記の使い方に関する数節のみ引用**：Michael Rabiger *Directing: Film Techniques and Aesthetics*（第 4 版）、Nicholas T. Proferes *Film Directing Fundamentals*（第 3 版）。
 
 完全な書誌は [English README](README.md#source-books) を参照。
 

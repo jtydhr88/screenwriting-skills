@@ -154,14 +154,15 @@
 
 ### 十二.4 *Girl Out of Water*：Egri 三维 ＋ Signature trait 表单
 
-**体例**：每人 **Physiology／Sociology／Psychology 三段，末尾一句 "Signature trait:"**。Egri character bone structure 字段全表见 L0785–850（Physiology 三项／Sociology 九项／Psychology 十一项）。Signature trait 的出题方式：**"主角每周做什么让观众爱看？"**——注明"不是每个主角都有"。
+**体例**：每人 **Physiology／Sociology／Psychology 三段，末尾一句 "Signature trait:"**。Egri character bone structure 字段全表见 L0785–850（Physiology 三项／Sociology 九项／Psychology 十二项）。Signature trait 的出题方式：**"主角每周做什么让观众爱看？"**——注明"不是每个主角都有"。
 
 | 人物 | Signature trait |
 |---|---|
 | Sierra（18，主角） | "**Sierra is a winner in a losing game. She is a fighter.**" |
 | Felicity（12，妹妹） | "hardworking and insightful, and her **empathy provides some of the show's most touching moments**" |
 | Steven（父） | "his **immaturity and obvious lack of business sense** can be infuriating. His relationship with Sierra is one of the most complex on the show." |
-| Maria／Christian／Isabella／Annie | **未记载**——只写了三维三段，无 Signature trait 行 |
+| Maria（母） | "Maria is one of the most discontented people on the show. Her anger often causes problems and controversy." |
+| Christian／Isabella／Annie | 只写了三维三段，没有 Signature trait 行 |
 
 **另三格**：**World 只有三行**（"Sierra's school and family home, as well as the offices of her physical therapist and psychologist."）；**engine 一句四来源**（"sports and sporting events, the mental-health system, business ventures, and family"）；**三季 arc 每季同时推进三条人物线**（Sierra／Felicity／Steven-Maria）并在季末翻一次状态（S1 自杀未遂；S2 专利诉讼；S3 **Maria 发现癌症复发并隐瞒**）。
 

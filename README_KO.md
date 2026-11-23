@@ -2,7 +2,7 @@
 
 [English](README.md) · [中文版](README_ZH.md) · [日本語](README_JA.md) · [Français](README_FR.md)
 
-시나리오·드라마 극본·극작법을 위한 26개의 에이전트 스킬([Claude Code](https://docs.anthropic.com/en/docs/claude-code/skills) 및 [OpenAI Codex](https://developers.openai.com/codex/build-skills) 지원). 47권의 작법서와 23권의 출간 대본·악보·희곡(중국·미국·영국·일본·한국)에서 추출했습니다.
+시나리오·드라마 극본·극작법을 위한 27개의 에이전트 스킬([Claude Code](https://docs.anthropic.com/en/docs/claude-code/skills) 및 [OpenAI Codex](https://developers.openai.com/codex/build-skills) 지원). 47권의 작법서와 23권의 출간 대본·악보·희곡(중국·미국·영국·일본·한국)에서 추출했습니다.
 
 스킬 파일은 공개 규격인 [agentskills.io](https://agentskills.io) 표준을 따르며 두 에이전트가 공유합니다. 한 번 설치하면 어디서든 작동합니다.
 
@@ -90,7 +90,7 @@ codex plugin marketplace add jtydhr88/screenwriting-skills
 장편영화는 1·3·4계층을, 시리즈는 네 계층 전부를 씁니다. 시리즈 계층은 "한 편의 영화를 위해 설계된 구조"를 "엔진＋시즌"으로 **대체**하기 때문입니다.
 
 ```
-1. 일반 극작법   전제 · 구조 · 인물 · 대사 · 장면 · 포맷 · 프로젝트 진행
+1. 일반 극작법   전제 · 구조 · 인물 · 인물 소전 · 대사 · 장면 · 포맷 · 프로젝트 진행
 2. 매체 계층     시리즈 · 회차와 시즌 구조 · 엔진과 바이블 · 작가실 · 30분 코미디
                 무대 · 중국 희곡: 판강체·곡패체 두 방법, 각각 전본 자료집
 3. 전통과 업계   미국 · 일본 · 한국과 프랑스 · 중국 본토 · 비즈니스
@@ -99,7 +99,7 @@ codex plugin marketplace add jtydhr88/screenwriting-skills
 
 | 계층 | 스킬 |
 |---|---|
-| 1 | `sw-workflow`(진행 관리와 스토리 바이블) · `sw-story-structure` · `sw-premise-theme` · `sw-character-conflict` · `sw-dialogue` · `sw-scene-craft` · `sw-format-adaptation` |
+| 1 | `sw-workflow`(진행 관리와 스토리 바이블) · `sw-story-structure` · `sw-premise-theme` · `sw-character-conflict` · `sw-character-bio`(인물 소전과 인물표: 제출용 서식, 인물 등급, 작업 원고와 제출 원고의 구분, 기존 대본과의 대조) · `sw-dialogue` · `sw-scene-craft` · `sw-format-adaptation` |
 | 2 | 시리즈: `sw-series-structure` · `sw-series-engine-bible` · `sw-writers-room` · `sw-sitcom-comedy`<br>무대: `sw-chinese-opera-banqiang` · `sw-chinese-opera-qupai`(두 성강 체계의 방법) · `sw-chinese-opera-banqiang-cases` · `sw-chinese-opera-qupai-cases`(전본 자료집: 쇄린낭·사가빈·백사전·조양구／두아원·구풍진·모란정·도화선·장생전) |
 | 3 | `sw-american-case-studies` · `sw-japanese-screenwriting` · `sw-korean-french-screenwriting` · `sw-chinese-series-practice` · `sw-industry-business` |
 | 4 | `chekhov-dramaturgy` · `ozu-screenplay-style` · `succession-series-writing` · `sw-series-case-studies` |
@@ -115,6 +115,8 @@ codex plugin marketplace add jtydhr88/screenwriting-skills
 **텔레비전 작법 15권**: 윌리엄 랩킨, 대니얼 칼비시, 파멜라 더글러스, 캠 밀러, 에마뉘엘 오베르, 골드버그＆랩킨, 닐 랜도, 에번 S. 스미스, 리처드 A. 블룸, 야오커우건, 장웨이, 장밍즈·쑹페이이, 자오빈빈.
 
 **출간 대본·희곡 12권**: 체호프 희곡 전집, 오즈 야스지로 각본집, Jesse Armstrong *Succession: The Complete Scripts* I–IV, Aaron Sorkin *The West Wing Script Book*, David Chase 외 *The Sopranos*, Julian Fellowes *Downton Abbey* Season Two, Phoebe Waller-Bridge *Fleabag: The Scriptures*, 사카모토 유지 『꽃다발 같은 사랑을 했다』, 노희경 『세상에서 가장 아름다운 이별』.
+
+**연출서 2권, 감독과 배우가 인물 전기를 쓰는 방식에 관한 몇 대목만 인용**: Michael Rabiger *Directing: Film Techniques and Aesthetics*(4판), Nicholas T. Proferes *Film Directing Fundamentals*(3판).
 
 완전한 서지는 [English README](README.md#source-books)를 참고하세요.
 

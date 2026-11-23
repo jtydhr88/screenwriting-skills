@@ -2,7 +2,7 @@
 
 [English](README.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Français](README_FR.md)
 
-把 47 本编剧/剧作理论书籍与 23 卷出版剧本、曲谱（中、美、英、日、韩）提炼成的 26 个 agent skill，面向 [Claude Code Skills](https://docs.anthropic.com/en/docs/claude-code/skills) 与 [OpenAI Codex](https://developers.openai.com/codex/build-skills)，覆盖电影长片、电视剧集、舞台剧。
+把 47 本编剧/剧作理论书籍与 23 卷出版剧本、曲谱（中、美、英、日、韩）提炼成的 27 个 agent skill，面向 [Claude Code Skills](https://docs.anthropic.com/en/docs/claude-code/skills) 与 [OpenAI Codex](https://developers.openai.com/codex/build-skills)，覆盖电影长片、电视剧集、舞台剧。
 
 所有 skill 文件遵循开放的 [agentskills.io](https://agentskills.io) 标准，Claude Code 与 Codex 通用，装一次，两个 Agent 都能用。
 
@@ -50,7 +50,7 @@ codex plugin marketplace add jtydhr88/screenwriting-skills
 # Plugins → 选择 "Screenwriting Skills" → Install
 ```
 
-两边共用同样的 26 个 skill 文件，不重复、不改写。
+两边共用同样的 27 个 skill 文件，不重复、不改写。
 
 #### 个人级别（所有项目生效）
 
@@ -108,7 +108,7 @@ cp -r screenwriting-skills/plugins/screenwriting/skills/* .agents/skills/
 写长片用第 1、3、4 层；写剧集或舞台作品再加第 2 层。媒介层做的是替换：把按电影设计的结构，换成该媒介自己的单位。
 
 ```
-1. 通用剧作层   前提 · 结构 · 人物 · 对白 · 场景 · 格式 · 特鲁比有机解剖 · 类型解剖 · 项目调度
+1. 通用剧作层   前提 · 结构 · 人物 · 人物小传 · 对白 · 场景 · 格式 · 特鲁比有机解剖 · 类型解剖 · 项目调度
 2. 媒介层       剧集 · 单集与季结构 · 引擎与 bible · 编剧室 · 半小时喜剧
                 舞台 · 戏曲：板腔体与曲牌体两套方法，各带一个全本语料库
 3. 传统与行业层 美国 · 日本 · 韩法 · 中国大陆 · 行业生意
@@ -123,6 +123,7 @@ cp -r screenwriting-skills/plugins/screenwriting/skills/* .agents/skills/
 | `sw-story-structure` 故事结构 | 范式与情节点、BS2 十五节拍与演示板、麦基结构层级/激励事件/进展纠葛/危机高潮结局/次情节、九节拍、吸引力/预期/满意、起承转合、开头八法、结尾八法 | 菲尔德、斯奈德、麦基《故事》、霍克斯特、希克斯、陆军 |
 | `sw-premise-theme` 前提与主题 | 前提是暴君、主控思想＝价值＋原因、第三条轨道（渴望 vs 错误信念）、前提五问、一句话故事与 logline、选材/开掘/视角/戏核 | 埃格里、麦基、克龙、希克斯、霍克斯特、斯奈德、陆军 |
 | `sw-character-conflict` 人物与冲突 | 三维人物、编排、对立统一、主使人物、静止/跳跃/升级冲突与过渡；弗洛伊德/荣格/坎贝尔/阿德勒等动机工具箱；人物要活八要、对手要强、给对手一把刀 | 埃格里、尹迪克、麦基、希克斯、克龙、斯奈德、陆军 |
+| `sw-character-bio` 人物小传与人物表 | 人物文档的四件事：按媒介和交付对象分流（英美 spec 长片、美剧提案与 bible、国产剧合同与策划、片段改编、戏曲各一行），工作稿与交付稿分层，人物分级（谁写传、谁只进人物表），五种交付体例（三维段、散文段、清单、因果要点链、人物表行）；各家的篇幅说法与书中样本的实测并列，附按交付对象选档的办法；小传在国产两类编剧合同、制片方四步、策划文件里各在哪一环；附一张小传与现稿对账的核对表 | 菲尔德、希克斯、克龙、汉森、沃尔特、戴蒙德&韦斯曼、Miller、Oberg、Douglas、Smith、Landau、Goldberg & Rabkin、Rabkin、Calvisi、姚扣根、张巍、张明智&宋培义、赵彬彬 |
 | `sw-dialogue` 对白 | 对白是行动、已说/未说/不能说、解说当弹药、动名词节拍、四类瑕疵、角色专属词汇；语言要美、戏曲唱词三好 | 麦基《对白》、沃尔特、希克斯、陆军、埃格里、斯奈德、梅峰 |
 | `sw-scene-craft` 场景与段落 | 场景＝价值转折、五步场景分析、晚进早出、节奏与过渡、动作优于对白；意趣要足、细节要妙、道具要精 | 麦基、菲尔德、希克斯、沃尔特、汉森、霍克斯特、梅峰、陆军 |
 | `sw-format-adaptation` 格式·流程·改编 | 推销剧本格式硬规则、版面规格表、元素级约定、Fountain 输出契约（含中文强制记号）、中文场号制与日式柱・ト書き、大纲→处理台本→草稿链、修改、改编原则 | 汉森、沃尔特、希克斯、菲尔德、麦基、霍克斯特、戴蒙德&韦斯曼、博克；版面规格与 Fountain 为行业通行做法 |
@@ -154,7 +155,7 @@ cp -r screenwriting-skills/plugins/screenwriting/skills/* .agents/skills/
 | `sw-american-case-studies` 美国案例 | 西部片、神经喜剧、怀尔德、希区柯克、《改编剧本》《米尔德丽德·皮尔斯》《塞尔玛与路易丝》《法尔戈》《心灵捕手》《美国美人》《纯洁心灵的永恒阳光》、伯恩、疯狂动物城 | 梅峰、沃尔特、大师班、霍克斯特、斯奈德、菲尔德 |
 | `sw-japanese-screenwriting` 日本编剧方法 | 十位日本导演编剧：结构优先 vs 片段优先、小素材笔记、"如果＋而且"、人物＝演员＋缺点、主题后置 | 泊贵洋编、大师班国际卷 |
 | `sw-korean-french-screenwriting` 韩国与法国方法 | 把情绪描绘出来、先探访后写作、忠于类型是对观众的承诺、两个反转、对话放最后写、集体创作 | 大师班国际卷 |
-| `sw-chinese-series-practice` 国产剧体系与制片链 | 类型学与时长硬约束；文档链（创意→梗概→人物小传→分集大纲→分场大纲→剧本）及各自字数；四种并存的中文剧本格式；每集收口的悬念法则与四级悬念；小说/IP 改成 30–50 集长剧（卖点迁移、复制-删除-改编）；反方向的片段改编；制片链（立项/备案/两道审查、交付节点、编剧合同、内容红线）；中英术语字典 | 姚扣根、张巍、张明智&宋培义、赵彬彬，以及道格拉斯与布鲁姆的中译本 |
+| `sw-chinese-series-practice` 国产剧体系与制片链 | 类型学与时长硬约束；三套并存的文档链（策划口径、制片方口径、合同口径）及各份文件的体量；四种并存的中文剧本格式；每集收口的悬念法则与四级悬念；小说/IP 改成 30–50 集长剧（卖点迁移、复制-删除-改编）；反方向的片段改编；制片链（立项/备案/两道审查、交付节点、编剧合同、内容红线）；中英术语字典 | 姚扣根、张巍、张明智&宋培义、赵彬彬，以及道格拉斯与布鲁姆的中译本 |
 | `sw-industry-business` 行业与生意经 | 买家视角流程、PROBLEM 七要素、一句话/询问信/推销、经纪人、期权、署名、WGA、毛利 vs 净利、电影 vs 电视、职业心态 | 戴蒙德&韦斯曼、博克、希克斯、沃尔特、汉森、斯奈德、霍克斯特、梅峰、大师班 |
 
 ### 第 4 层 大师语料层（完整一手文本，逐幕逐集拆过）
@@ -196,6 +197,8 @@ cp -r screenwriting-skills/plugins/screenwriting/skills/* .agents/skills/
 
 **戏曲全本与曲谱（11 卷，另三种公版原剧）**：汤显祖《牡丹亭》；孔尚任《桃花扇》及小引、凡例、纲领、本末；关汉卿《窦娥冤》《救风尘》《金线池》（维基文库元曲选本）与一种戏剧故事选（只取情节骨架）；翁偶虹《锁麟囊》京剧曲谱（王吟秋整理）；北京京剧团《沙家浜》1965 年本；田汉《白蛇传》1955 年本；杨兰春《朝阳沟》1978 年本；魏明伦《潘金莲》《巴山秀才》；罗怀臻《罗怀臻戏剧文集》越剧卷、地方戏卷；《长生殿》据王季烈五十折表。
 
+**另引两本导演书的少量段落（只取导演与演员怎样使用人物传记）**：Michael Rabiger《Directing: Film Techniques and Aesthetics》（第四版）；Nicholas T. Proferes《Film Directing Fundamentals》（第三版）。
+
 ## 约定
 
 - 正文中文；编号原则、表格、清单；skill 之间用文件夹名互相引用。输出语言跟着提问者走，见[多语言支持](#多语言支持)。
@@ -207,7 +210,7 @@ cp -r screenwriting-skills/plugins/screenwriting/skills/* .agents/skills/
 
 - **每个 skill 的文件**：主文件是 `SKILL.md`，参考文件是 `reference.md`。范例与引文放 `reference.md`，让 `SKILL.md` 保持在约 40 KB 以内。`sw-series-case-studies` 的三册是 `reference.md`、`reference-pilots.md`、`reference-asia.md`。
 - **frontmatter**：每个 `SKILL.md` 的 `name` 与文件夹同名（kebab-case）；`description` 英文长句以 "Use when …" 收尾，括号内附中文关键词。
-- **插件**：每个插件同时带 `.claude-plugin/plugin.json` 与 `.codex-plugin/plugin.json`，共用同一个 `skills/` 目录，所以 Claude Code 与 Codex 读的是同样的 26 个 `SKILL.md`。
+- **插件**：每个插件同时带 `.claude-plugin/plugin.json` 与 `.codex-plugin/plugin.json`，共用同一个 `skills/` 目录，所以 Claude Code 与 Codex 读的是同样的 27 个 `SKILL.md`。
 - **术语表**：[`sw-workflow/terms.md`](plugins/screenwriting/skills/sw-workflow/terms.md)。
 - **story bible**：`sw-workflow` 把项目状态存在 `story-bible.md` 这个文件里。
 

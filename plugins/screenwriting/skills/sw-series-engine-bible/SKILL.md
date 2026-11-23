@@ -269,7 +269,7 @@ reference.md／reference-documents.md／reference-samples.md 都是查表用的�
 6. **定类型**（Oberg）：format→series type→季层 story-type→每集 story-type→genre→M-Factor 检查。格式自检：能否 10×60→8×45？前三分之一是不是 backstory？**第 3 集才好看就把前两集压缩或删掉**——"starting the story too early is a common flaw"。
 7. **建人物网**：familial role→每对关系的正负向量→专长分工→每人一枚地雷→对抗力的性质→检查属性是否互相干扰。
 8. **写 Calvisi 的 17 栏一页表**作为此后所有文档的地基。
-9. **写 treatment（Miller 10 要素）或 presentation（Blum 四节）**：serialized 剧 arc 三季，stand-alone 剧列 10 条集 logline。（六份填好的 treatment 样本、Egri 三维＋signature trait 表单、能力成长表与 Markets 写法见 reference-samples.md 十二）
+9. **写 treatment（Miller 10 要素）或 presentation（Blum 四节）**：serialized 剧 arc 三季，stand-alone 剧列 10 条集 logline。（六份样本、能力成长表与 Markets 写法见 reference-samples.md 十二；人物节体例见 `sw-character-bio`）
 10. **生成并检验 5–6 个后续故事**（来源与结局形态都要不同）；雷同就回第 4 步。
 11. **为每条线写一页故事线文档**（第 56 条），对齐成"人物 × 集数"大表，逐条做**抽线测试**。
 12. **设计并写 pilot**：选类型（第 39 条四判据）→列"前十页计划"→用后半跑一遍 story pattern→埋地雷→写出结尾的十个问题→写剧本（节拍与幕见 `sw-series-structure`）。

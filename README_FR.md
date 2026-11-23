@@ -2,7 +2,7 @@
 
 [English](README.md) · [中文版](README_ZH.md) · [日本語](README_JA.md) · [한국어](README_KO.md)
 
-26 compétences d'agent (« skills ») pour le scénario, l'écriture télévisuelle et la dramaturgie, destinées à [Claude Code](https://docs.anthropic.com/en/docs/claude-code/skills) et [OpenAI Codex](https://developers.openai.com/codex/build-skills). Distillées de 47 ouvrages de méthode et de 23 volumes de scénarios, partitions et pièces publiés (chinois, américains, britanniques, japonais et coréens).
+27 compétences d'agent (« skills ») pour le scénario, l'écriture télévisuelle et la dramaturgie, destinées à [Claude Code](https://docs.anthropic.com/en/docs/claude-code/skills) et [OpenAI Codex](https://developers.openai.com/codex/build-skills). Distillées de 47 ouvrages de méthode et de 23 volumes de scénarios, partitions et pièces publiés (chinois, américains, britanniques, japonais et coréens).
 
 Les fichiers des skills suivent la norme ouverte [agentskills.io](https://agentskills.io) et sont partagés par les deux agents : une seule installation, et les deux fonctionnent.
 
@@ -90,7 +90,7 @@ L'opéra chinois, ce sont **deux écritures**. L'axe qui compte est le système 
 Un long métrage utilise les couches 1, 3 et 4 ; une série les utilise toutes les quatre, car la couche série **remplace** la « structure conçue pour un film » par une logique de moteur et de saison.
 
 ```
-1. Dramaturgie générale  prémisse · structure · personnage · dialogue · scène · format · conduite de projet
+1. Dramaturgie générale  prémisse · structure · personnage · fiche personnage · dialogue · scène · format · conduite de projet
 2. Couche médium         série · structure de l'épisode et de la saison · moteur et bible · writers' room · comédie de 30 min
                          scène · opéra chinois : les méthodes banqiang et qupai, chacune avec une bibliothèque de textes intégraux
 3. Traditions et métier  Amérique · Japon · Corée et France · Chine continentale · le business
@@ -99,7 +99,7 @@ Un long métrage utilise les couches 1, 3 et 4 ; une série les utilise toutes l
 
 | Couche | Skills |
 |---|---|
-| 1 | `sw-workflow` (conduite de projet et story bible) · `sw-story-structure` · `sw-premise-theme` · `sw-character-conflict` · `sw-dialogue` · `sw-scene-craft` · `sw-format-adaptation` |
+| 1 | `sw-workflow` (conduite de projet et story bible) · `sw-story-structure` · `sw-premise-theme` · `sw-character-conflict` · `sw-character-bio` (fiches personnages et liste des personnages : formats de livraison, niveaux de détail, notes de travail et document remis, vérification d'un scénario existant) · `sw-dialogue` · `sw-scene-craft` · `sw-format-adaptation` |
 | 2 | Série : `sw-series-structure` · `sw-series-engine-bible` · `sw-writers-room` · `sw-sitcom-comedy`<br>Scène : `sw-chinese-opera-banqiang` · `sw-chinese-opera-qupai` (les méthodes des deux systèmes vocaux) · `sw-chinese-opera-banqiang-cases` · `sw-chinese-opera-qupai-cases` (textes intégraux : 锁麟囊, 沙家浜, 白蛇传, 朝阳沟 / 窦娥冤, 救风尘, 牡丹亭, 桃花扇, 长生殿) |
 | 3 | `sw-american-case-studies` · `sw-japanese-screenwriting` · `sw-korean-french-screenwriting` · `sw-chinese-series-practice` · `sw-industry-business` |
 | 4 | `chekhov-dramaturgy` · `ozu-screenplay-style` · `succession-series-writing` · `sw-series-case-studies` |
@@ -115,6 +115,8 @@ Côté français : `sw-korean-french-screenwriting` rassemble les méthodes cor�
 **Méthode télévisuelle, 15 ouvrages** : William Rabkin, Daniel Calvisi, Pamela Douglas, Kam Miller, Emmanuel Oberg, Goldberg & Rabkin, Neil Landau, Evan S. Smith, Richard A. Blum, Yao Kougen, Zhang Wei, Zhang Mingzhi & Song Peiyi, Zhao Binbin.
 
 **Scénarios et pièces publiés, 12 volumes** : Œuvres théâtrales complètes de Tchekhov, Scénarios d'Ozu Yasujirō, Jesse Armstrong *Succession: The Complete Scripts* I–IV, Aaron Sorkin *The West Wing Script Book*, David Chase et al. *The Sopranos*, Julian Fellowes *Downton Abbey* saison 2, Phoebe Waller-Bridge *Fleabag: The Scriptures*, Sakamoto Yūji *Au bout du compte, je t'aimais*, Noh Hee-kyung *Le plus bel adieu du monde*.
+
+**Deux ouvrages de mise en scène, cités pour quelques passages sur l'usage des biographies de personnages par les réalisateurs et les acteurs** : Michael Rabiger *Directing: Film Techniques and Aesthetics* (4e éd.), Nicholas T. Proferes *Film Directing Fundamentals* (3e éd.).
 
 Bibliographie complète dans le [README anglais](README.md#source-books).
 
