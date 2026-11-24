@@ -4,7 +4,7 @@
 >
 > **出处标法**：`pNNNN` 是底本扫描页，不是印刷页码。Miller、Oberg、Douglas 3e、Rabkin、Calvisi 与几本中译电子书的底本没有页码，标章节，另给电子书文本行号 `L`，方便回查。
 >
-> **实测口径**：英文词数按空白切分，含 `Physiology:` 这类栏名；汉字数只数汉字，含人名与栏名，不数标点和数字。第七节的网络来源另有三条：日文、韩文按字符数，不含空白；扫描件先经 OCR 再数，是约数；网络来源都是 2026-11-23 打开的。
+> **实测口径**：英文词数按空白切分，含 `Physiology:` 这类栏名；汉字数只数汉字，含人名与栏名，不数标点和数字。第七节的网络来源另有三条：日文、韩文按字符数，不含空白；扫描件先经 OCR 再数，是约数；网络来源都是 2026-11-23 打开的；O'PEN 2018 年上册、Dirk Gently、《Montauk》和《曼蘿王后》四份在 2026-11-24 重新打开原件，核对了本文件引的原句和栏名。
 >
 > **引文长度**：短样本照录；长样本只录一小段，其余给结构摘要和各段篇幅。要看全文请读原书。
 
@@ -63,11 +63,13 @@ They say there's someone out there for everybody – and Aurora is proof of that
 
 **出处四**：Smith《Writing Television Sitcoms》p0293 对 series format 里常设人物表的要求："using a separate paragraph to describe each in as interesting a manner as possible"。书里没有附填好的样本。
 
-**出处五，韩国公募入选作的人物栏**：CJ ENM O'PEN「드라마 작품집」（第七节甲 1）。每条首行是姓名、年龄、性别、职业，换行接一段散文写处境与欲望；次要人物一两句或一行；末尾一行收无名角色。2018 年上册《안녕! 싱크홀》的首行和收尾行：
+**出处五，韩国公募入选作的人物栏**：CJ ENM O'PEN「드라마 작품집」（第七节甲 1）。每条首行是姓名、年龄、性别、职业，换行接一段散文写处境与欲望；次要人物一两句或一行；末尾收无名角色。2018 年上册《안녕! 싱크홀》（작품집第 13–15 页）主角一条的首行，和人物栏的收尾（「그 외」自占一行，下一行列人）：
 
 ```text
 김병태(47세, 남) 펜션 주인
-그외 병태 아내(43), 병태 딸(6), 유림 부, 경찰 등.
+
+그 외
+병태 아내(43), 병태 딸(6), 유림 부, 경찰 등.
 ```
 
 ### C 清单
@@ -274,13 +276,15 @@ Mark and Steve work closely with Dr. Amanda Bentley (Victoria Rowell), a patholo
 | 至多 10 页 | pitch document 全文；列出的六项里没有人物项 | Telefilm Canada，Development Program 2026-2027 所需文件清单 | 官方要项 | 英语区申请 |
 | 1253、1038、408、651、518、491 字 | 6 人的人物小传，主角最长 | 《曼蘿王后》劇本創作論述（政治大学硕士论文，2022） | 学位论文（学生作品）；实测 | 学位创作 |
 | 2091、1593、785 字；117、149、126 字 | 附录的人物小传 3 人；同一文件剧本前的"主要人物介紹"同 3 人 | 《電影劇本《感同身受》創作論述》（政治大学硕士论文，2016） | 学位论文（学生作品）；实测 | 学位创作 |
-| 383–563 词 | 5 人，每人一页 | Dirk Gently's Holistic Detective Agency show bible（2015） | 公开流传稿；实测 | bible |
+| 165–560 词 | 7 个人物：Dirk 560、Todd 444 各占一页；Amanda 203、Farah 252、Bart 264、Riggins 217、Friedkin 165，这五条与另一条合一页 | Dirk Gently's Holistic Detective Agency show bible（2015） | 公开流传稿；实测 | bible |
 | 61–158 词 | 11 人，每人一段 | 《Montauk》（Stranger Things 的 pitch） | 公开流传稿；实测（OCR 约数） | pitch |
 | 726–1245 词 | 8 人的传记；第 9 人只有标题和一句副题 | Battlestar Galactica series bible（2003） | 公开流传稿；实测 | bible |
 | 131–194 词 | 14 人里的 13 人；另一人 59 词，文末截断 | Lost series format | 公开流传稿；实测 | series format |
 | 43–133 词 | 编号清单 17 条 | The Wire pitch（2000） | 公开流传稿；实测（OCR 约数） | pitch |
 | 213–899 词；1292 词 | 各人一段，含各自父母；Sam 与 Lindsay 合写一段。服装补充卷每人 88–253 词 | Freaks and Geeks bible | 公开流传稿；实测 | bible |
 | 41–97 词；223–540 词 | 8 个主要人物的简介；各人的 "MORE ON" 展开 | Star Trek: The Next Generation Writer/Director's Guide（1987） | 公开流传稿（转录本）；实测 | writers' guide |
+
+**写了传的人之间差多少**（只是上表几份的实测，不是规则）：《Montauk》11 人 61–158 词，Battlestar Galactica 有传记的 8 人 726–1245 词，Lost 14 人里 13 人 131–194 词，各自最长的不到最短的三倍。Dirk Gently 两个主角 560、444 词，其余五人 165–264 词。The Wire 的编号清单 17 条 43–133 词，主角 McArdle 一条 69 词。政治大学两篇论文里，最长的一人约是最短的三倍（《曼蘿王后》1253 对 408 字，《感同身受》2091 对 785 字）。
 
 ---
 
@@ -381,7 +385,7 @@ https://hakodate-illumina.com/scenarioaward/scenariobook
 
 https://ah.lib.nccu.edu.tw/handle/140.119/98716
 
-《曼蘿王后》劇本創作論述（传播硕士学位学程，2022）：人物小传 6 人，1253、1038、408、651、518、491 字，每人分基本設定、簡介、前史几栏，栏目是作者自设的；其后另有"其他人物"一节短表。同一个 PDF 的第肆章有分场大纲和完整剧本。
+《曼蘿王后》劇本創作論述（传播硕士学位学程，2022）：人物小传 6 人，1253、1038、408、651、518、491 字，每人先一句题词，"基本設定："下列內在人生追求（需求、慾望、恐懼）、世界觀、道德信仰、生理特徵、社群生活、個性六项，再接"簡介："一段和"【前史】"；栏目是作者自设的。其后另有"7、其他人物"一节，次要人物各一小段。同一个 PDF 的第肆章有分场大纲和完整剧本。
 
 https://ah.lib.nccu.edu.tw/handle/140.119/139019
 
@@ -389,12 +393,12 @@ https://ah.lib.nccu.edu.tw/handle/140.119/139019
 
 | 文档 | 年份 | 全文 | 人物节的形态 | 量到的数（词） |
 |---|---|---|---|---|
-| Dirk Gently's Holistic Detective Agency show bible | 2015 | 28 页 | Character Descriptions 7 页，每人或每个组织一页：名字、一句引语、散文、末尾写弧线。开头写 "Read me second. Read the scripts first." | Dirk 563、Todd 445、Amanda 456、Bart 553、Riggins 383；两个组织页 158、535 |
-| 《Montauk》（Stranger Things 的 pitch） | 文件没有标 | 23 页 | 人物 4 页，分 Kids、Outsider、Teenagers、Adults，11 人，每人一段 | 61–158（Eleven 158、Hopper 137、Mike 106、Dustin 61），OCR 约数 |
+| Dirk Gently's Holistic Detective Agency show bible | 2015 | 28 页 | Character Descriptions 7 页（第 14–20 页），10 条：7 个人物、3 个团体或组织。每条是名字、一句引语、几段散文；Dirk、Todd 各占一页，其余多是两条合一页。文件第 2 页写 "Read me second. Read the scripts first." | Dirk 560、Todd 444、Amanda 203、Farah 252、Bart 264、Riggins 217、Friedkin 165；团体与组织三条 288、157、534（不含页码） |
+| 《Montauk》（Stranger Things 的 pitch） | 文件没有标 | 23 页 | 人物 4 页，页题是 The Kids、The Outsider、The Teenagers、The Adults，11 人，每人一段 | 61–158（Eleven 158、Hopper 137、Mike 106、Dustin 61），OCR 约数 |
 | Battlestar Galactica series bible | 2003 | 53 页 | Character Biographies 18 页，过去式传记；弧线另有 Character Arcs 一章 | 8 人 726–1245（Starbuck 1245、Sharon 726）；第 9 人 Number Six 只有标题和一句副题 |
 | Lost series format | 文件没有标 | 27 页 | Part II: The Characters，14 人。文件自称这里是每人的 thumbnail sketch，并说已经写出较详细的小传 | 13 人 131–194（Kate 194）；Walt 59，文末截断 |
 | The Wire pitch | 2000 | 79 页扫描件 | CHARACTERS 编号清单 3 页，17 条：警局 9、法院 2、街头 6 | 43–133（Aaron Barksdale 133、McArdle 69、Bodie 43），OCR 约数 |
-| Freaks and Geeks bible | 文件没有标，补记的日期是 5/31/99 | 55 页 | 第 4–24 页人物，按群体分组的散文，约 22 条；第 29–44 页 Bible Supplement 每人一组服装字段 | Sam 与 Lindsay 合写 1292；其余 213–899，含各自父母；补充卷每人 88–253 |
+| Freaks and Geeks bible | 文件没有标，补记的日期是 5/31/99 | 55 页 | 第 4–24 页人物，按群体分组的散文，约 22 条；第 29–44 页 Bible Supplement 每人一组服装字段（Overall look／Shirts／Pants／Shoes／Coat／Accessories） | Sam 与 Lindsay 合写 1292；其余 213–899，含各自父母；补充卷每人 88–253 |
 | Star Trek: The Next Generation Writer/Director's Guide | 1987 | 转录本约 12,300 词 | 两层：先是 8 个主要人物的简介，后面各有一段 "MORE ON" | 简介 41–97；MORE ON 223–540（Riker 540、Geordi 223） |
 
 同一批流传稿里也有这些剧的 pilot 剧本：Dirk Gently、Freaks and Geeks、Stranger Things（播出版）、Battlestar Galactica（2003 年迷你剧）、Lost。The Wire 的 pilot 没有找到可以确认的公开稿。
@@ -489,6 +493,15 @@ https://telefilm.ca/wp-content/uploads/2022/03/List-of-Required-Documents-Select
 
 **合同与判决**
 
-吳依庭《影視劇本契約爭議探討：以臺灣、中國大陸委託創作契約之判決為中心》，政治大學法律科際整合研究所碩士論文，2019 年 6 月。SKILL.md 第六节用的是印刷页码：契约范例在第 69 页（全文在附录一，论文注明资料为台湾编剧提供），《北平无战事》案在第 129–130 页。PDF 页码比印刷页码多 11。判决书原文没有找到。
+吳依庭《影視劇本契約爭議探討：以臺灣、中國大陸委託創作契約之判決為中心》，政治大學法律科際整合研究所碩士論文，2019 年 6 月。下面是印刷页码。《北平无战事》案在第 129–130 页。第 69 页录了一份电影剧本创作契约范例（全文在附录一，论文注明资料为台湾编剧提供）：签约后 15 日内交"全劇故事大綱、人物小傳"，甲方书面确认通过"故事大綱、人物說明"后 5 个工作日内付酬金总额的 10%。PDF 页码比印刷页码多 11。判决书原文没有找到。
 
 https://ah.lib.nccu.edu.tw/bitstream/140.119/124898/1/015501.pdf
+
+### 丙、书上没有、文档里有的四种做法
+
+都是甲节那些文档里所见的实例，不是规则。
+
+- **条目里写这个人往后要发生什么。**《Montauk》11 人里 8 人的条目用 will 句写他在剧里将遇到的事，Mike 一条的末句是 "By the end, he will even kiss a girl."；Will、Dustin、Eleven 三条没有这样的句子。Dirk Gently 的 Amanda 一条末段以 "Amanda goes through a huge evolution over the course of the first season" 起头，Friedkin 一条末句是 "By the end of the first season, he becomes the Big Bad for the rest of the series."；Dirk、Todd、Farah 三条的末段写观众往后会看清的一面（"We'll come to understand that…"、"As we'll come to see…"）；Bart、Riggins 两条没有。Lost 的人物节自称每条写 "not only who they are, but where they're going"。Battlestar Galactica 把弧线另立一章 Character Arcs。
+- **按群体分组。**《Montauk》分 The Kids／The Outsider／The Teenagers／The Adults 四页；Freaks and Geeks 分 The Weir Family、The Geeks、The Freaks 等；The Wire 分警局、法院、街头。
+- **先简介后展开两层。** TNG 1987 writers' guide 先给每个主要人物 41–97 词的简介，后面各有一段 "MORE ON" 223–540 词。Lost 的文件里是缩略版（thumbnail sketch），自称另有较详细的小传。*Martial Law* 手册（第一节 B 出处一）也分 Overview 与 Nitty-Gritty 两节。
+- **无名角色在末尾一行收掉。** O'PEN 人物栏末尾的「그 외」（抽量的 10 部里 9 部有）；城戸賞的获奖剧本里，有无名角色的人物表把他们列在表尾；《朝阳沟》人物表末两行同理。
