@@ -99,7 +99,7 @@ codex plugin marketplace add jtydhr88/screenwriting-skills
 
 | 계층 | 스킬 |
 |---|---|
-| 1 | `sw-workflow`(진행 관리와 스토리 바이블) · `sw-story-structure` · `sw-premise-theme` · `sw-character-conflict` · `sw-character-bio`(인물 소전과 인물표: 제출용 서식, 인물 등급, 작업 원고와 제출 원고의 구분, 기존 대본과의 대조, 일본 공모전의 인물표와 한국 기획안의 인물 소개 등 제출처별 요건) · `sw-dialogue` · `sw-scene-craft` · `sw-format-adaptation` |
+| 1 | `sw-workflow`(진행 관리와 스토리 바이블) · `sw-story-structure` · `sw-premise-theme` · `sw-character-conflict` · `sw-character-bio`(인물 소전과 인물표: 제출용 서식, 인물 등급, 작업 원고와 제출 원고의 구분(제출처가 없을 때는 작업 원고를 쓴다), 기존 대본과의 대조, 일본 공모전의 인물표와 한국 극본 공모 기획안의 인물 소개 등 제출처별 요건) · `sw-dialogue` · `sw-scene-craft` · `sw-format-adaptation` |
 | 2 | 시리즈: `sw-series-structure` · `sw-series-engine-bible` · `sw-writers-room` · `sw-sitcom-comedy`<br>무대: `sw-chinese-opera-banqiang` · `sw-chinese-opera-qupai`(두 성강 체계의 방법) · `sw-chinese-opera-banqiang-cases` · `sw-chinese-opera-qupai-cases`(전본 자료집: 쇄린낭·사가빈·백사전·조양구／두아원·구풍진·모란정·도화선·장생전) |
 | 3 | `sw-american-case-studies` · `sw-japanese-screenwriting` · `sw-korean-french-screenwriting` · `sw-chinese-series-practice` · `sw-industry-business` |
 | 4 | `chekhov-dramaturgy` · `ozu-screenplay-style` · `succession-series-writing` · `sw-series-case-studies` |
