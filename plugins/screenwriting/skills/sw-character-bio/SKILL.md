@@ -1,6 +1,6 @@
 ---
 name: sw-character-bio
-description: Character bios and cast lists as documents (人物小传/人物表/人物设计/character bio/character breakdown) — three things; the delivery formats (three-dimension paragraphs, prose bio, checklist, causal bullet chain, one-line cast list, opera cast list with role types), tiering (who gets a bio, who gets one line), and the split between private working notes and the delivered document; plus a short checklist for reconciling bios with an existing draft. Sets side by side what Field, Hicks, Miller, Oberg, Douglas, Smith, Landau, Henson, Walter, Yao Kougen, Zhang Wei, Zhao Binbin and two Chinese contract templates say on whether to write one, how long, for whom and where in the document chain. Character-building method stays in sw-character-conflict. Use when writing or reviewing a 人物小传, cast list or the character section of a bible, treatment or 策划书, when a contract or producer asks for bios, when deciding how long or how many, or when reconciling bios with a draft.
+description: Character bios and cast lists as documents (人物小传/人物表/人物设计/character bio/character breakdown) — three things; the delivery formats (three-dimension paragraphs, prose, checklist, causal bullet chain, one-line cast list, opera cast list with role types), tiering (who gets a bio, who gets one line), and the split between working notes and the delivered document; plus a checklist for reconciling bios with a draft. Sets side by side what Field, Hicks, Miller, Oberg, Douglas, Smith, Landau, Henson, Walter, Yao Kougen, Zhang Wei, Zhao Binbin, two Chinese contract templates and contest and fund rules (Japan, Korea, Taiwan, English) say on whether to write one, how long, for whom, where in the document chain. Method stays in sw-character-conflict. Use when writing or reviewing 人物小传, 登場人物表, 기획안 character section, cast list or character section of a bible, treatment or 策划书, when a contract, producer, contest or fund asks for bios, deciding how long or how many, or reconciling bios with a draft.
 ---
 
 # 人物小传与人物表（Character Bio & Cast List）
@@ -11,9 +11,9 @@ description: Character bios and cast lists as documents (人物小传/人物表/
 
 **不管**：人物怎么立（三维、对手、编排、弧光、动机 → `sw-character-conflict`）；人物怎么说话（→ `sw-dialogue` 五）；剧集人物网与地雷（→ `sw-series-engine-bible` 三）；行当怎么定（→ `sw-chinese-opera-banqiang`、`sw-chinese-opera-qupai`）。
 
-实物样本、栏目出处表、篇幅底表、对账的空表与练习见 [reference.md](reference.md)。
+实物样本、栏目出处表、篇幅底表、对账的空表、公开可查的成对材料与练习见 [reference.md](reference.md)。
 
-**出处标法**：`pNNNN` 是底本扫描页，不是印刷页码；底本没有页码的电子书（Miller、Oberg、Douglas 3e、Rabkin、Calvisi，麦基、克龙、沃尔特、霍克斯特、戴蒙德&韦斯曼、大师班的中译本）标章节。张明智＝张明智、宋培义主编《电视剧出品人与制片人教程》，合同范本在它的附录四；张巍＝张巍等《电视剧改编教程》；姚＝姚扣根《电视剧写作概论》；赵＝赵彬彬主编《影视剧片段改编教程》。
+**出处标法**：`pNNNN` 是底本扫描页，不是印刷页码；底本没有页码的电子书（Miller、Oberg、Douglas 3e、Rabkin、Calvisi，麦基、克龙、沃尔特、霍克斯特、戴蒙德&韦斯曼、大师班的中译本）标章节。张明智＝张明智、宋培义主编《电视剧出品人与制片人教程》，合同范本在它的附录四；张巍＝张巍等《电视剧改编教程》；姚＝姚扣根《电视剧写作概论》；赵＝赵彬彬主编《影视剧片段改编教程》。网络来源写发布方、文件或页面名、年度，都是 2026-11-23 查的，网址与量法在 reference.md 七；征稿要求每年会变，投稿前看当年的。
 
 ---
 
@@ -30,6 +30,11 @@ description: Character bios and cast lists as documents (人物小传/人物表/
 | 国产剧，签的是《聘请电影（电视剧）编剧合同》 | "总纲和人物小传"是交付物，排在分集梗概之前；"人物小传的基本要求是："一栏**留空待填** | 张明智 p0330 |
 | 国产剧，签的是《剧本委托创作合同》或《委托改编合同》 | 交付链里**没有**人物小传；1.3 有"角色情况："空栏 | 张明智 p0317–0318、p0323–0324 |
 | 国产剧策划文件 | 写"人物设计"，是策划的一部分，不另立小传；只梳理主角的性格特征和主角与其他人物的关系，"不宜过多" | 姚 p0329、p0333 |
+| 大陆平台投稿、政府基金申报 | 人物小传列为必交材料，几家**都不规定小传字数**：爱奇艺内容合作页（剧集、电影、文学各类）、北京广播电视网络视听发展基金 2025 年申报说明、深圳《电视剧剧本引导扶持评选办法》（深文规〔2024〕7号）。写出小传该有哪几项的只见到一份，"星河计划"残疾人微短剧征集启事（中国残疾人事业新闻宣传促进会联合华礼星河（北京）影视文化有限公司，2026-01-12）："人物小传（刻画主要人物基础信息、性格、背景、动机与关系）" | 各家页面与文件，reference.md 七 |
+| 台湾电视节目剧本创作奖（文化部影视及流行音乐产业局） | 第一阶段交"主要人物介紹(主角約五百字、配角約二百五十字)"，是给评审看的人物介绍。104、106 年度要点有这组数，108 年度要点已经没有 | 104、106 年度奖励要点，只找到高校网站的转载，主管机关自己的页面没有打开；花莲县文化局 108 年简章同数 |
+| 日本剧本大赛投稿 | 交的是「登場人物表」（人物表）。多为单独一页，放在梗概（あらすじ）旁边、本文之前，不计入本文枚数。写法以「名前（年齢）＋职业或与他人的关系」一行为主，并不清一色：函館的入賞作里有主角一条七八十字、带处境和动机的，城戸賞里有主要人物只写名前和年龄的。页序各赛不同，照当年要项 | 城戸賞第 52 回応募規定与官网「近年の受賞シナリオ」；創作テレビドラマ大賞第 51 回募集要項；フジテレビヤングシナリオ大賞第 38 回官方页；函館港イルミナシオン映画祭シナリオ大賞第 30 回要项与「入賞シナリオ集」 |
+| 韩国公募与企划案（기획안） | 人物是企划案里的必写栏（인물 소개／등장인물）。条目多以「이름(나이, 성별) 직업」开头，接一段处境与欲望；无名角色在末尾「그외」一行收掉。篇幅各家自定（第五节） | CJ ENM O'PEN「드라마 작품집」实测；KOCCA 2025 대한민국 스토리 공모대전公告；MBC 2025 드라마 극본 공모新闻稿；안전가옥 매치업 프로젝트 05 기획안 템플릿；O'PEN 2027 스토리텔러公告 |
+| 英语区公共资助与实验室申请 | 各家不同。TG4 与 Screen Ireland 2020 年一轮要 "Character bible (3-5 A4 pages excluding images)"；Sloan TV Story Bible Format（NYU Tisch）全文 "around 3 pages"，主角一段，配角两三人各一短条；Film Independent Episodic Lab 的 series proposal 要有 "breakdowns for the show's primary characters and their first season arcs"，页面没有页数限制；Telefilm Canada 2026-2027 的 pitch document 至多 10 页，清单里没有人物项 | 各家官方页面与文件 |
 | 片段改编，交排练 | 人物表**必写**，每人一句小传；教学说明里另有一段人物介绍 | 赵 p0024、p0035–0036、p0055 |
 | 戏曲 | 剧本前的人物表：现代戏写人名、性别、年龄、身份；传统戏标行当 | 《沙家浜》1965 本 p0008–0009；《朝阳沟》1978 本 p0004；《锁麟囊》曲谱本 p0007 |
 | 开拍或排练前，读者是导演和演员 | 导演阐述自带"对剧中主要人物的分析"；演员据剧本自己补写角色传记 | 张明智 p0085；Rabiger p0297、p0302 |
@@ -101,6 +106,8 @@ description: Character bios and cast lists as documents (人物小传/人物表/
 - **定档看功能，两头都算。** 汉森的一日演员"不需要下太多功夫"，麦基的小角色"加了维就必须再出现"：给一个人加维、写传，等于承诺他要再出现并承担选择。〔判别问句是本 skill 的做法，书上没有原话：拿掉这个人，主线上有没有谁的选择会变？**会变**，他就是必要人物，戏份再少也写短传，例如只出场两三场、却逼得主角改变打法的检察官或对方律师。**不变**，只进表，戏份再多也一样，例如每集都出场的门卫、司机、秘书；不要为了配得上一段传，回头给他补一条线。〕
 - **不现身但左右剧情的人**按他的功能定档，不按出场定：克龙次要人物一节主张这类人物"越早展开越好"。
 
+**写了传的人之间，长度不必刻意拉开。** 我们量过的几份公开流传的英文 bible 与 pitch（非官方发布，清单见 reference.md 七）里，进了册子的主角和配角长度相差不大：Dirk Gently bible（2015）四个主要人物 445–563 词，配角 Riggins 383 词；Stranger Things 的 pitch《Montauk》11 人 61–158 词；Battlestar Galactica bible（2003）有传记的 8 人 726–1245 词；Lost series format 14 人里 13 人在 131–194 词。例外是 The Wire pitch（2000）的编号清单，17 条 43–133 词，主角 McArdle 一条 69 词。政治大学两篇硕士论文里的学生作品差得大些，主角是较短几人的 2 到 3 倍（《曼蘿王后》主角 1253 字，其余五人 408–1038 字；《感同身受》三人 2091、1593、785 字）。所以分级决定的是谁写传、谁写短传、谁只占一行；写传的人之间，长度按各人要交代的东西定。
+
 写几份传没有通行的数，书上没有"多少集交多少份"的说法。可对照的只有：Oberg 3.1 说 3–5 个主要人物；Douglas 3e ch2 说第三、第四个之后听的人眼睛发直；Miller 附录的六份 treatment 写了 3–10 人；*Martial Law* 手册详写 4 人；姚 p0333 只说"不宜过多"。
 
 ---
@@ -118,6 +125,21 @@ description: Character bios and cast lists as documents (人物小传/人物表/
 | **E 人物表行** | 一人一行：人名＋几项身份，或人名＋一句小传 | 赵 p0024、p0055；《沙家浜》《朝阳沟》《锁麟囊》人物表；*Diagnosis Murder* 手册人物节（Goldberg & Rabkin 附录 B） | 次要人物；片段改编；戏曲 |
 
 **两条相反的写法要求，按读者选**：Miller ch1 要完整句子、带作者的声音，"Simple lists of attributes fail to fully define your characters"，写成句子才逼出 how 与 why；汉森 p0127 要清单，"不必为每个人物都著书立传"，改起来快。自己记的用清单。交给人读的，体例按读者和文种在上表"适合"栏里选，不要一律写成散文段：全员要并排比的 treatment、bible 用三维段，对买方讲故事的提案用散文段，次要人物用要点链或人物表行。
+
+**在真实文档里见到的情况。** 只说我们看过的范围：七份公开流传的英文 bible、pitch 与 writers' guide（Dirk Gently、Montauk、Battlestar Galactica、Lost、The Wire、Freaks and Geeks、Star Trek: TNG 1987），城戸賞与函館的获奖剧本，O'PEN 作品集，政治大学两篇硕士论文（reference.md 七）。
+
+- **A 三维段**：这些文档里没有见到，只见于教材（Miller 的学生 treatment）。
+- **B 散文段**：最常见。七份英文文档里六份的人物节是散文，O'PEN 的人物栏在首行之后也是一段散文。
+- **C 清单**：见于 The Wire pitch 的编号短条目。分栏的字段表在英文文档里只见于 Freaks and Geeks bible 的服装补充卷（Overall look／Shirts／Pants／Shoes／Coat／Accessories），填的是服装；政大《曼蘿王后》的小传带"基本設定"等栏，是作者自设的。
+- **D 因果要点链**：没有见到，只见于教材（克龙）。
+- **E 人物表行**：日本大赛的人物表。
+
+**书上没有、文档里有的四种做法**（都是所见的实例，范围同上）：
+
+- **段尾写这个人本季要发生什么。**《Montauk》每人一段里写到他本季将遇到的事；Dirk Gently 每人一页，末尾一两句写弧线；Lost 的人物节自称每条写 "not only who they are, but where they're going"。Battlestar Galactica 把弧线另立一章 Character Arcs。
+- **按群体分组。**《Montauk》分 Kids／Outsider／Teenagers／Adults 四页；Freaks and Geeks 分 The Weir Family、The Geeks、The Freaks 等；The Wire 分警局、法院、街头。
+- **简介加展开两层。** TNG 1987 writers' guide 先给每个主要人物 41–97 词的简介，后面各有一段 "MORE ON" 223–540 词。Lost 的文件里是缩略版（thumbnail sketch），自称另有较详细的小传。书里的 *Martial Law* 手册也分 Overview 与 Nitty-Gritty 两节。
+- **无名角色末尾一行收掉。** O'PEN 人物栏末尾的「그외」一行（抽量的 10 部里 9 部有）；城戸賞的获奖剧本里，有无名角色的人物表把他们列在表尾；《朝阳沟》人物表末两行同理。
 
 **栏目只用有实物依据的**（逐栏出处表见 reference.md 二）：人名、性别、年龄、身份、行当、一句小传、与主要人物的关系、三维、想要什么与从哪里来、与剧集前提的关系、外形与性格与前史。两个可选栏：
 
@@ -146,10 +168,22 @@ description: Character bios and cast lists as documents (人物小传/人物表/
 | 六个人合起来约 260 词（*Diagnosis Murder*）；四个主角各约 375–1030 词（*Martial Law*） | Goldberg & Rabkin 附录 B、C | 实测 | writers' guidelines |
 | 人物表一句 16–45 字、人物介绍一段 70–136 字（《夜店》）；人物表一句 49–209 字（《归来》） | 赵 p0024、p0035–0036、p0055 | 实测 | 片段改编 |
 | 人物表每条约 9–15 字 | 《朝阳沟》《沙家浜》《巴山秀才》 | 实测 | 戏曲 |
+| 主角约 500 字、配角约 250 字 | 台湾电视节目剧本创作奖 104、106 年度要点（转载）；花莲县文化局 108 年简章 | 官方要项 | 给评审的人物介绍 |
+| 登場人物表在第 4 页，第 5 页起是本文（50–55 枚）；梗概 800 字以内 | 創作テレビドラマ大賞第 51 回募集要項 | 官方要项 | 日本大赛投稿 |
+| 人物表独占 1 页，10–13 行；主角一条连名前 10–21 字 | 城戸賞官网获奖剧本 18 份里自选的 4 份 | 官方公布的获奖作；实测 | 日本大赛投稿 |
+| 主角一条 7–10 字（2022、2024、2025 大奖）；也有约 70、78 字的（2025 入围作、2019 大奖） | 函館「入賞シナリオ集」 | 官方公布的获奖作；实测 | 日本大赛投稿 |
+| 등장인물 소개 2 쪽 이내 | KOCCA 2025 대한민국 스토리 공모대전公告 | 官方要项 | 韩国公募 |
+| 기획안：미니시리즈 15 매 내외，단막 2부작与시나리오各 10 매 내외，必含 인물 소개，人物不单列页数 | MBC 2025 드라마 극본 공모（MBC 新闻稿） | 官方要项 | 韩国公募 |
+| 기획안：단막 5 매 내외，시리즈 10 매 내외（上一期 2026 的转载页写 10–15 매）；公告没有人物栏的单独要求 | O'PEN 2027 스토리텔러公告 | 官方要项 | 韩国公募 |
+| 주연与조주연 2–3 人，每人 200–500 字 | 안전가옥 매치업 프로젝트 05（2022–2023）기획안 템플릿 | 官方要项 | 韩国企划案 |
+| 每部具名人物中位约 6 人，主角一条约 170 字，整节约 600 字（韩文字符，只作量级） | O'PEN「드라마 작품집」2017–2021 年 9 本 84 部 | 官方公布的获奖作；实测 | 韩国公募入选作 |
+| Character bible 3–5 A4 页，不含图；story bible 全文约 3 页，主角一段、配角两三人各一短条 | TG4 与 Screen Ireland 2020 年一轮；Sloan TV Story Bible Format | 官方要项 | 英语区申请 |
+| 6 人 408–1253 字；3 人 785–2091 字 | 政治大学硕士论文《曼蘿王后》劇本創作論述（2022）、《電影劇本《感同身受》創作論述》（2016） | 学位论文（学生作品）；实测 | 学位创作里的小传 |
+| 每人 383–563 词（Dirk Gently）；61–158（Montauk）；726–1245（Battlestar Galactica）；131–194（Lost）；43–133（The Wire）；213–899（Freaks and Geeks，含各自父母）；简介 41–97、展开 223–540（TNG 1987） | 七份英文 bible、pitch 与 writers' guide | 公开流传稿，非官方发布；实测 | bible、pitch |
 
-**国产剧交甲方的人物小传这一层，上表没有实测样本**：合同那栏是空的，赵的数字量的是片段改编的人物表。
+**国产剧交甲方的人物小传这一层，上表没有实测样本**：合同那栏是空的，赵的数字量的是片段改编的人物表；台湾的数是给评审的人物介绍，政大的数是学生作品，都不在这一层。
 
-**选档办法**：①对方给了字数或模板，照办。②合同里那一栏是空的，先问，或者自己提一个写进去（第六节）。③都没有：上表有同媒介、同语言、同一层的行，拿它当默认值并注明出处；没有这样的行，自己提一个数，并明说是自己提的。不要把别的媒介、别的语言的实测折算过来当依据（英文词数折成汉字没有出处）。④工作稿不设上下限：菲尔德和希克斯往多里写，戴蒙德&韦斯曼和汉森往少里写。
+**选档办法**：①对方给了字数或模板，照办。②合同里那一栏是空的，先问，或者自己提一个写进去（第六节）。③都没有：上表有同媒介、同语言、同一层的行，拿它当默认值并注明出处；没有这样的行，自己提一个数，并明说是自己提的。不要把别的媒介、别的语言的实测折算过来当依据（英文词数折成汉字没有出处）。④工作稿不设上下限：菲尔德和希克斯往多里写，戴蒙德&韦斯曼和汉森往少里写。⑤表里日本、韩国、台湾、英语区申请和流传稿的数，是别的市场、别的场合的数：在那个场合投稿，照当年的要项；国产剧交甲方仍然先问。
 
 ---
 
@@ -167,6 +201,8 @@ description: Character bios and cast lists as documents (人物小传/人物表/
 | Landau | pilot 初稿写完，再起草 bible（10–85 页）或 mini-bible（约 5 页） | 在剧本之后 | Landau 2e p0033 |
 
 **合同里那栏空白怎么用。** 《聘请电影（电视剧）编剧合同》1.4 原文是"总纲的基本要求是：　人物小传的基本要求是：　"，两处都等双方填（张明智 p0330）。所以接到"交人物小传"先问三件事：签的是哪一种合同；那一栏填了什么；没填就自己提出写几个人、每人多长、用哪种体例，请对方书面确认。同一份合同 1.7.1 规定，甲方不得对已确定的剧本编写计划中的"创作意图、剧本的主要人物、主要事件、样式等主要方面提出相反的修改要求"（p0331）。〔推一步，书里没有明说：确认过的人物小传就是可以拿出来对照的文字。〕
+
+**交付留痕。** 吳依庭《影視劇本契約爭議探討：以臺灣、中國大陸委託創作契約之判決為中心》（政治大學法律科際整合研究所碩士論文，2019）第 129–130 页转述《北平无战事》署名权案，北京市朝阳区人民法院 (2015) 朝民(知)初字第 4495 号：原告称交付了故事梗概、人物小传、分集梗概和三集完整剧本；法院认定两人是第一、二集剧本的共同作者，没有支持的是第三集剧本、剧本梗概和人物小传三项，理由是原告"無法提出相關創作證據，如創作完成時點、交付紀錄"。**判决书原文没有找到，这里是论文转述。** 同一论文第 69 页录了一份台湾编剧提供的电影剧本创作契约范例：签约后 15 日内交"全劇故事大綱、人物小傳"，甲方书面确认通过"故事大綱、人物說明"后 5 个工作日内付酬金总额的 10%。〔本 skill 的做法，由这一案而来：交小传时留下交付记录（哪天、交给谁、哪一版），创作过程的底稿连同日期留着。〕
 
 姚 p0147 的"人物的事件小传"是另一个意思：人物过去与现在经历的事件清单，用来决定哪些事详写，不是合同里那份交付物。
 
@@ -220,7 +256,7 @@ description: Character bios and cast lists as documents (人物小传/人物表/
 6. 全文只用了一种体例吗？有没有自己加的、没有实物依据的栏？
 7. 外貌是不是写死了选角？每条前史都过了"与主题或主人公有关"这一问吗？
 8. 篇幅参照的是同媒介同语言的哪一行，还是自己提的？有没有把折算的数或某个数当成行规报给甲方？
-9. 小传与现稿对过账吗？待决清单清空了吗？改动留日期、记日志了吗？
+9. 小传与现稿对过账吗？待决清单清空了吗？改动留日期、记日志了吗？交出去的每一版有交付记录吗？
 
 ---
 

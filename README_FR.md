@@ -99,7 +99,7 @@ Un long métrage utilise les couches 1, 3 et 4 ; une série les utilise toutes l
 
 | Couche | Skills |
 |---|---|
-| 1 | `sw-workflow` (conduite de projet et story bible) · `sw-story-structure` · `sw-premise-theme` · `sw-character-conflict` · `sw-character-bio` (fiches personnages et liste des personnages : formats de livraison, niveaux de détail, notes de travail et document remis, vérification d'un scénario existant) · `sw-dialogue` · `sw-scene-craft` · `sw-format-adaptation` |
+| 1 | `sw-workflow` (conduite de projet et story bible) · `sw-story-structure` · `sw-premise-theme` · `sw-character-conflict` · `sw-character-bio` (fiches personnages et liste des personnages : formats de livraison, niveaux de détail, notes de travail et document remis, vérification d'un scénario existant, usages selon le destinataire, des concours japonais et coréens aux dossiers d'aide) · `sw-dialogue` · `sw-scene-craft` · `sw-format-adaptation` |
 | 2 | Série : `sw-series-structure` · `sw-series-engine-bible` · `sw-writers-room` · `sw-sitcom-comedy`<br>Scène : `sw-chinese-opera-banqiang` · `sw-chinese-opera-qupai` (les méthodes des deux systèmes vocaux) · `sw-chinese-opera-banqiang-cases` · `sw-chinese-opera-qupai-cases` (textes intégraux : 锁麟囊, 沙家浜, 白蛇传, 朝阳沟 / 窦娥冤, 救风尘, 牡丹亭, 桃花扇, 长生殿) |
 | 3 | `sw-american-case-studies` · `sw-japanese-screenwriting` · `sw-korean-french-screenwriting` · `sw-chinese-series-practice` · `sw-industry-business` |
 | 4 | `chekhov-dramaturgy` · `ozu-screenplay-style` · `succession-series-writing` · `sw-series-case-studies` |

@@ -99,7 +99,7 @@ codex plugin marketplace add jtydhr88/screenwriting-skills
 
 | 層 | スキル |
 |---|---|
-| 1 | `sw-workflow`（進行管理とストーリーバイブル）· `sw-story-structure` · `sw-premise-theme` · `sw-character-conflict` · `sw-character-bio`（人物小伝と人物表：提出用の書式、人物の格付け、作業稿と提出稿の分け方、既存脚本との照合）· `sw-dialogue` · `sw-scene-craft` · `sw-format-adaptation` |
+| 1 | `sw-workflow`（進行管理とストーリーバイブル）· `sw-story-structure` · `sw-premise-theme` · `sw-character-conflict` · `sw-character-bio`（人物小伝と人物表：提出用の書式、人物の格付け、作業稿と提出稿の分け方、既存脚本との照合、日本のコンクールの登場人物表や韓国の企画案の人物欄など提出先ごとの扱い）· `sw-dialogue` · `sw-scene-craft` · `sw-format-adaptation` |
 | 2 | 連続ドラマ：`sw-series-structure` · `sw-series-engine-bible` · `sw-writers-room` · `sw-sitcom-comedy`<br>舞台：`sw-chinese-opera-banqiang` · `sw-chinese-opera-qupai`（二つの声腔体系の方法）· `sw-chinese-opera-banqiang-cases` · `sw-chinese-opera-qupai-cases`（全本語料庫：鎖麟嚢・沙家浜・白蛇伝・朝陽溝／竇娥冤・救風塵・牡丹亭・桃花扇・長生殿） |
 | 3 | `sw-american-case-studies` · `sw-japanese-screenwriting` · `sw-korean-french-screenwriting` · `sw-chinese-series-practice` · `sw-industry-business` |
 | 4 | `chekhov-dramaturgy` · `ozu-screenplay-style` · `succession-series-writing` · `sw-series-case-studies` |
